@@ -1,0 +1,2341 @@
+{
+  "id": "L02",
+  "title": "Arbeit",
+  "grammatik": {
+    "rules": [
+      {
+        "title": "Das Präteritum – Kural Özeti",
+        "explanation": "Präteritum, Almancada özellikle yazı dilinde (haberler, hikâyeler, resmi metinler) kullanılan geçmiş zaman formudur.\n\nKonuşma dilinde genellikle Perfekt tercih edilir, ancak sein, haben, werden ve Modalverben konuşma dilinde de Präteritum ile kullanılır.\n\n⚠ Dikkat: Kökü -t, -d, -n, -m ile biten fiillerde araya -e- eklenir: arbeitete, öffnete",
+        "table": {
+          "headers": [
+            "Person",
+            "machen",
+            "arbeiten",
+            "Ek"
+          ],
+          "rows": [
+            [
+              "ich",
+              "machte",
+              "arbeitete",
+              "-te / -ete"
+            ],
+            [
+              "du",
+              "machtest",
+              "arbeitetest",
+              "-test / -etest"
+            ],
+            [
+              "er/sie/es",
+              "machte",
+              "arbeitete",
+              "-te / -ete"
+            ],
+            [
+              "wir",
+              "machten",
+              "arbeiteten",
+              "-ten / -eten"
+            ],
+            [
+              "ihr",
+              "machtet",
+              "arbeitetet",
+              "-tet / -etet"
+            ],
+            [
+              "sie/Sie",
+              "machten",
+              "arbeiteten",
+              "-ten / -eten"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Ich arbeitete früher bei einer kleinen Firma in Istanbul.",
+            "tr": "Eskiden İstanbul'da küçük bir firmada çalışıyordum."
+          },
+          {
+            "de": "Mein erster Arbeitstag bei Daimler Truck war sehr aufregend.",
+            "tr": "Daimler Truck'taki ilk iş günüm çok heyecanlıydı."
+          },
+          {
+            "de": "Wir mussten das Projekt bis Freitag abschließen.",
+            "tr": "Projeyi cuma gününe kadar bitirmemiz gerekiyordu."
+          },
+          {
+            "de": "Der Chef sprach über die neuen Ziele.",
+            "tr": "Patron yeni hedeflerden bahsetti."
+          },
+          {
+            "de": "Ich konnte gestern nicht kommen, weil ich krank war.",
+            "tr": "Dün gelemedim çünkü hastaydım."
+          },
+          {
+            "de": "Sie schrieb den Bericht und schickte ihn an das Team.",
+            "tr": "Raporu yazdı ve takıma gönderdi."
+          },
+          {
+            "de": "Die Besprechung fing um 10 Uhr an und dauerte zwei Stunden.",
+            "tr": "Toplantı saat 10'da başladı ve iki saat sürdü."
+          }
+        ]
+      },
+      {
+        "title": "Unregelmäßige Verben (Düzensiz Fiiller)",
+        "explanation": "Düzensiz fiillerde kök sesli harfi değişir ve özel Präteritum kökü kullanılır.\n\n⚠ 1. ve 3. tekil kişi (ich / er/sie/es) ek almaz!",
+        "table": {
+          "headers": [
+            "Infinitiv",
+            "Prät.-Stamm",
+            "ich",
+            "du",
+            "er/sie",
+            "wir/sie"
+          ],
+          "rows": [
+            [
+              "sein",
+              "war-",
+              "war",
+              "warst",
+              "war",
+              "waren"
+            ],
+            [
+              "haben",
+              "hat-",
+              "hatte",
+              "hattest",
+              "hatte",
+              "hatten"
+            ],
+            [
+              "gehen",
+              "ging-",
+              "ging",
+              "gingst",
+              "ging",
+              "gingen"
+            ],
+            [
+              "kommen",
+              "kam-",
+              "kam",
+              "kamst",
+              "kam",
+              "kamen"
+            ],
+            [
+              "fahren",
+              "fuhr-",
+              "fuhr",
+              "fuhrst",
+              "fuhr",
+              "fuhren"
+            ],
+            [
+              "schreiben",
+              "schrieb-",
+              "schrieb",
+              "schriebst",
+              "schrieb",
+              "schrieben"
+            ],
+            [
+              "lesen",
+              "las-",
+              "las",
+              "last",
+              "las",
+              "lasen"
+            ],
+            [
+              "sprechen",
+              "sprach-",
+              "sprach",
+              "sprachst",
+              "sprach",
+              "sprachen"
+            ],
+            [
+              "nehmen",
+              "nahm-",
+              "nahm",
+              "nahmst",
+              "nahm",
+              "nahmen"
+            ],
+            [
+              "geben",
+              "gab-",
+              "gab",
+              "gabst",
+              "gab",
+              "gaben"
+            ],
+            [
+              "finden",
+              "fand-",
+              "fand",
+              "fandest",
+              "fand",
+              "fanden"
+            ],
+            [
+              "stehen",
+              "stand-",
+              "stand",
+              "standest",
+              "stand",
+              "standen"
+            ],
+            [
+              "bleiben",
+              "blieb-",
+              "blieb",
+              "bliebst",
+              "blieb",
+              "blieben"
+            ],
+            [
+              "beginnen",
+              "begann-",
+              "begann",
+              "begannst",
+              "begann",
+              "begannen"
+            ],
+            [
+              "rufen",
+              "rief-",
+              "rief",
+              "riefst",
+              "rief",
+              "riefen"
+            ],
+            [
+              "wissen",
+              "wuss-",
+              "wusste",
+              "wusstest",
+              "wusste",
+              "wussten"
+            ],
+            [
+              "werden",
+              "wurd-",
+              "wurde",
+              "wurdest",
+              "wurde",
+              "wurden"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Modalverben im Präteritum",
+        "explanation": "Modalverben Präteritum'da Umlaut'larını kaybeder ve düzenli fiil gibi çekilir.",
+        "table": {
+          "headers": [
+            "Infinitiv",
+            "ich/er",
+            "du",
+            "wir/sie"
+          ],
+          "rows": [
+            [
+              "können",
+              "konnte",
+              "konntest",
+              "konnten"
+            ],
+            [
+              "müssen",
+              "musste",
+              "musstest",
+              "mussten"
+            ],
+            [
+              "wollen",
+              "wollte",
+              "wolltest",
+              "wollten"
+            ],
+            [
+              "sollen",
+              "sollte",
+              "solltest",
+              "sollten"
+            ],
+            [
+              "dürfen",
+              "durfte",
+              "durftest",
+              "durften"
+            ],
+            [
+              "mögen",
+              "mochte",
+              "mochtest",
+              "mochten"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Trennbare Verben im Präteritum",
+        "explanation": "Ayrılabilir fiillerde önek cümle sonuna gider (Perfekt'teki gibi).",
+        "examples": [
+          {
+            "de": "anfangen: Die Besprechung fing um 9 Uhr an.",
+            "tr": "Toplantı saat 9'da başladı."
+          },
+          {
+            "de": "aufhören: Ich hörte um 18 Uhr mit der Arbeit auf.",
+            "tr": "Saat 18'de işi bıraktım."
+          },
+          {
+            "de": "anrufen: Der Kunde rief mich gestern an.",
+            "tr": "Müşteri dün beni aradı."
+          },
+          {
+            "de": "einladen: Der Chef lud uns zum Essen ein.",
+            "tr": "Patron bizi yemeğe davet etti."
+          },
+          {
+            "de": "zurückkommen: Er kam erst spät zurück.",
+            "tr": "Ancak geç döndü."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "gram_u1",
+        "title": "Übung 1: Regelmäßige Verben – Präteritum Formen",
+        "instruction": "Fiili doğru Präteritum formunda yazın.",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (lernen) gestern drei Stunden Deutsch.",
+            "answer": "lernte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (arbeiten) zehn Jahre bei Bosch.",
+            "answer": "arbeitete"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (machen) eine Präsentation für den Kunden.",
+            "answer": "machten"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie (Pl.) ___ (warten) zwei Stunden auf den Bus.",
+            "answer": "warteten"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Du ___ (kaufen) ein neues Auto.",
+            "answer": "kauftest"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (suchen) lange nach einem Parkplatz.",
+            "answer": "suchte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (öffnen) die Tür für den Kunden.",
+            "answer": "öffnete"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (brauchen) mehr Zeit für das Projekt.",
+            "answer": "brauchten"
+          }
+        ]
+      },
+      {
+        "id": "gram_u2",
+        "title": "Übung 2: Unregelmäßige Verben – Präteritum Formen",
+        "instruction": "Fiili doğru Präteritum formunda yazın.",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (gehen) gestern früh nach Hause.",
+            "answer": "ging"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (kommen) um 8 Uhr ins Büro.",
+            "answer": "kam"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (fahren) mit dem Auto zur Arbeit.",
+            "answer": "fuhren"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie (Sg.) ___ (schreiben) eine lange E-Mail.",
+            "answer": "schrieb"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (lesen) den Bericht am Abend.",
+            "answer": "las"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Der Chef ___ (sprechen) mit dem Team.",
+            "answer": "sprach"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (nehmen) den früheren Zug.",
+            "answer": "nahm"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (finden) keine Lösung für das Problem.",
+            "answer": "fanden"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Die Sitzung ___ (beginnen) pünktlich.",
+            "answer": "begann"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (rufen) den Kunden sofort ___ . (anrufen)",
+            "answer": "rief...an|rief … an|rief an"
+          }
+        ]
+      },
+      {
+        "id": "gram_u3",
+        "title": "Übung 3: Modalverben im Präteritum",
+        "instruction": "Modalverbi doğru Präteritum formunda yazın.",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (müssen) den Bericht bis Montag fertig machen.",
+            "answer": "musste"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (können) leider nicht kommen.",
+            "answer": "konnte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (wollen) das Meeting verschieben.",
+            "answer": "wollten"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie ___ (dürfen) früher gehen.",
+            "answer": "durfte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Du ___ (sollen) den Chef anrufen.",
+            "answer": "solltest"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (können) die E-Mail nicht finden.",
+            "answer": "konnte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (müssen) Überstunden machen.",
+            "answer": "musste"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (wollen) eine neue Strategie entwickeln.",
+            "answer": "wollten"
+          }
+        ]
+      },
+      {
+        "id": "gram_u4",
+        "title": "Übung 4: Perfekt → Präteritum – Cümleleri Dönüştürün",
+        "instruction": "Aşağıdaki Perfekt cümlelerini Präteritum'a çevirin.",
+        "exercises": [
+          {
+            "type": "transform",
+            "source": "Ich habe drei Jahre bei Siemens gearbeitet.",
+            "answer": "Ich arbeitete drei Jahre bei Siemens."
+          },
+          {
+            "type": "transform",
+            "source": "Er ist gestern nach Berlin gefahren.",
+            "answer": "Er fuhr gestern nach Berlin."
+          },
+          {
+            "type": "transform",
+            "source": "Wir haben den Kunden angerufen.",
+            "answer": "Wir riefen den Kunden an."
+          },
+          {
+            "type": "transform",
+            "source": "Sie hat die Präsentation vorbereitet.",
+            "answer": "Sie bereitete die Präsentation vor."
+          },
+          {
+            "type": "transform",
+            "source": "Ich bin um 7 Uhr aufgestanden.",
+            "answer": "Ich stand um 7 Uhr auf."
+          },
+          {
+            "type": "transform",
+            "source": "Er hat den ganzen Tag im Homeoffice gearbeitet.",
+            "answer": "Er arbeitete den ganzen Tag im Homeoffice."
+          },
+          {
+            "type": "transform",
+            "source": "Wir haben das Problem endlich gelöst.",
+            "answer": "Wir lösten das Problem endlich."
+          },
+          {
+            "type": "transform",
+            "source": "Die Chefin hat eine wichtige Entscheidung getroffen.",
+            "answer": "Die Chefin traf eine wichtige Entscheidung."
+          }
+        ]
+      },
+      {
+        "id": "gram_u5",
+        "title": "Übung 5: Çeviri (Türkçe → Almanca, Präteritum)",
+        "instruction": "Cümleleri Präteritum kullanarak Almancaya çevirin.",
+        "exercises": [
+          {
+            "type": "translation",
+            "source": "Dün çok çalıştım.",
+            "answer": "Ich arbeitete gestern viel.|Gestern arbeitete ich viel."
+          },
+          {
+            "type": "translation",
+            "source": "Toplantı saat 9'da başladı.",
+            "answer": "Die Besprechung begann um 9 Uhr.|Die Besprechung fing um 9 Uhr an."
+          },
+          {
+            "type": "translation",
+            "source": "Patronla yeni proje hakkında konuştuk.",
+            "answer": "Wir sprachen mit dem Chef über das neue Projekt."
+          },
+          {
+            "type": "translation",
+            "source": "Üniversiteden sonra ilk işimi buldum.",
+            "answer": "Nach der Universität fand ich meinen ersten Job.|Nach dem Studium fand ich meinen ersten Job."
+          },
+          {
+            "type": "translation",
+            "source": "Müşteriye bir e-posta yazdım.",
+            "answer": "Ich schrieb dem Kunden eine E-Mail."
+          },
+          {
+            "type": "translation",
+            "source": "İşe arabayla gittim.",
+            "answer": "Ich fuhr mit dem Auto zur Arbeit."
+          },
+          {
+            "type": "translation",
+            "source": "Bugün erken gelmek zorundaydım.",
+            "answer": "Ich musste heute früh kommen."
+          },
+          {
+            "type": "translation",
+            "source": "O zaman henüz Türkiye'de yaşıyordum.",
+            "answer": "Damals lebte ich noch in der Türkei.|Damals wohnte ich noch in der Türkei."
+          }
+        ]
+      },
+      {
+        "id": "gram_u6",
+        "title": "Übung 6: Fehlerkorrektur (Hata Bulma)",
+        "instruction": "Her cümlede bir Präteritum hatası var. Hatayı bulun ve düzeltin.",
+        "exercises": [
+          {
+            "type": "error_correction",
+            "sentence": "Ich gehte gestern ins Büro.",
+            "answer": "ging",
+            "explanation": "gehen düzensiz fiildir: ging (gehte değil)"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Er musstet den Bericht schreiben.",
+            "answer": "musste",
+            "explanation": "3. tekil kişi: musste (musstet = ihr formu)"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Wir konnten das Meeting nicht fanden.",
+            "answer": "finden",
+            "explanation": "können + Infinitiv! (fanden değil finden)"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Sie schreibte eine E-Mail an den Chef.",
+            "answer": "schrieb",
+            "explanation": "schreiben düzensiz fiildir: schrieb"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Die Besprechung beginnte um 10 Uhr.",
+            "answer": "begann",
+            "explanation": "beginnen düzensiz fiildir: begann"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Ich kommte erst um 19 Uhr nach Hause.",
+            "answer": "kam",
+            "explanation": "kommen düzensiz fiildir: kam"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Er wollt das Projekt abschließen.",
+            "answer": "wollte",
+            "explanation": "wollen → wollte (-te eki eksik)"
+          },
+          {
+            "type": "error_correction",
+            "sentence": "Wir fuhren nach München und bleibten dort zwei Tage.",
+            "answer": "blieben",
+            "explanation": "bleiben düzensiz fiildir: blieben"
+          }
+        ]
+      },
+      {
+        "id": "gram_u7",
+        "title": "Übung 7: Lückentext – Mein erster Arbeitstag",
+        "instruction": "Boşlukları verilen fiillerin Präteritum formlarıyla doldurun.\n\nFiiller: sein, haben, kommen, gehen, sprechen, zeigen, machen, geben, müssen, können, dauern, anfangen",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Mein erster Arbeitstag bei Daimler Truck ___ (1: sein) sehr aufregend.",
+            "answer": "war"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (2: kommen) um 7:30 Uhr ins Büro.",
+            "answer": "kam"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Zuerst ___ (3: gehen) ich zur Personalabteilung.",
+            "answer": "ging"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "... und ___ (4: müssen) dort meinen Ausweis zeigen.",
+            "answer": "musste"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Dann ___ (5: zeigen) mir eine Kollegin das Büro.",
+            "answer": "zeigte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "... und ___ (6: geben) mir meinen Arbeitsplatz.",
+            "answer": "gab"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Um 9 Uhr ___ (7: anfangen) die erste Besprechung ___.",
+            "answer": "fing...an|fing … an|fing an"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Der Chef ___ (8: sprechen) über die Ziele des Teams.",
+            "answer": "sprach"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Die Besprechung ___ (9: dauern) zwei Stunden.",
+            "answer": "dauerte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "In der Mittagspause ___ (10: gehen) ich mit zwei Kollegen in die Kantine.",
+            "answer": "ging"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Am Nachmittag ___ (11: müssen) ich viele E-Mails lesen.",
+            "answer": "musste"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Es ___ (12: geben) wirklich viel zu tun!",
+            "answer": "gab"
+          }
+        ]
+      },
+      {
+        "id": "gram_u8",
+        "title": "Übung 8: Gemischte Übung (Karışık)",
+        "instruction": "Fiili doğru Präteritum formunda yazın.",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (sein) drei Jahre lang arbeitslos.",
+            "answer": "war"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (schicken) die Bewerbung letzte Woche ab.",
+            "answer": "schickte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie ___ (werden) nach zwei Jahren befördert.",
+            "answer": "wurde"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (haben) früher kein Homeoffice.",
+            "answer": "hatten"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Der Praktikant ___ (bleiben) nur drei Monate.",
+            "answer": "blieb"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich ___ (müssen) jeden Tag Berichte schreiben.",
+            "answer": "musste"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Die Firma ___ (geben) allen Mitarbeitern einen Bonus.",
+            "answer": "gab"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er ___ (kündigen) seine Stelle und ___ (suchen) etwas Neues.",
+            "answer": "kündigte"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir ___ (stehen) morgens immer im Stau.",
+            "answer": "standen"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie ___ (laden) das ganze Team zum Abschied ___ . (einladen)",
+            "answer": "lud...ein|lud … ein|lud ein"
+          }
+        ]
+      },
+      {
+        "id": "gram_u9",
+        "title": "Übung 9: Richtig oder Falsch? (Gramer Kontrolü)",
+        "instruction": "Cümle gramer açısından doğruysa R, yanlışsa F yazın.",
+        "exercises": [
+          {
+            "type": "true_false_grammar",
+            "statement": "Er arbeitete bei einer großen Firma.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Ich gehte jeden Tag zu Fuß zur Arbeit.",
+            "answer": "F",
+            "correction": "ging (gehen düzensiz fiildir)"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Wir konnten das Problem lösen.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Sie las den ganzen Bericht.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Er musstet Überstunden machen.",
+            "answer": "F",
+            "correction": "musste (3. tekil kişi)"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Die Kollegin rief mich gestern an.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Ich fand den Job sehr interessant.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Sie schreibte einen langen Bericht.",
+            "answer": "F",
+            "correction": "schrieb (schreiben düzensiz fiildir)"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Wir fuhren mit dem Zug nach Stuttgart.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_grammar",
+            "statement": "Er wollte eine neue Stelle finden.",
+            "answer": "R"
+          }
+        ]
+      }
+    ]
+  },
+  "wortschatz": {
+    "vocab_lists": [
+      {
+        "title": "Teil A: Berufe (Meslekler)",
+        "items": [
+          {
+            "de": "der Ingenieur / die Ingenieurin",
+            "tr": "mühendis",
+            "example": "Mein Nachbar ist Ingenieur bei Porsche."
+          },
+          {
+            "de": "der Angestellte / die Angestellte",
+            "tr": "çalışan, memur",
+            "example": "Die Angestellten bekamen einen Bonus."
+          },
+          {
+            "de": "der Praktikant / die Praktikantin",
+            "tr": "stajyer",
+            "example": "Der Praktikant lernt schnell."
+          },
+          {
+            "de": "der Auszubildende (Azubi)",
+            "tr": "çırak, meslek eğitimi alan",
+            "example": "Der Azubi macht eine Ausbildung als Mechaniker."
+          },
+          {
+            "de": "der Vorgesetzte / die Vorgesetzte",
+            "tr": "üst, amir",
+            "example": "Mein Vorgesetzter ist verständnisvoll."
+          },
+          {
+            "de": "der Kollege / die Kollegin",
+            "tr": "meslektaş",
+            "example": "Meine Kollegin hilft mir immer."
+          },
+          {
+            "de": "der Bewerber / die Bewerberin",
+            "tr": "başvuran, aday",
+            "example": "Es gab viele Bewerber für die Stelle."
+          },
+          {
+            "de": "der Arbeitgeber / die Arbeitgeberin",
+            "tr": "işveren",
+            "example": "Daimler Truck ist ein großer Arbeitgeber."
+          },
+          {
+            "de": "der Arbeitnehmer / die Arbeitnehmerin",
+            "tr": "işçi, çalışan",
+            "example": "Die Arbeitnehmer haben Rechte."
+          },
+          {
+            "de": "der Selbstständige / die Selbstständige",
+            "tr": "serbest çalışan",
+            "example": "Als Selbstständiger hat man viel Freiheit."
+          }
+        ]
+      },
+      {
+        "title": "Teil B: Arbeitsleben (İş Hayatı)",
+        "items": [
+          {
+            "de": "die Stelle, -n",
+            "tr": "pozisyon, kadro",
+            "example": "Ich habe eine neue Stelle gefunden."
+          },
+          {
+            "de": "die Bewerbung, -en",
+            "tr": "başvuru",
+            "example": "Ich schickte meine Bewerbung ab."
+          },
+          {
+            "de": "der Lebenslauf, -̈e",
+            "tr": "özgeçmiş, CV",
+            "example": "Mein Lebenslauf hat drei Seiten."
+          },
+          {
+            "de": "das Vorstellungsgespräch, -e",
+            "tr": "iş görüşmesi",
+            "example": "Das Vorstellungsgespräch lief gut."
+          },
+          {
+            "de": "der Vertrag, -̈e",
+            "tr": "sözleşme",
+            "example": "Ich unterschrieb den Vertrag."
+          },
+          {
+            "de": "die Probezeit, -en",
+            "tr": "deneme süresi",
+            "example": "Die Probezeit dauert sechs Monate."
+          },
+          {
+            "de": "das Gehalt, -̈er",
+            "tr": "maaş",
+            "example": "Das Gehalt ist gut."
+          },
+          {
+            "de": "die Überstunde, -n",
+            "tr": "fazla mesai",
+            "example": "Ich machte gestern Überstunden."
+          },
+          {
+            "de": "die Besprechung, -en",
+            "tr": "toplantı",
+            "example": "Die Besprechung begann pünktlich."
+          },
+          {
+            "de": "die Abteilung, -en",
+            "tr": "departman, bölüm",
+            "example": "Ich arbeite in der IT-Abteilung."
+          },
+          {
+            "de": "die Fortbildung, -en",
+            "tr": "ileri eğitim",
+            "example": "Die Firma bietet viele Fortbildungen an."
+          },
+          {
+            "de": "die Kündigung, -en",
+            "tr": "işten çıkarma/çıkış",
+            "example": "Er bekam die Kündigung per Post."
+          },
+          {
+            "de": "die Karriere, -n",
+            "tr": "kariyer",
+            "example": "Sie machte schnell Karriere."
+          },
+          {
+            "de": "der Feierabend",
+            "tr": "mesai sonu",
+            "example": "Um 17 Uhr hatte ich Feierabend."
+          },
+          {
+            "de": "das Homeoffice",
+            "tr": "evden çalışma",
+            "example": "Ich arbeitete zwei Tage im Homeoffice."
+          },
+          {
+            "de": "der Arbeitsplatz, -̈e",
+            "tr": "iş yeri / çalışma masası",
+            "example": "Mein Arbeitsplatz ist im 3. Stock."
+          },
+          {
+            "de": "die Kantine, -n",
+            "tr": "yemekhane",
+            "example": "Wir aßen in der Kantine."
+          }
+        ]
+      },
+      {
+        "title": "Teil C: Verben rund um die Arbeit (İş Fiilleri)",
+        "items": [
+          {
+            "de": "sich bewerben / bewarb sich",
+            "tr": "başvurmak",
+            "example": "Er bewarb sich um die Stelle."
+          },
+          {
+            "de": "einstellen / stellte ein",
+            "tr": "işe almak",
+            "example": "Die Firma stellte zehn neue Leute ein."
+          },
+          {
+            "de": "kündigen / kündigte",
+            "tr": "istifa etmek",
+            "example": "Sie kündigte nach zwei Jahren."
+          },
+          {
+            "de": "entlassen / entließ",
+            "tr": "işten çıkarmak",
+            "example": "Die Firma entließ 50 Mitarbeiter."
+          },
+          {
+            "de": "befördern / beförderte",
+            "tr": "terfi ettirmek",
+            "example": "Der Chef beförderte sie zur Teamleiterin."
+          },
+          {
+            "de": "verdienen / verdiente",
+            "tr": "kazanmak (para)",
+            "example": "Er verdiente damals weniger."
+          },
+          {
+            "de": "leiten / leitete",
+            "tr": "yönetmek",
+            "example": "Sie leitete ein Team von 15 Personen."
+          },
+          {
+            "de": "sich weiterbilden / bildete sich weiter",
+            "tr": "kendini geliştirmek",
+            "example": "Er bildete sich im Bereich IT weiter."
+          },
+          {
+            "de": "Erfahrung sammeln / sammelte",
+            "tr": "deneyim kazanmak",
+            "example": "Ich sammelte viel Erfahrung."
+          },
+          {
+            "de": "zusammenarbeiten / arbeitete zusammen",
+            "tr": "birlikte çalışmak",
+            "example": "Wir arbeiteten gut zusammen."
+          },
+          {
+            "de": "eine Entscheidung treffen / traf",
+            "tr": "karar vermek",
+            "example": "Der Chef traf eine wichtige Entscheidung."
+          },
+          {
+            "de": "Verantwortung übernehmen / übernahm",
+            "tr": "sorumluluk almak",
+            "example": "Sie übernahm mehr Verantwortung."
+          }
+        ]
+      }
+    ],
+    "phrase_lists": [
+      {
+        "title": "Teil D: Redemittel (İfade Kalıpları)",
+        "items": [
+          {
+            "de": "Ich bin zuständig für ...",
+            "tr": "...'den sorumluyum."
+          },
+          {
+            "de": "Ich arbeite seit ... Jahren bei ...",
+            "tr": "... yıldır ...'de çalışıyorum."
+          },
+          {
+            "de": "Ich bin als ... tätig.",
+            "tr": "... olarak çalışıyorum."
+          },
+          {
+            "de": "Mein Arbeitstag beginnt um ... Uhr.",
+            "tr": "İş günüm saat ...'de başlıyor."
+          },
+          {
+            "de": "Ich mache Überstunden.",
+            "tr": "Fazla mesai yapıyorum."
+          },
+          {
+            "de": "Ich habe mich um die Stelle beworben.",
+            "tr": "Pozisyona başvurdum."
+          },
+          {
+            "de": "Ich wurde befördert.",
+            "tr": "Terfi ettim."
+          },
+          {
+            "de": "Ich habe gekündigt / wurde gekündigt.",
+            "tr": "İstifa ettim / İşten çıkarıldım."
+          },
+          {
+            "de": "Die Arbeitsbedingungen sind gut/schlecht.",
+            "tr": "Çalışma koşulları iyi/kötü."
+          },
+          {
+            "de": "Ich bin mit meinem Job zufrieden/unzufrieden.",
+            "tr": "İşimden memnunum/memnun değilim."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "wort_u1",
+        "title": "Übung 1: Zuordnung (Eşleştirme)",
+        "instruction": "Almanca kelimeleri Türkçe karşılıklarıyla eşleştirin.",
+        "exercises": [
+          {
+            "type": "matching",
+            "left": [
+              "die Bewerbung",
+              "das Vorstellungsgespräch",
+              "das Gehalt",
+              "die Überstunde",
+              "die Kündigung",
+              "die Probezeit",
+              "der Feierabend",
+              "der Lebenslauf",
+              "die Fortbildung",
+              "die Kantine"
+            ],
+            "right": [
+              "başvuru",
+              "iş görüşmesi",
+              "maaş",
+              "fazla mesai",
+              "işten çıkış",
+              "deneme süresi",
+              "mesai sonu",
+              "özgeçmiş",
+              "ileri eğitim",
+              "yemekhane"
+            ],
+            "answers": [
+              "başvuru",
+              "iş görüşmesi",
+              "maaş",
+              "fazla mesai",
+              "işten çıkış",
+              "deneme süresi",
+              "mesai sonu",
+              "özgeçmiş",
+              "ileri eğitim",
+              "yemekhane"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wort_u2",
+        "title": "Übung 2: Lückentext (Boşluk Doldurma)",
+        "instruction": "Doğru kelimeyi yazın.\nKelimeler: Stelle, Bewerbung, Vorstellungsgespräch, Vertrag, Probezeit, Gehalt, befördert, kündigte, Überstunden, Erfahrung",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Ich sah eine interessante ___ auf der Webseite.",
+            "answer": "Stelle"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich schickte sofort meine ___ ab.",
+            "answer": "Bewerbung"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Eine Woche später hatte ich ein ___.",
+            "answer": "Vorstellungsgespräch"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Es lief gut und ich unterschrieb den ___.",
+            "answer": "Vertrag"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Die ___ dauerte drei Monate.",
+            "answer": "Probezeit"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Das ___ war am Anfang nicht so hoch.",
+            "answer": "Gehalt"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich machte oft ___, weil es viel zu tun gab.",
+            "answer": "Überstunden"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "In den ersten Jahren sammelte ich viel ___.",
+            "answer": "Erfahrung"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Nach fünf Jahren wurde ich zur Teamleiterin ___.",
+            "answer": "befördert"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Mein Kollege ___, weil er eine bessere Stelle fand.",
+            "answer": "kündigte"
+          }
+        ]
+      },
+      {
+        "id": "wort_u3",
+        "title": "Übung 3: Was passt nicht? (Hangisi Uymuyor?)",
+        "exercises": [
+          {
+            "type": "odd_one_out",
+            "words": [
+              "Bewerbung",
+              "Lebenslauf",
+              "Vorstellungsgespräch",
+              "Feierabend"
+            ],
+            "answer": "Feierabend",
+            "explanation": "Feierabend işe başlama süreci değil"
+          },
+          {
+            "type": "odd_one_out",
+            "words": [
+              "kündigen",
+              "entlassen",
+              "befördern",
+              "einstellen"
+            ],
+            "answer": "kündigen",
+            "explanation": "kündigen olumsuz, diğerleri olumlu/nötr"
+          },
+          {
+            "type": "odd_one_out",
+            "words": [
+              "Gehalt",
+              "Vertrag",
+              "Kantine",
+              "Überstunde"
+            ],
+            "answer": "Kantine",
+            "explanation": "Kantine parasal/sözleşmesel bir terim değil"
+          },
+          {
+            "type": "odd_one_out",
+            "words": [
+              "Ingenieur",
+              "Abteilung",
+              "Praktikant",
+              "Azubi"
+            ],
+            "answer": "Abteilung",
+            "explanation": "Abteilung bir kişi/meslek değil"
+          },
+          {
+            "type": "odd_one_out",
+            "words": [
+              "Homeoffice",
+              "Arbeitsplatz",
+              "Karriere",
+              "Kantine"
+            ],
+            "answer": "Karriere",
+            "explanation": "Karriere fiziksel bir yer değil"
+          }
+        ]
+      },
+      {
+        "id": "wort_u4",
+        "title": "Übung 4: Definitionen (Tanımlar)",
+        "instruction": "Tanımı okuyun ve doğru kelimeyi yazın.",
+        "exercises": [
+          {
+            "type": "definition",
+            "definition": "Die Zeit am Anfang eines neuen Jobs, in der man noch gekündigt werden kann.",
+            "answer": "Probezeit|die Probezeit"
+          },
+          {
+            "type": "definition",
+            "definition": "Das Geld, das man jeden Monat für seine Arbeit bekommt.",
+            "answer": "Gehalt|das Gehalt"
+          },
+          {
+            "type": "definition",
+            "definition": "Ein Dokument, in dem man seine Ausbildung und Berufserfahrung beschreibt.",
+            "answer": "Lebenslauf|der Lebenslauf"
+          },
+          {
+            "type": "definition",
+            "definition": "Wenn man länger arbeitet als normal.",
+            "answer": "Überstunden|Überstunde"
+          },
+          {
+            "type": "definition",
+            "definition": "Das Gespräch, in dem ein Arbeitgeber den Bewerber kennenlernt.",
+            "answer": "Vorstellungsgespräch|das Vorstellungsgespräch"
+          },
+          {
+            "type": "definition",
+            "definition": "Wenn man von zu Hause aus arbeitet.",
+            "answer": "Homeoffice|das Homeoffice"
+          },
+          {
+            "type": "definition",
+            "definition": "Die Person, die sich um eine Stelle bewirbt.",
+            "answer": "Bewerber|der Bewerber|Bewerberin"
+          },
+          {
+            "type": "definition",
+            "definition": "Wenn man seinen Job aufgibt.",
+            "answer": "kündigen|Kündigung"
+          },
+          {
+            "type": "definition",
+            "definition": "Wenn man eine höhere Position in der Firma bekommt.",
+            "answer": "befördert werden|Beförderung|befördern"
+          },
+          {
+            "type": "definition",
+            "definition": "Der Ort in einer Firma, wo man mittags essen kann.",
+            "answer": "Kantine|die Kantine"
+          }
+        ]
+      },
+      {
+        "id": "wort_u5",
+        "title": "Übung 5: Çeviri (Türkçe → Almanca)",
+        "instruction": "Cümleleri Almancaya çevirin. Präteritum kullanın.",
+        "exercises": [
+          {
+            "type": "translation",
+            "source": "Üç yıl önce bu pozisyona başvurdum.",
+            "answer": "Vor drei Jahren bewarb ich mich um diese Stelle."
+          },
+          {
+            "type": "translation",
+            "source": "İş görüşmesi çok iyi geçti.",
+            "answer": "Das Vorstellungsgespräch lief sehr gut."
+          },
+          {
+            "type": "translation",
+            "source": "Patronum beni terfi ettirdi.",
+            "answer": "Mein Chef beförderte mich.|Mein Vorgesetzter beförderte mich."
+          },
+          {
+            "type": "translation",
+            "source": "Meslektaşım istifa etti çünkü maaşı düşüktü.",
+            "answer": "Mein Kollege kündigte, weil das Gehalt niedrig war."
+          },
+          {
+            "type": "translation",
+            "source": "Her gün fazla mesai yapmak zorundaydım.",
+            "answer": "Ich musste jeden Tag Überstunden machen."
+          },
+          {
+            "type": "translation",
+            "source": "Takım liderliğini üstlendim ve çok deneyim kazandım.",
+            "answer": "Ich übernahm die Teamleitung und sammelte viel Erfahrung."
+          }
+        ]
+      },
+      {
+        "id": "wort_u6",
+        "title": "Übung 6: Verben mit Präpositionen",
+        "instruction": "Doğru edatı yazın: um, für, mit, an, über, bei, auf",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Ich bewarb mich ___ die Stelle als Product Manager.",
+            "answer": "um"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie ist zuständig ___ die Kundenkommunikation.",
+            "answer": "für"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Wir arbeiteten ___ einem großen Projekt.",
+            "answer": "an"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er beschwerte sich ___ die schlechten Arbeitsbedingungen.",
+            "answer": "über"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich fing ___ einer kleinen Firma ___.",
+            "answer": "bei...an|bei … an"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie freute sich ___ die Beförderung.",
+            "answer": "über"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Er arbeitete drei Jahre lang ___ Daimler Truck.",
+            "answer": "bei"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Ich bin stolz ___ mein Team.",
+            "answer": "auf"
+          }
+        ]
+      },
+      {
+        "id": "wort_u7",
+        "title": "Übung 7: Buchstabensalat (Harf Karışıklığı)",
+        "exercises": [
+          {
+            "type": "word_scramble",
+            "scrambled": "TGAELH",
+            "answer": "Gehalt",
+            "hint": "maaş"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "GNUBREWEB",
+            "answer": "Bewerbung",
+            "hint": "başvuru"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "TREBDNUESÜ",
+            "answer": "Überstunde",
+            "hint": "fazla mesai"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "TREVARG",
+            "answer": "Vertrag",
+            "hint": "sözleşme"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "ERAKRIER",
+            "answer": "Karriere",
+            "hint": "kariyer"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "GUNDIBLETWEI",
+            "answer": "Weiterbildung",
+            "hint": "ileri eğitim"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "BENDARFEIE",
+            "answer": "Feierabend",
+            "hint": "mesai sonu"
+          },
+          {
+            "type": "word_scramble",
+            "scrambled": "GNULIBTEA",
+            "answer": "Abteilung",
+            "hint": "departman"
+          }
+        ]
+      },
+      {
+        "id": "wort_u8",
+        "title": "Übung 8: Lückentext – Saras Karriereweg",
+        "instruction": "Boşlukları kelime listesinden doldurun.\nKelimeler: Ausbildung, Stelle, bewarb, Vorstellungsgespräch, eingestellt, Probezeit, befördert, kündigte, Gehalt, Verantwortung",
+        "exercises": [
+          {
+            "type": "fill_blank",
+            "sentence": "Sara machte zuerst eine ___ (1) als Industriekauffrau.",
+            "answer": "Ausbildung"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Danach suchte sie eine ___ (2) in einem großen Unternehmen.",
+            "answer": "Stelle"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Sie ___ (3) sich bei drei Firmen.",
+            "answer": "bewarb"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Bei Bosch hatte sie ein ___ (4).",
+            "answer": "Vorstellungsgespräch"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "... und wurde sofort ___ (5).",
+            "answer": "eingestellt"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Die ___ (6) lief sehr gut.",
+            "answer": "Probezeit"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Nach einem Jahr wurde sie zur Teamleiterin ___ (7).",
+            "answer": "befördert"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "... und übernahm mehr ___ (8).",
+            "answer": "Verantwortung"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Das ___ (9) stieg auch.",
+            "answer": "Gehalt"
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Nach fünf Jahren ___ (10) sie, weil sie ins Ausland gehen wollte.",
+            "answer": "kündigte"
+          }
+        ]
+      },
+      {
+        "id": "wort_u9",
+        "title": "Übung 9: Welches Wort passt?",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Er ___ seine Stelle, weil er unzufrieden war.",
+            "options": [
+              "bewarb",
+              "kündigte",
+              "leitete"
+            ],
+            "answer": "kündigte"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Die Firma ___ 20 neue Mitarbeiter ___.",
+            "options": [
+              "stellte...ein",
+              "ließ...aus",
+              "bildete...weiter"
+            ],
+            "answer": "stellte...ein"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Ich bin ___ für das Marketing.",
+            "options": [
+              "tätig",
+              "zuständig",
+              "angestellt"
+            ],
+            "answer": "zuständig"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Er ___ viel Erfahrung im Ausland.",
+            "options": [
+              "verdiente",
+              "sammelte",
+              "leitete"
+            ],
+            "answer": "sammelte"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Nach der ___ unterschrieb sie den festen Vertrag.",
+            "options": [
+              "Fortbildung",
+              "Kündigung",
+              "Probezeit"
+            ],
+            "answer": "Probezeit"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Wir ___ gut mit den Kollegen in München ___.",
+            "options": [
+              "arbeiteten...zusammen",
+              "bildeten...weiter",
+              "stellten...ein"
+            ],
+            "answer": "arbeiteten...zusammen"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Das ___ steigt nach der Probezeit.",
+            "options": [
+              "Vertrag",
+              "Gehalt",
+              "Lebenslauf"
+            ],
+            "answer": "Gehalt"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Sie ___ eine wichtige Entscheidung für das Team.",
+            "options": [
+              "traf",
+              "fand",
+              "gab"
+            ],
+            "answer": "traf"
+          }
+        ]
+      },
+      {
+        "id": "wort_u10",
+        "title": "Übung 10: Schreibaufgabe – Mein Beruf",
+        "instruction": "Lektion 2 kelimelerini kullanarak işinizi anlatan 5-6 cümle yazın. Präteritum ve Präsens karışık kullanabilirsiniz.",
+        "exercises": [
+          {
+            "type": "free_writing",
+            "instructions": "Was sind Sie von Beruf? Seit wann? Was machten Sie vorher? Wie ist Ihr Arbeitstag? Was gefällt Ihnen? Was nicht?",
+            "hints": [
+              "Ich arbeite seit ... als ... bei ...",
+              "Vorher arbeitete ich bei ... / war ich als ... tätig.",
+              "Mein Arbeitstag beginnt um ... Uhr.",
+              "Mir gefällt ..., weil ...",
+              "Was mich stört, ist ..."
+            ],
+            "sample_answer": "Ich arbeite seit zwei Jahren als Ingenieur bei Daimler Truck in Stuttgart. Vorher arbeitete ich drei Jahre bei einer kleinen Firma in Istanbul. Mein Arbeitstag beginnt um 8 Uhr. Zuerst lese ich meine E-Mails, dann habe ich meistens eine Besprechung. Mir gefällt die Arbeit im Team, weil meine Kollegen sehr nett sind. Was mich manchmal stört, sind die vielen Überstunden."
+          }
+        ]
+      }
+    ]
+  },
+  "lesen": {
+    "texts": [
+      {
+        "title": "Text 1: Karriereweg (Kariyer Hikayesi)",
+        "pre_question": "Almanya'da iş değiştirmek sizce kolay mı? Neden?",
+        "content": "Von Istanbul nach Stuttgart – Mehmets Karriereweg\n\nMehmet Yılmaz, 38 Jahre alt, arbeitet heute als Projektleiter bei einem Automobilzulieferer in Stuttgart. Aber sein Weg dorthin war lang.\n\nNach dem Studium in Istanbul arbeitete er drei Jahre lang als Ingenieur in einer kleinen Firma. Die Arbeit machte ihm Spaß, aber er wollte mehr Erfahrung im Ausland sammeln. Also bewarb er sich bei mehreren deutschen Firmen. Zuerst bekam er nur Absagen. Dann lud ihn eine Firma in Stuttgart zu einem Vorstellungsgespräch ein. Das Gespräch lief gut und er unterschrieb den Vertrag.\n\nDie ersten Monate waren nicht einfach. Er sprach damals nur wenig Deutsch und verstand seine Kollegen manchmal nicht. In den Besprechungen konnte er kaum etwas sagen. Aber er gab nicht auf: Er besuchte jeden Abend einen Deutschkurs und übte jeden Tag. Seine Kollegen halfen ihm geduldig.\n\nNach der Probezeit beförderte der Chef ihn zum Teamleiter. Mehmet übernahm mehr Verantwortung und leitete ein Team von acht Personen.\n\nHeute sagt er: \"Die ersten Jahre waren schwer, aber es hat sich gelohnt. Ich lernte nicht nur eine neue Sprache, sondern auch eine neue Arbeitskultur.\"",
+        "vocabulary": [
+          {
+            "de": "der Automobilzulieferer",
+            "tr": "otomotiv tedarikçi"
+          },
+          {
+            "de": "die Absage, -n",
+            "tr": "ret cevabı"
+          },
+          {
+            "de": "aufgeben",
+            "tr": "pes etmek, bırakmak"
+          },
+          {
+            "de": "sich lohnen",
+            "tr": "değmek, karşılığını vermek"
+          },
+          {
+            "de": "die Arbeitskultur",
+            "tr": "iş kültürü"
+          }
+        ]
+      },
+      {
+        "title": "Text 2: Zeitungsartikel (Homeoffice)",
+        "pre_question": "Homeoffice sizce bir avantaj mı yoksa dezavantaj mı?",
+        "content": "Homeoffice: Gekommen, um zu bleiben?\n\nEine Studie zeigt, wie sich die Arbeitswelt in Deutschland veränderte. Vor 2020 arbeiteten die meisten Deutschen im Büro. Homeoffice gab es nur selten. Dann kam die Pandemie und alles änderte sich. Millionen Arbeitnehmer mussten plötzlich von zu Hause aus arbeiten. Viele Firmen stellten schnell auf digitale Tools um.\n\nEine aktuelle Studie des Instituts für Arbeitsmarktforschung befragte 3.000 Arbeitnehmer in Deutschland. Die Ergebnisse:\n• 62% der Befragten arbeiteten während der Pandemie teilweise im Homeoffice.\n• 45% wollten auch nach der Pandemie mindestens zwei Tage pro Woche von zu Hause arbeiten.\n• 38% sagten, dass sie im Homeoffice produktiver waren als im Büro.\n• Aber 29% fühlten sich im Homeoffice isoliert und vermissten den Kontakt zu Kollegen.\n\nBesonders interessant: Große Firmen wie Daimler, BMW und SAP führten hybride Arbeitsmodelle ein. Die Mitarbeiter konnten selbst entscheiden, wann sie ins Büro kamen und wann sie von zu Hause arbeiteten.\n\nDer Arbeitsmarktexperte Prof. Dr. Müller erklärte: \"Die Arbeitswelt veränderte sich in wenigen Monaten stärker als in den zwanzig Jahren davor. Homeoffice ist keine vorübergehende Lösung mehr – es ist die neue Normalität.\"",
+        "vocabulary": [
+          {
+            "de": "die Arbeitswelt",
+            "tr": "iş dünyası"
+          },
+          {
+            "de": "umstellen auf (+Akk.)",
+            "tr": "geçiş yapmak"
+          },
+          {
+            "de": "befragen",
+            "tr": "anket yapmak, sormak"
+          },
+          {
+            "de": "teilweise",
+            "tr": "kısmi olarak"
+          },
+          {
+            "de": "sich isoliert fühlen",
+            "tr": "kendini izole hissetmek"
+          },
+          {
+            "de": "vermissen",
+            "tr": "özlemek"
+          },
+          {
+            "de": "vorübergehend",
+            "tr": "geçici"
+          },
+          {
+            "de": "hybrid",
+            "tr": "hibrit, karışık"
+          }
+        ]
+      },
+      {
+        "title": "Text 3: E-Mail-Austausch (İş Değişikliği)",
+        "pre_question": "Hiç iş değiştirdiniz mi veya değiştirmek istediniz mi?",
+        "content": "Von: ahmet.demir@mail.de\nAn: isa.engiz@mail.de\nBetreff: Neuer Job!\n\nHallo Isa,\n\nich habe große Neuigkeiten! Ich kündigte letzte Woche bei meiner alten Firma. Du weißt ja, ich war dort drei Jahre lang als Einkaufsleiter tätig. Am Anfang gefiel mir der Job gut – ich hatte ein nettes Team und die Aufgaben waren interessant.\n\nAber im letzten Jahr änderte sich vieles: Wir bekamen einen neuen Chef und der wollte, dass wir jeden Tag ins Büro kamen. Homeoffice gab es nicht mehr. Außerdem musste ich ständig Überstunden machen, ohne extra Geld. Ich sprach mit dem Chef darüber, aber er hatte kein Verständnis.\n\nAlso bewarb ich mich bei anderen Firmen. Ich schickte zehn Bewerbungen und wurde zu vier Vorstellungsgesprächen eingeladen. Zwei liefen super! Am Ende entschied ich mich für eine Stelle als Supply Chain Manager bei einem Logistikunternehmen in Sindelfingen. Das Gehalt ist besser, und ich darf drei Tage pro Woche im Homeoffice arbeiten!\n\nNächsten Samstag feiere ich meinen Jobwechsel. Kommst du? Ich würde mich freuen!\n\nViele Grüße\nAhmet",
+        "vocabulary": [
+          {
+            "de": "der Einkaufsleiter",
+            "tr": "satın alma müdürü"
+          },
+          {
+            "de": "die Neuigkeit, -en",
+            "tr": "yeni haber"
+          },
+          {
+            "de": "sich entscheiden für",
+            "tr": "karar vermek"
+          },
+          {
+            "de": "der Jobwechsel",
+            "tr": "iş değişikliği"
+          }
+        ]
+      },
+      {
+        "title": "Text 4: Stellenanzeigen (İş İlanları)",
+        "pre_question": "İş ilanlarında hangi bilgilere dikkat edersiniz?",
+        "content": "Stellenanzeige A\nProduct Manager (m/w/d) – Stuttgart\nTechPart GmbH sucht einen erfahrenen Product Manager.\nIhre Aufgaben: Produktstrategie entwickeln, Marktanalysen durchführen, mit Ingenieuren und dem Vertrieb zusammenarbeiten, Kunden-Feedback auswerten.\nIhr Profil: Studium im Bereich Wirtschaft oder Technik, mindestens 3 Jahre Berufserfahrung, sehr gute Deutsch- und Englischkenntnisse, Teamfähigkeit.\nWir bieten: Attraktives Gehalt, 30 Tage Urlaub, Homeoffice-Möglichkeit, Fortbildungen.\n\nStellenanzeige B\nWerkstudent/in Marketing (m/w/d) – Stuttgart\nStartUp Motion GmbH sucht eine/n Werkstudenten/in für 20 Stunden pro Woche.\nIhre Aufgaben: Social-Media-Kanäle betreuen, Blogbeiträge schreiben, bei Events helfen, Präsentationen vorbereiten.\nIhr Profil: Laufendes Studium (Marketing, Kommunikation o.ä.), kreativ und kontaktfreudig, gute Deutschkenntnisse (B2+).\nWir bieten: Flexible Arbeitszeiten, flache Hierarchien, junges Team, 15€/Stunde."
+      }
+    ],
+    "sections": [
+      {
+        "id": "les_t1a",
+        "title": "Text 1 – A) Richtig oder Falsch?",
+        "exercises": [
+          {
+            "type": "true_false",
+            "statement": "Mehmet studierte in Deutschland.",
+            "answer": "F",
+            "correction": "Er studierte in Istanbul."
+          },
+          {
+            "type": "true_false",
+            "statement": "Er arbeitete zuerst als Ingenieur in Istanbul.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false",
+            "statement": "Er bekam sofort eine Stelle in Stuttgart.",
+            "answer": "F",
+            "correction": "Er bekam zuerst Absagen."
+          },
+          {
+            "type": "true_false",
+            "statement": "Am Anfang sprach er sehr gut Deutsch.",
+            "answer": "F",
+            "correction": "Er sprach nur wenig Deutsch."
+          },
+          {
+            "type": "true_false",
+            "statement": "Seine Kollegen waren ungeduldig mit ihm.",
+            "answer": "F",
+            "correction": "Sie halfen ihm geduldig."
+          },
+          {
+            "type": "true_false",
+            "statement": "Nach der Probezeit wurde er Teamleiter.",
+            "answer": "R"
+          }
+        ]
+      },
+      {
+        "id": "les_t1b",
+        "title": "Text 1 – B) Präteritum-Formen finden",
+        "instruction": "Metinde aşağıdaki fiillerin Präteritum formlarını bulun ve yazın.",
+        "exercises": [
+          {
+            "type": "find_in_text",
+            "prompt": "arbeiten →",
+            "answer": "arbeitete"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "sich bewerben →",
+            "answer": "bewarb sich|bewarb"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "einladen →",
+            "answer": "lud...ein|lud ein|lud"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "unterschreiben →",
+            "answer": "unterschrieb"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "sprechen →",
+            "answer": "sprach"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "helfen →",
+            "answer": "halfen"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "befördern →",
+            "answer": "beförderte"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "übernehmen →",
+            "answer": "übernahm"
+          }
+        ]
+      },
+      {
+        "id": "les_t1c",
+        "title": "Text 1 – C) Fragen zum Text",
+        "exercises": [
+          {
+            "type": "open_question",
+            "question": "Was machte Mehmet nach dem Studium?",
+            "sample_answer": "Er arbeitete als Ingenieur in einer kleinen Firma."
+          },
+          {
+            "type": "open_question",
+            "question": "Warum wollte er nach Deutschland?",
+            "sample_answer": "Er wollte mehr Erfahrung im Ausland sammeln."
+          },
+          {
+            "type": "open_question",
+            "question": "Was war in den ersten Monaten schwierig?",
+            "sample_answer": "Er sprach wenig Deutsch und verstand seine Kollegen nicht."
+          },
+          {
+            "type": "open_question",
+            "question": "Was machte Mehmet, um sein Deutsch zu verbessern?",
+            "sample_answer": "Er besuchte jeden Abend einen Deutschkurs und übte jeden Tag."
+          },
+          {
+            "type": "open_question",
+            "question": "Was lernte er neben der Sprache?",
+            "sample_answer": "Er lernte eine neue Arbeitskultur."
+          }
+        ]
+      },
+      {
+        "id": "les_t2a",
+        "title": "Text 2 – A) R / F / Steht nicht im Text (N)",
+        "exercises": [
+          {
+            "type": "true_false_notintext",
+            "statement": "Vor 2020 war Homeoffice in Deutschland weit verbreitet.",
+            "answer": "F",
+            "correction": "Homeoffice gab es nur selten."
+          },
+          {
+            "type": "true_false_notintext",
+            "statement": "3.000 Arbeitnehmer wurden für die Studie befragt.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_notintext",
+            "statement": "Mehr als die Hälfte wollte nach der Pandemie weiter im Homeoffice arbeiten.",
+            "answer": "F",
+            "correction": "45% ist nicht mehr als die Hälfte."
+          },
+          {
+            "type": "true_false_notintext",
+            "statement": "38% fanden sich im Homeoffice produktiver.",
+            "answer": "R"
+          },
+          {
+            "type": "true_false_notintext",
+            "statement": "Kleine Firmen führten als erste hybride Modelle ein.",
+            "answer": "N",
+            "correction": "Das steht nicht im Text. Nur große Firmen werden erwähnt."
+          },
+          {
+            "type": "true_false_notintext",
+            "statement": "Prof. Dr. Müller hält Homeoffice für eine vorübergehende Lösung.",
+            "answer": "F",
+            "correction": "Er hält es für die neue Normalität."
+          }
+        ]
+      },
+      {
+        "id": "les_t2b",
+        "title": "Text 2 – B) Zahlen und Fakten",
+        "instruction": "Metindeki rakamları ilgili bilgiyle eşleştirin.",
+        "exercises": [
+          {
+            "type": "matching",
+            "left": [
+              "62%",
+              "45%",
+              "38%",
+              "29%"
+            ],
+            "right": [
+              "sich im Homeoffice isoliert fühlten",
+              "im Homeoffice produktiver waren",
+              "teilweise im Homeoffice arbeiteten",
+              "weiterhin Homeoffice wollten"
+            ],
+            "answers": [
+              "teilweise im Homeoffice arbeiteten",
+              "weiterhin Homeoffice wollten",
+              "im Homeoffice produktiver waren",
+              "sich im Homeoffice isoliert fühlten"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "les_t2c",
+        "title": "Text 2 – C) Fragen zum Text",
+        "exercises": [
+          {
+            "type": "open_question",
+            "question": "Was änderte sich 2020 in der Arbeitswelt?",
+            "sample_answer": "Millionen Arbeitnehmer mussten plötzlich von zu Hause aus arbeiten. Viele Firmen stellten auf digitale Tools um."
+          },
+          {
+            "type": "open_question",
+            "question": "Welche Vorteile und Nachteile hat Homeoffice laut der Studie?",
+            "sample_answer": "Vorteil: 38% waren produktiver. Nachteil: 29% fühlten sich isoliert und vermissten den Kontakt zu Kollegen."
+          },
+          {
+            "type": "open_question",
+            "question": "Was machten große Firmen wie Daimler?",
+            "sample_answer": "Sie führten hybride Arbeitsmodelle ein."
+          },
+          {
+            "type": "open_question",
+            "question": "Was ist laut Prof. Dr. Müller die 'neue Normalität'?",
+            "sample_answer": "Homeoffice ist die neue Normalität."
+          }
+        ]
+      },
+      {
+        "id": "les_t3a",
+        "title": "Text 3 – A) Chronologie ordnen",
+        "instruction": "Olayları doğru sıraya koyun (1-6).",
+        "exercises": [
+          {
+            "type": "ordering",
+            "items": [
+              "Ahmet bewarb sich bei anderen Firmen.",
+              "Er feiert seinen Jobwechsel.",
+              "Er arbeitete als Einkaufsleiter.",
+              "Der neue Chef verbot Homeoffice.",
+              "Er wurde zu Vorstellungsgesprächen eingeladen.",
+              "Er entschied sich für die Stelle in Sindelfingen."
+            ],
+            "answers": [
+              "3",
+              "6",
+              "1",
+              "2",
+              "4",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "les_t3b",
+        "title": "Text 3 – B) Fragen zum Text",
+        "exercises": [
+          {
+            "type": "open_question",
+            "question": "Warum kündigte Ahmet bei seiner alten Firma? (Nennen Sie zwei Gründe.)",
+            "sample_answer": "1. Kein Homeoffice mehr. 2. Ständige Überstunden ohne extra Geld."
+          },
+          {
+            "type": "open_question",
+            "question": "Was machte der neue Chef anders?",
+            "sample_answer": "Er verbot Homeoffice und verlangte tägliche Büroanwesenheit."
+          },
+          {
+            "type": "open_question",
+            "question": "Wie viele Bewerbungen schickte Ahmet?",
+            "sample_answer": "Er schickte zehn Bewerbungen."
+          },
+          {
+            "type": "open_question",
+            "question": "Warum entschied sich Ahmet für die neue Stelle?",
+            "sample_answer": "Besseres Gehalt und drei Tage Homeoffice pro Woche."
+          }
+        ]
+      },
+      {
+        "id": "les_t3c",
+        "title": "Text 3 – C) Antwort-E-Mail schreiben",
+        "instruction": "Ahmet'in e-postasına 5-6 cümleyle cevap yazın: Tebrik edin, eski işiniz hakkında bir şey paylaşın, partiye gelip gelemeyeceğinizi belirtin.",
+        "exercises": [
+          {
+            "type": "free_writing",
+            "instructions": "5-6 cümle yazın. Tebrik edin, eski işiniz hakkında bir şey paylaşın, partiye gelip gelemeyeceğinizi belirtin.",
+            "hints": [
+              "Hallo Ahmet, herzlichen Glückwunsch!",
+              "Das sind tolle Neuigkeiten!",
+              "Ich kann dich gut verstehen, weil ...",
+              "Bei mir war es ähnlich / anders, weil ...",
+              "Am Samstag komme ich gern / kann ich leider nicht kommen, weil ...",
+              "Viele Grüße"
+            ],
+            "sample_answer": "Hallo Ahmet,\nherzlichen Glückwunsch zum neuen Job! Das sind wirklich tolle Neuigkeiten. Ich kann dich gut verstehen – auch bei meiner alten Firma gab es viel Stress und wenig Flexibilität. Die neue Stelle klingt perfekt für dich, besonders das Homeoffice-Modell. Am Samstag komme ich natürlich gern zu deiner Feier! Soll ich etwas mitbringen?\nViele Grüße\nIsa"
+          }
+        ]
+      },
+      {
+        "id": "les_t4a",
+        "title": "Text 4 – A) Welche Anzeige passt? (A, B oder beide)",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Man kann teilweise von zu Hause arbeiten.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "A"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man braucht Berufserfahrung.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "A"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man arbeitet Vollzeit.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "A"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man braucht Deutschkenntnisse.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "beide"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man arbeitet mit Kunden.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "A"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man kann als Student arbeiten.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "B"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man bekommt Fortbildungen.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "A"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Man arbeitet in einem kleinen Team.",
+            "options": [
+              "A",
+              "B",
+              "beide"
+            ],
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "id": "les_t4b",
+        "title": "Text 4 – B) Wörter aus den Anzeigen",
+        "instruction": "İlanlardaki aşağıdaki kelimelerin Türkçe karşılığını yazın.",
+        "exercises": [
+          {
+            "type": "find_in_text",
+            "prompt": "Berufserfahrung →",
+            "answer": "iş deneyimi"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "Teamfähigkeit →",
+            "answer": "takım çalışmasına yatkınlık|takım çalışması yeteneği"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "der Vertrieb →",
+            "answer": "satış departmanı|satış"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "flache Hierarchien →",
+            "answer": "düz hiyerarşi|yatay hiyerarşi"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "laufendes Studium →",
+            "answer": "devam eden öğrenim|devam eden eğitim"
+          },
+          {
+            "type": "find_in_text",
+            "prompt": "auswerten →",
+            "answer": "değerlendirmek|analiz etmek"
+          }
+        ]
+      }
+    ]
+  },
+  "schreiben": {
+    "sections": [
+      {
+        "id": "schr_u1",
+        "title": "Übung 1: Perfekt → Präteritum – Cümleleri Dönüştürün",
+        "instruction": "Aşağıdaki cümleleri Präteritum'a çevirin.",
+        "exercises": [
+          {
+            "type": "transform",
+            "source": "Er hat drei Jahre in Istanbul gelebt.",
+            "answer": "Er lebte drei Jahre in Istanbul."
+          },
+          {
+            "type": "transform",
+            "source": "Ich habe mich bei Daimler Truck beworben.",
+            "answer": "Ich bewarb mich bei Daimler Truck."
+          },
+          {
+            "type": "transform",
+            "source": "Sie hat den Vertrag unterschrieben.",
+            "answer": "Sie unterschrieb den Vertrag."
+          },
+          {
+            "type": "transform",
+            "source": "Wir haben das Projekt letzte Woche abgeschlossen.",
+            "answer": "Wir schlossen das Projekt letzte Woche ab."
+          },
+          {
+            "type": "transform",
+            "source": "Der Chef hat eine wichtige Entscheidung getroffen.",
+            "answer": "Der Chef traf eine wichtige Entscheidung."
+          },
+          {
+            "type": "transform",
+            "source": "Ich bin jeden Tag mit dem Auto zur Arbeit gefahren.",
+            "answer": "Ich fuhr jeden Tag mit dem Auto zur Arbeit."
+          },
+          {
+            "type": "transform",
+            "source": "Sie hat ihre Stelle gekündigt.",
+            "answer": "Sie kündigte ihre Stelle."
+          },
+          {
+            "type": "transform",
+            "source": "Er ist nach der Besprechung sofort nach Hause gegangen.",
+            "answer": "Er ging nach der Besprechung sofort nach Hause."
+          }
+        ]
+      },
+      {
+        "id": "schr_u2",
+        "title": "Übung 2: Satzbausteine ordnen – Cümle Kurun (Präteritum)",
+        "instruction": "Verilen kelimelerden anlamlı cümleler kurun. Fiili Präteritum'a çevirin.",
+        "exercises": [
+          {
+            "type": "sentence_building",
+            "parts": [
+              "anfangen",
+              "die Besprechung",
+              "um 9 Uhr"
+            ],
+            "answer": "Die Besprechung fing um 9 Uhr an."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "bewerben (sich)",
+              "er",
+              "um die Stelle",
+              "als Ingenieur"
+            ],
+            "answer": "Er bewarb sich um die Stelle als Ingenieur."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "kündigen",
+              "sie",
+              "weil",
+              "das Gehalt",
+              "zu niedrig",
+              "sein"
+            ],
+            "answer": "Sie kündigte, weil das Gehalt zu niedrig war."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "zusammenarbeiten",
+              "wir",
+              "gut",
+              "mit dem Team in München"
+            ],
+            "answer": "Wir arbeiteten gut mit dem Team in München zusammen."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "einstellen",
+              "die Firma",
+              "zehn neue Mitarbeiter",
+              "letzten Monat"
+            ],
+            "answer": "Die Firma stellte letzten Monat zehn neue Mitarbeiter ein."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "müssen",
+              "ich",
+              "jeden Tag",
+              "Überstunden",
+              "machen"
+            ],
+            "answer": "Ich musste jeden Tag Überstunden machen."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "einladen",
+              "der Chef",
+              "das ganze Team",
+              "zum Abendessen"
+            ],
+            "answer": "Der Chef lud das ganze Team zum Abendessen ein."
+          },
+          {
+            "type": "sentence_building",
+            "parts": [
+              "verdienen",
+              "er",
+              "am Anfang",
+              "weniger",
+              "als heute"
+            ],
+            "answer": "Er verdiente am Anfang weniger als heute."
+          }
+        ]
+      },
+      {
+        "id": "schr_u3",
+        "title": "Übung 3: Karriereweg beschreiben (Kariyer Yolu Anlatma)",
+        "instruction": "Aşağıdaki bilgilere göre Ayşe'nin kariyer hikayesini Präteritum kullanarak yazın (8-10 cümle).",
+        "exercises": [
+          {
+            "type": "guided_writing",
+            "scenario": "2015 — BWL-Studium in Ankara abgeschlossen\n2015–2017 — Praktikum + erste Stelle bei einer kleinen Firma in Ankara (Buchhaltung)\n2017 — Deutschkurs in Istanbul (B1-Zertifikat)\n2018 — Umzug nach Stuttgart, Bewerbung bei 8 Firmen, 3 Absagen, 2 Vorstellungsgespräche\n2018–2020 — Sachbearbeiterin im Einkauf bei einem Automobilzulieferer\n2020 — Fortbildung: SAP-Kurs (von der Firma bezahlt)\n2021 — Beförderung zur Teamleiterin Einkauf (5 Mitarbeiter)\nHeute — Zufrieden, plant MBA-Studium nebenberuflich",
+            "hints": [
+              "Nach dem Studium ... / Zuerst ...",
+              "Danach / Dann / Später ...",
+              "Im Jahr ... zog sie nach ... / bewarb sie sich bei ...",
+              "Am Anfang war es ... , weil ...",
+              "Nach zwei Jahren wurde sie ... befördert.",
+              "Die Firma bot ihr ... an.",
+              "Heute ist sie ... und plant ..."
+            ],
+            "sample_answer": "Ayşe schloss 2015 ihr BWL-Studium in Ankara ab. Danach machte sie ein Praktikum bei einer kleinen Firma und arbeitete dort in der Buchhaltung. 2017 besuchte sie einen Deutschkurs in Istanbul und bekam das B1-Zertifikat. Ein Jahr später zog sie nach Stuttgart. Sie bewarb sich bei acht Firmen, bekam drei Absagen und wurde zu zwei Vorstellungsgesprächen eingeladen. Schließlich fand sie eine Stelle als Sachbearbeiterin im Einkauf bei einem Automobilzulieferer. 2020 machte sie eine SAP-Fortbildung, die von der Firma bezahlt wurde. Im Jahr darauf beförderte man sie zur Teamleiterin – sie leitete ein Team von fünf Mitarbeitern. Heute ist Ayşe zufrieden und plant ein MBA-Studium neben der Arbeit."
+          }
+        ]
+      },
+      {
+        "id": "schr_u4",
+        "title": "Übung 4: E-Mail – Mein erster Arbeitstag",
+        "instruction": "Arkadaşınız Elif size yeni işinizi sormuş. Aşağıdaki e-postayı cevaplayın (8-10 cümle, Präteritum kullanın).",
+        "exercises": [
+          {
+            "type": "guided_writing",
+            "scenario": "Von: elif.kaya@mail.de\nBetreff: Und, wie war der erste Tag?\n\nHallo Isa,\ndu hast mir erzählt, dass du letzte Woche deinen ersten Arbeitstag bei der neuen Firma hattest! Wie war es? Warst du nervös? Wie waren die Kollegen? Was musstest du alles machen? Erzähl mir alles!\nLiebe Grüße\nElif",
+            "instructions": "Schreiben Sie über: Wie Sie sich gefühlt haben, was am Morgen passierte, wie die Kollegen und der Chef waren, was Sie gemacht haben, wie der Tag insgesamt war.",
+            "hints": [
+              "Danke für deine E-Mail! Ich erzähle dir gern davon.",
+              "Am Morgen war ich sehr ... / Zuerst ging ich ...",
+              "Dann zeigte mir ... das Büro / den Arbeitsplatz.",
+              "Um ... Uhr fing die erste Besprechung an.",
+              "In der Mittagspause ging ich mit ... in die Kantine.",
+              "Am Nachmittag musste ich ... / konnte ich ...",
+              "Insgesamt war der Tag ... / Ich freue mich auf ...",
+              "Schreib mir bald zurück!"
+            ],
+            "sample_answer": "Hallo Elif,\ndanke für deine E-Mail! Ich erzähle dir gern von meinem ersten Tag. Am Morgen war ich ziemlich nervös. Ich kam um 8 Uhr an und ging zuerst zur Personalabteilung. Dort bekam ich meinen Ausweis. Dann zeigte mir mein Teamleiter das Büro und meinen Arbeitsplatz. Um 9 Uhr fing die erste Besprechung an – der Chef sprach über die aktuellen Projekte. In der Mittagspause ging ich mit zwei netten Kollegen in die Kantine. Am Nachmittag musste ich viele E-Mails lesen und die IT-Systeme kennenlernen. Der Tag war anstrengend, aber alle waren freundlich. Ich freue mich auf die nächsten Wochen!\nViele Grüße\nIsa"
+          }
+        ]
+      },
+      {
+        "id": "schr_u5",
+        "title": "Übung 5: Forumsbeitrag – Homeoffice: Fluch oder Segen?",
+        "exercises": [
+          {
+            "type": "free_writing",
+            "scenario": "Forum: Arbeit und Leben\nThema: Homeoffice – Fluch oder Segen?\n\nUserKarin89: Ich arbeite seit einem Jahr komplett im Homeoffice. Zuerst fand ich es toll: kein Pendeln, flexible Zeiten, Ruhe. Aber jetzt fühle ich mich oft isoliert und habe kaum noch Kontakt zu Kollegen. Was sind eure Erfahrungen?",
+            "instructions": "8-10 cümle yazın. Ob Sie Erfahrung mit Homeoffice haben, Vorteile und Nachteile (mindestens je 2), Ihre persönliche Meinung, was Sie Karin empfehlen würden.",
+            "hints": [
+              "Ich kann dich gut verstehen, weil ...",
+              "Meiner Erfahrung nach ist Homeoffice ...",
+              "Ein Vorteil / Nachteil ist, dass ...",
+              "Früher arbeitete ich ... , und damals ...",
+              "Ich finde, das hybride Modell ist am besten, weil ...",
+              "Ich würde dir empfehlen, ... zu ...",
+              "Vielleicht könntest du ... , dann ..."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schr_u6",
+        "title": "Übung 6: Bewerbungs-E-Mail (Başvuru E-postası)",
+        "exercises": [
+          {
+            "type": "guided_writing",
+            "scenario": "Stellenanzeige:\nProjektmitarbeiter/in (m/w/d)\nAutoParts GmbH, Stuttgart-Weilimdorf\n\nAufgaben: Projektplanung und -koordination, Kommunikation mit Lieferanten, Berichte erstellen, an Besprechungen teilnehmen.\nProfil: Abgeschlossenes Studium oder Ausbildung, Berufserfahrung im Projektmanagement, gute Deutsch- und Englischkenntnisse, SAP-Kenntnisse von Vorteil.\nKontakt: bewerbung@autoparts-gmbh.de",
+            "instructions": "8-10 cümle, resmi ton. E-Mail yapısı: Betreff, Anrede, Einleitung, Hauptteil (Ausbildung, Berufserfahrung im Präteritum, Kenntnisse), Schluss, Grußformel.",
+            "hints": [
+              "Sehr geehrte Damen und Herren,",
+              "mit großem Interesse habe ich Ihre Stellenanzeige gelesen.",
+              "Ich bewerbe mich um die Stelle als ..., weil ...",
+              "Nach meinem Studium / meiner Ausbildung arbeitete ich ... bei ...",
+              "Dort war ich zuständig für ... / sammelte ich Erfahrung in ...",
+              "Ich verfüge über ... Kenntnisse in ...",
+              "Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr freuen.",
+              "Ich könnte ab dem ... anfangen.",
+              "Mit freundlichen Grüßen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schr_u7",
+        "title": "Übung 7: Tagebucheintrag – Jobwechsel",
+        "instruction": "Hayal edin: eski işinizden ayrıldınız ve yeni bir işe başlıyorsunuz. Günlüğünüze bu değişikliği anlatan bir giriş yazın (6-8 cümle, Präteritum + Präsens karışık).",
+        "exercises": [
+          {
+            "type": "free_writing",
+            "instructions": "Warum Sie gekündigt haben, was an der alten Stelle gut/schlecht war, wie die Jobsuche lief, was Sie sich von der neuen Stelle erhoffen, wie Sie sich fühlen.",
+            "hints": [
+              "Liebes Tagebuch, heute ist ein besonderer Tag.",
+              "Gestern war mein letzter Tag bei ... / Morgen fange ich bei ... an.",
+              "Ich kündigte, weil ... / Man kündigte mir, weil ...",
+              "An meiner alten Stelle gefiel mir ... , aber ... störte mich.",
+              "Die Jobsuche dauerte ... und war ...",
+              "Ich bewarb mich bei ... Firmen und wurde zu ... Gesprächen eingeladen.",
+              "Jetzt freue ich mich auf ... / Ich bin gespannt, ob ...",
+              "Ich hoffe, dass die neue Stelle besser ist, weil ..."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
