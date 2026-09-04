@@ -1,0 +1,2054 @@
+{
+  "id": "L01",
+  "title": "Charaktereigenschaften",
+  "grammatik": {
+    "rules": [
+      {
+        "title": "Adjektive als Nomen (Sifatlarin Isim Olarak Kullanilmasi)",
+        "explanation": "Almancada sifatlar, baslarina bir Artikel (der, die, das, ein, eine) alarak isim gibi kullanilabilir. Bu durumda sifat buyuk harfle yazilir ve normal sifat cekimine (Adjektivdeklination) gore cekilir.",
+        "table": {
+          "headers": [
+            "",
+            "Bestimmter Artikel",
+            "Unbestimmter Artikel"
+          ],
+          "rows": [
+            [
+              "Maskulin (Nom.)",
+              "der Bekannte",
+              "ein Bekannter"
+            ],
+            [
+              "Maskulin (Akk.)",
+              "den Bekannten",
+              "einen Bekannten"
+            ],
+            [
+              "Maskulin (Dat.)",
+              "dem Bekannten",
+              "einem Bekannten"
+            ],
+            [
+              "Feminin (Nom.)",
+              "die Bekannte",
+              "eine Bekannte"
+            ],
+            [
+              "Feminin (Akk.)",
+              "die Bekannte",
+              "eine Bekannte"
+            ],
+            [
+              "Feminin (Dat.)",
+              "der Bekannten",
+              "einer Bekannten"
+            ],
+            [
+              "Plural (Nom.)",
+              "die Bekannten",
+              "Bekannte"
+            ],
+            [
+              "Plural (Akk.)",
+              "die Bekannten",
+              "Bekannte"
+            ],
+            [
+              "Plural (Dat.)",
+              "den Bekannten",
+              "Bekannten"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Der Bekannte von meinem Chef kommt aus Stuttgart.",
+            "tr": "Patronumun tanidigi Stuttgart'tan geliyor."
+          },
+          {
+            "de": "Ich habe gestern eine Verwandte in der Stadtmitte getroffen.",
+            "tr": "Dun sehir merkezinde bir akrabamla karsilastim."
+          },
+          {
+            "de": "In der Besprechung hat ein Vorgesetzter das Projekt vorgestellt.",
+            "tr": "Toplantida bir ust yonetici projeyi sundu."
+          },
+          {
+            "de": "Gibt es etwas Neues bei Daimler Truck?",
+            "tr": "Daimler Truck'ta yeni bir sey var mi?"
+          },
+          {
+            "de": "Das Beste an Stuttgart ist die Lage.",
+            "tr": "Stuttgart'un en iyi yani konumudur."
+          },
+          {
+            "de": "Meine Bekannten wohnen alle in Bad Cannstatt.",
+            "tr": "Tanidiklarimin hepsi Bad Cannstatt'ta oturuyor."
+          },
+          {
+            "de": "Fur mich ist nichts Wichtiges passiert.",
+            "tr": "Benim icin onemli bir sey olmadi."
+          }
+        ]
+      },
+      {
+        "title": "Soyut Kavramlar (das + Adjektiv)",
+        "explanation": "Soyut kavramlar her zaman das ile kullanilir ve Neutrum cekimini alir. etwas/nichts/viel/wenig + Adjektiv -> Grossschreibung, -es Endung. Ornek: etwas Neues, nichts Besonderes, viel Gutes, wenig Interessantes.",
+        "table": {
+          "headers": [
+            "Kasus",
+            "Beispiele"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "das Gute, das Neue, das Wichtige"
+            ],
+            [
+              "Akkusativ",
+              "das Gute, das Neue, das Wichtige"
+            ],
+            [
+              "Dativ",
+              "dem Guten, dem Neuen, dem Wichtigen"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "etwas Neues",
+            "tr": "yeni bir sey"
+          },
+          {
+            "de": "nichts Besonderes",
+            "tr": "ozel bir sey yok"
+          },
+          {
+            "de": "viel Gutes",
+            "tr": "cok iyi sey"
+          },
+          {
+            "de": "wenig Interessantes",
+            "tr": "az ilginc sey"
+          }
+        ]
+      },
+      {
+        "title": "n-Deklination (Zayif Isim Cekimi)",
+        "explanation": "Bazi eril (maskulin) isimler, Nominativ disindaki tum durumlarda (Akkusativ, Dativ, Genitiv) ve cogul formda -(e)n eki alir.\n\nHangi isimler n-Deklination alir?\n- -e ile biten eril isimler: der Kollege, der Junge, der Kunde, der Experte, der Turke\n- -ant, -ent, -ist, -at ile biten eril isimler: der Praktikant, der Student, der Polizist, der Automat\n- -oge, -oph, -nom ile biten eril isimler: der Psychologe, der Philosoph, der Okonom\n- Bazi ozel isimler: der Herr, der Mensch, der Nachbar, der Bauer",
+        "table": {
+          "headers": [
+            "Kasus",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der Kollege",
+              "die Kollegen"
+            ],
+            [
+              "Akkusativ",
+              "den Kollegen",
+              "die Kollegen"
+            ],
+            [
+              "Dativ",
+              "dem Kollegen",
+              "den Kollegen"
+            ],
+            [
+              "Genitiv",
+              "des Kollegen",
+              "der Kollegen"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Ich habe den Kollegen gestern im Werk gesehen.",
+            "tr": "Dun fabrikada meslektasi gordum."
+          },
+          {
+            "de": "Kannst du dem Kunden die E-Mail weiterleiten?",
+            "tr": "Musteriye e-postayi iletebilir misin?"
+          },
+          {
+            "de": "Der Praktikant hat heute seinen ersten Tag.",
+            "tr": "Stajyerin bugun ilk gunu."
+          },
+          {
+            "de": "Wir haben mit dem Experten gesprochen.",
+            "tr": "Uzmanla konustuk."
+          },
+          {
+            "de": "Ich kenne den Nachbarn seit drei Jahren.",
+            "tr": "Komsuyu uc yildir taniyorum."
+          },
+          {
+            "de": "Herr Engiz, bitte sagen Sie dem Herrn Bescheid.",
+            "tr": "Bay Engiz, lutfen beye haber verin."
+          }
+        ]
+      },
+      {
+        "title": "n-Deklination: der Herr (Ozel Durum)",
+        "explanation": "der Herr ismi ozel bir durumdur: Singular'da -n, Plural'da -en alir.",
+        "table": {
+          "headers": [
+            "Kasus",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der Herr",
+              "die Herren"
+            ],
+            [
+              "Akkusativ",
+              "den Herrn",
+              "die Herren"
+            ],
+            [
+              "Dativ",
+              "dem Herrn",
+              "den Herren"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Kennen Sie den Herrn an der Rezeption?",
+            "tr": "Resepsiyondaki beyi taniyor musunuz?"
+          },
+          {
+            "de": "Bitte sagen Sie dem Herrn Bescheid.",
+            "tr": "Lutfen beye haber verin."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Ubung 1: Adjektive als Nomen - Bosluklari Doldurun",
+        "instructions": "Parantez icindeki sifati isim olarak dogru formda yazin.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Der __________ (deutsch) in meinem Team kommt aus Berlin.",
+            "a": "Deutsche"
+          },
+          {
+            "q": "Ich habe eine __________ (bekannt) im Supermarkt getroffen.",
+            "a": "Bekannte"
+          },
+          {
+            "q": "Hast du etwas __________ (interessant) auf der Messe gesehen?",
+            "a": "Interessantes"
+          },
+          {
+            "q": "Die __________ (angestellt) haben heute frei.",
+            "a": "Angestellten"
+          },
+          {
+            "q": "Es ist nichts __________ (schlimm) passiert.",
+            "a": "Schlimmes"
+          },
+          {
+            "q": "Mein __________ (vorgesetzt) hat das Meeting abgesagt.",
+            "a": "Vorgesetzter"
+          },
+          {
+            "q": "Das __________ (gut) an diesem Job ist das Team.",
+            "a": "Beste"
+          },
+          {
+            "q": "Wir haben viel __________ (schon) in Stuttgart erlebt.",
+            "a": "Schones"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 2: n-Deklination - Dogru Formu Yazin",
+        "instructions": "Parantez icindeki ismi dogru halde (Kasus) yazin.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Ich muss den __________ (Kunde) morgen anrufen.",
+            "a": "Kunden"
+          },
+          {
+            "q": "Der __________ (Student) hat die Prufung bestanden.",
+            "a": "Student"
+          },
+          {
+            "q": "Kannst du dem __________ (Praktikant) helfen?",
+            "a": "Praktikanten"
+          },
+          {
+            "q": "Wir haben den __________ (Nachbar) zum Grillen eingeladen.",
+            "a": "Nachbarn"
+          },
+          {
+            "q": "Der Chef spricht gerade mit dem __________ (Experte).",
+            "a": "Experten"
+          },
+          {
+            "q": "Kennen Sie den __________ (Herr) an der Rezeption?",
+            "a": "Herrn"
+          },
+          {
+            "q": "Die Meinung des __________ (Kollege) ist mir wichtig.",
+            "a": "Kollegen"
+          },
+          {
+            "q": "Ich habe einen neuen __________ (Kollege) bekommen.",
+            "a": "Kollegen"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 3: Ceviri (Turkce -> Almanca)",
+        "instructions": "Asagidaki cumleleri Almancaya cevirin.",
+        "type": "translation",
+        "questions": [
+          {
+            "q": "Bugun yeni bir sey ogrendim.",
+            "a": "Ich habe heute etwas Neues gelernt."
+          },
+          {
+            "q": "Tanidikim (erkek) Stuttgart'ta calisiyor.",
+            "a": "Mein Bekannter arbeitet in Stuttgart."
+          },
+          {
+            "q": "Musteriyle toplanti yaptik.",
+            "a": "Wir hatten ein Meeting mit dem Kunden."
+          },
+          {
+            "q": "Stajyer cok caliskan.",
+            "a": "Der Praktikant ist sehr fleissig."
+          },
+          {
+            "q": "Komsuya yardim ettim.",
+            "a": "Ich habe dem Nachbarn geholfen."
+          },
+          {
+            "q": "En iyi sey hava durumuydu.",
+            "a": "Das Beste war das Wetter."
+          },
+          {
+            "q": "Akrabam (kadin) yarin geliyor.",
+            "a": "Meine Verwandte kommt morgen."
+          },
+          {
+            "q": "Onemli bir sey soylemem gerekiyor.",
+            "a": "Ich muss etwas Wichtiges sagen."
+          }
+        ]
+      },
+      {
+        "title": "Ubung 4: Fehlerkorrektur (Hata Bulma)",
+        "instructions": "Her cumlede bir hata var. Hatayi bulun ve dogrusunu yazin.",
+        "type": "error_correction",
+        "questions": [
+          {
+            "q": "Ich habe den Kunde angerufen.",
+            "a": "den Kunden",
+            "explanation": "n-Dekl.: Akkusativ -> -en"
+          },
+          {
+            "q": "Das ist ein bekannte von mir.",
+            "a": "ein Bekannter",
+            "explanation": "maskulin, Nominativ -> -er"
+          },
+          {
+            "q": "Der Praktikanten beginnt morgen.",
+            "a": "Der Praktikant",
+            "explanation": "Nominativ -> ohne -en"
+          },
+          {
+            "q": "Wir haben nichts besonderes gemacht.",
+            "a": "nichts Besonderes",
+            "explanation": "nach nichts -> Grossschreibung, -es"
+          },
+          {
+            "q": "Ich kenne den Herren seit langem. (Singular!)",
+            "a": "den Herrn",
+            "explanation": "Singular Akk. -> -n, nicht -en"
+          },
+          {
+            "q": "Die Deutsche in meinem Kurs lernt schnell. (Maskulin gemeint)",
+            "a": "Der Deutsche",
+            "explanation": "maskulin -> Der Deutsche"
+          },
+          {
+            "q": "Er hat dem Junge geholfen.",
+            "a": "dem Jungen",
+            "explanation": "n-Dekl.: Dativ -> -en"
+          },
+          {
+            "q": "Ein Verwandte hat mich besucht. (Maskulin gemeint)",
+            "a": "Ein Verwandter",
+            "explanation": "maskulin, Nominativ -> -er"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 5: Gemischte Ubung (Karisik Alistirma)",
+        "instructions": "Her cumledeki boslugu uygun formda doldurun. Adjektive als Nomen ve n-Deklination sorulari karisiktir.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Die __________ (erwachsen) mussen unterschreiben.",
+            "a": "Erwachsenen"
+          },
+          {
+            "q": "Ich habe dem __________ (Polizist) alles erklart.",
+            "a": "Polizisten"
+          },
+          {
+            "q": "Gibt es etwas __________ (wichtig) zu besprechen?",
+            "a": "Wichtiges"
+          },
+          {
+            "q": "Der Name des __________ (Patient) steht auf dem Formular.",
+            "a": "Patienten"
+          },
+          {
+            "q": "Ein __________ (fremd) hat mich nach dem Weg gefragt.",
+            "a": "Fremder"
+          },
+          {
+            "q": "Bitte sagen Sie es dem __________ (Herr) am Empfang.",
+            "a": "Herrn"
+          },
+          {
+            "q": "Das __________ (richtig) ware, ehrlich zu sein.",
+            "a": "Richtige"
+          },
+          {
+            "q": "Die __________ (jugendlich) spielen im Park Fussball.",
+            "a": "Jugendlichen"
+          },
+          {
+            "q": "Wir warten auf den __________ (Lieferant).",
+            "a": "Lieferanten"
+          },
+          {
+            "q": "Mein __________ (verwandt) arbeitet auch bei Daimler Truck.",
+            "a": "Verwandter"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 6: Welcher Artikel? (Hangi Artikel?)",
+        "instructions": "Bosluga dogru Artikel'i (der/die/das/den/dem/ein/eine/einen/einem) yazin.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "__________ Angestellte (m.) hat gekundigt.",
+            "a": "Der"
+          },
+          {
+            "q": "Ich kenne __________ Verwandte (f.) von dir.",
+            "a": "die|eine"
+          },
+          {
+            "q": "__________ Beste kommt zum Schluss.",
+            "a": "Das"
+          },
+          {
+            "q": "Wir brauchen __________ Experten fur das Projekt.",
+            "a": "einen"
+          },
+          {
+            "q": "Er ist __________ Bekannter von meinem Nachbarn.",
+            "a": "ein"
+          },
+          {
+            "q": "__________ Jugendlichen sitzen im Cafe.",
+            "a": "Die"
+          },
+          {
+            "q": "Ich helfe __________ Studenten bei der Hausarbeit.",
+            "a": "dem|einem"
+          },
+          {
+            "q": "__________ Neue in der Abteilung heisst Markus.",
+            "a": "Der"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 7: Satze bilden (Cumle Kurma)",
+        "instructions": "Verilen kelimelerle dogru bir cumle kurun. Sifati/ismi dogru formda cekin.",
+        "type": "sentence_building",
+        "questions": [
+          {
+            "q": "gestern / ich / treffen / ein Bekannter (m.)",
+            "a": "Gestern habe ich einen Bekannten getroffen."
+          },
+          {
+            "q": "der Kunde / wir / schreiben / eine E-Mail",
+            "a": "Wir schreiben dem Kunden eine E-Mail."
+          },
+          {
+            "q": "etwas Schones / ich / schenken / meine Frau",
+            "a": "Ich schenke meiner Frau etwas Schones."
+          },
+          {
+            "q": "der Nachbar / helfen / ich / beim Umzug",
+            "a": "Der Nachbar hat mir beim Umzug geholfen."
+          },
+          {
+            "q": "nichts Neues / es gibt / bei der Arbeit",
+            "a": "Es gibt nichts Neues bei der Arbeit."
+          },
+          {
+            "q": "der Praktikant / vorstellen / der Chef",
+            "a": "Der Chef hat den Praktikanten vorgestellt."
+          }
+        ]
+      },
+      {
+        "title": "Ubung 8: Luckentext (Metin Tamamlama)",
+        "instructions": "Asagidaki metindeki bosluklari uygun formlarla doldurun.",
+        "type": "fill_blank",
+        "context": "Gestern hatte ich einen langen Tag bei Daimler Truck. Zuerst habe ich mit einem __________ (1: Kollege) uber das neue Projekt gesprochen. Dann kam ein __________ (2: fremd) Besucher ins Buro - ein __________ (3: Bekannter, m.) von unserem Chef. In der Mittagspause habe ich nichts __________ (4: besonders) gegessen, nur einen Salat. Am Nachmittag hat der __________ (5: Praktikant) eine Prasentation gehalten. Ich muss sagen: Das __________ (6: gut) an meinem Job ist das Team. Nach der Arbeit habe ich den __________ (7: Nachbar) getroffen und wir haben etwas __________ (8: interessant) besprochen: Er hat einen neuen __________ (9: Verwandter, m.) in Stuttgart. Am Abend habe ich meiner Frau erzahlt: Es ist viel __________ (10: schon) passiert heute!",
+        "questions": [
+          {
+            "q": "(1: Kollege)",
+            "a": "Kollegen"
+          },
+          {
+            "q": "(2: fremd)",
+            "a": "fremder"
+          },
+          {
+            "q": "(3: Bekannter, m.)",
+            "a": "Bekannter"
+          },
+          {
+            "q": "(4: besonders)",
+            "a": "Besonderes"
+          },
+          {
+            "q": "(5: Praktikant)",
+            "a": "Praktikant"
+          },
+          {
+            "q": "(6: gut)",
+            "a": "Beste"
+          },
+          {
+            "q": "(7: Nachbar)",
+            "a": "Nachbarn"
+          },
+          {
+            "q": "(8: interessant)",
+            "a": "Interessantes"
+          },
+          {
+            "q": "(9: Verwandter, m.)",
+            "a": "Verwandten"
+          },
+          {
+            "q": "(10: schon)",
+            "a": "Schones"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 9: Richtig oder Falsch? (Dogru mu Yanlis mi?)",
+        "instructions": "Cumle gramer acisindan dogruysa R, yanlissa F yazin. Yanlissa dogrusunu belirtin.",
+        "type": "true_false_grammar",
+        "questions": [
+          {
+            "q": "Der Jungen spielt im Garten.",
+            "a": "F",
+            "correction": "Der Junge (n-Dekl.: Nominativ ohne -n)"
+          },
+          {
+            "q": "Ich habe etwas Wichtiges vergessen.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Wir helfen dem Studenten gern.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Das ist ein Bekannter von mir.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Sie hat den Herren angerufen. (Singular)",
+            "a": "F",
+            "correction": "den Herrn (Singular -> -n)"
+          },
+          {
+            "q": "Nichts neues ist passiert.",
+            "a": "F",
+            "correction": "Nichts Neues (Grossschreibung!)"
+          },
+          {
+            "q": "Der Polizist hat den Mensch kontrolliert.",
+            "a": "F",
+            "correction": "den Menschen (n-Dekl.: Akk. -> -en)"
+          },
+          {
+            "q": "Die Verwandten kommen morgen zu Besuch.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Ich brauche einen neuen Kollege.",
+            "a": "F",
+            "correction": "einen neuen Kollegen (n-Dekl.: Akk. -> -en)"
+          },
+          {
+            "q": "Das Schonste am Urlaub war das Wetter.",
+            "a": "R",
+            "correction": ""
+          }
+        ]
+      }
+    ]
+  },
+  "wortschatz": {
+    "vocab_lists": [
+      {
+        "title": "Charaktereigenschaften (Karakter Sifatlari)",
+        "items": [
+          {
+            "de": "ehrlich",
+            "tr": "durust",
+            "example": "Mein Kollege ist sehr ehrlich."
+          },
+          {
+            "de": "neugierig",
+            "tr": "merakli",
+            "example": "Kinder sind immer neugierig."
+          },
+          {
+            "de": "zuverlassig",
+            "tr": "guvenilir",
+            "example": "Ein zuverlassiger Mitarbeiter ist Gold wert."
+          },
+          {
+            "de": "geduldig",
+            "tr": "sabirli",
+            "example": "Eltern mussen geduldig sein."
+          },
+          {
+            "de": "grosszugig",
+            "tr": "comert",
+            "example": "Mein Nachbar ist sehr grosszugig."
+          },
+          {
+            "de": "bescheiden",
+            "tr": "mutevazi, alcakgonullu",
+            "example": "Trotz seines Erfolgs bleibt er bescheiden."
+          },
+          {
+            "de": "selbstbewusst",
+            "tr": "ozguvenli",
+            "example": "Sie ist eine selbstbewusste Frau."
+          },
+          {
+            "de": "sensibel",
+            "tr": "hassas, duyarli",
+            "example": "Er reagiert sehr sensibel auf Kritik."
+          },
+          {
+            "de": "stur",
+            "tr": "inatci",
+            "example": "Mein Chef ist manchmal ziemlich stur."
+          },
+          {
+            "de": "eifersuchtig",
+            "tr": "kiskanc",
+            "example": "Er wird schnell eifersuchtig."
+          },
+          {
+            "de": "launisch",
+            "tr": "kaprisli, huysuz",
+            "example": "Heute ist sie sehr launisch."
+          },
+          {
+            "de": "ehrgeizig",
+            "tr": "hirsli, tutkulu",
+            "example": "Er ist ehrgeizig und arbeitet viel."
+          },
+          {
+            "de": "zuruckhaltend",
+            "tr": "cekingen, mesafeli",
+            "example": "Am Anfang war er sehr zuruckhaltend."
+          },
+          {
+            "de": "kontaktfreudig",
+            "tr": "sosyal, girgin",
+            "example": "Sie ist kontaktfreudig und hat viele Freunde."
+          },
+          {
+            "de": "humorvoll",
+            "tr": "espritli",
+            "example": "Mein Vorgesetzter ist sehr humorvoll."
+          },
+          {
+            "de": "verstandnisvoll",
+            "tr": "anlayisli",
+            "example": "Meine Frau ist immer verstandnisvoll."
+          },
+          {
+            "de": "ordentlich",
+            "tr": "duzenli, tertipli",
+            "example": "Er halt sein Buro immer ordentlich."
+          },
+          {
+            "de": "chaotisch",
+            "tr": "daginik, kaotik",
+            "example": "Mein Schreibtisch ist total chaotisch."
+          },
+          {
+            "de": "tolerant",
+            "tr": "hosgorulu",
+            "example": "In Stuttgart leben tolerante Menschen."
+          },
+          {
+            "de": "engstirnig",
+            "tr": "dar goruslu",
+            "example": "Er denkt leider sehr engstirnig."
+          }
+        ]
+      },
+      {
+        "title": "Nomen (Lektion 1 Isimleri)",
+        "items": [
+          {
+            "de": "die Eigenschaft, -en",
+            "tr": "ozellik",
+            "example": "Welche Eigenschaften hat dein Chef?"
+          },
+          {
+            "de": "der Charakter, -e",
+            "tr": "karakter",
+            "example": "Sein Charakter gefallt mir."
+          },
+          {
+            "de": "die Personlichkeit, -en",
+            "tr": "kisilik",
+            "example": "Sie hat eine starke Personlichkeit."
+          },
+          {
+            "de": "das Verhalten (Sg.)",
+            "tr": "davranis",
+            "example": "Sein Verhalten war sehr professionell."
+          },
+          {
+            "de": "die Stimmung, -en",
+            "tr": "ruh hali",
+            "example": "Die Stimmung im Team ist gut."
+          },
+          {
+            "de": "der Eindruck, -e",
+            "tr": "izlenim",
+            "example": "Der erste Eindruck war positiv."
+          },
+          {
+            "de": "die Beziehung, -en",
+            "tr": "iliski",
+            "example": "Eine gute Beziehung ist wichtig."
+          },
+          {
+            "de": "der/die Bekannte, -n",
+            "tr": "tanidik",
+            "example": "Ein Bekannter hat mir geholfen."
+          },
+          {
+            "de": "der/die Verwandte, -n",
+            "tr": "akraba",
+            "example": "Meine Verwandten leben in der Turkei."
+          },
+          {
+            "de": "der/die Vorgesetzte, -n",
+            "tr": "ust, amir",
+            "example": "Mein Vorgesetzter ist verstandnisvoll."
+          },
+          {
+            "de": "der/die Erwachsene, -n",
+            "tr": "yetiskin",
+            "example": "Die Erwachsenen sitzen im Wohnzimmer."
+          },
+          {
+            "de": "der/die Jugendliche, -n",
+            "tr": "genc",
+            "example": "Die Jugendlichen spielen Fussball."
+          },
+          {
+            "de": "das Vertrauen (Sg.)",
+            "tr": "guven",
+            "example": "Vertrauen ist die Basis fur alles."
+          },
+          {
+            "de": "der Humor (Sg.)",
+            "tr": "mizah",
+            "example": "Humor hilft im Alltag."
+          },
+          {
+            "de": "der Respekt (Sg.)",
+            "tr": "saygi",
+            "example": "Respekt ist in jeder Beziehung wichtig."
+          }
+        ]
+      },
+      {
+        "title": "Gegensatze (Zit Anlamli Sifatlar)",
+        "items": [
+          {
+            "de": "ehrlich / unehrlich",
+            "tr": "durust / durust olmayan",
+            "example": "Er ist ehrlich, sein Bruder ist leider unehrlich."
+          },
+          {
+            "de": "geduldig / ungeduldig",
+            "tr": "sabirli / sabirsiz",
+            "example": "Sei geduldig, nicht ungeduldig!"
+          },
+          {
+            "de": "tolerant / intolerant",
+            "tr": "hosgorulu / hosgorusuz",
+            "example": "Tolerante Menschen sind beliebter."
+          },
+          {
+            "de": "ordentlich / chaotisch",
+            "tr": "duzenli / daginik",
+            "example": "Sein Buro ist ordentlich, meins chaotisch."
+          },
+          {
+            "de": "selbstbewusst / schuchtern",
+            "tr": "ozguvenli / cekingen",
+            "example": "Sie ist selbstbewusst, er eher schuchtern."
+          },
+          {
+            "de": "kontaktfreudig / zuruckhaltend",
+            "tr": "sosyal / mesafeli",
+            "example": "Manche sind kontaktfreudig, andere zuruckhaltend."
+          },
+          {
+            "de": "grosszugig / geizig",
+            "tr": "comert / cimri",
+            "example": "Er ist grosszugig, nicht geizig."
+          },
+          {
+            "de": "humorvoll / humorlos",
+            "tr": "espritli / espriden yoksun",
+            "example": "Ein humorvoller Chef ist besser als ein humorloser."
+          },
+          {
+            "de": "bescheiden / arrogant",
+            "tr": "mutevazi / kibirli",
+            "example": "Bescheidene Menschen sind sympathischer als arrogante."
+          },
+          {
+            "de": "zuverlassig / unzuverlassig",
+            "tr": "guvenilir / guvenilmez",
+            "example": "Ein zuverlassiger Partner ist wichtig."
+          }
+        ]
+      }
+    ],
+    "phrase_lists": [
+      {
+        "title": "Verben und Ausdrucke (Fiiller ve Ifadeler)",
+        "items": [
+          {
+            "de": "sich verhalten - Er verhalt sich immer korrekt.",
+            "tr": "davranmak"
+          },
+          {
+            "de": "sich verstandigen - Wir konnen uns gut verstandigen.",
+            "tr": "anlasmak, iletisim kurmak"
+          },
+          {
+            "de": "vertrauen (+ Dat.) - Ich vertraue meinem Kollegen.",
+            "tr": "guvenmek"
+          },
+          {
+            "de": "sich argern (uber + Akk.) - Ich argere mich uber das Verhalten.",
+            "tr": "kizmak, sinirlenm."
+          },
+          {
+            "de": "sich freuen (uber/auf) - Ich freue mich auf das Wochenende.",
+            "tr": "sevinmek"
+          },
+          {
+            "de": "sich Sorgen machen (um) - Sie macht sich Sorgen um ihren Sohn.",
+            "tr": "endiselenmek"
+          },
+          {
+            "de": "enttauscht sein (von) - Ich bin enttauscht von der Entscheidung.",
+            "tr": "hayal kirikligina ugramak"
+          },
+          {
+            "de": "Eindruck machen (auf) - Er hat einen guten Eindruck gemacht.",
+            "tr": "etkilemek, izlenim birakmak"
+          },
+          {
+            "de": "Verstandnis haben (fur) - Mein Chef hat Verstandnis fur mich.",
+            "tr": "anlayis gostermek"
+          },
+          {
+            "de": "auf jdn. zahlen - Du kannst auf mich zahlen.",
+            "tr": "birine guvenmek"
+          }
+        ]
+      },
+      {
+        "title": "Jemanden vorstellen (Birini Tanitma)",
+        "items": [
+          {
+            "de": "Ich mochte euch ... vorstellen.",
+            "tr": "Size ...'i tanitmak istiyorum."
+          },
+          {
+            "de": "Er/Sie heisst ... und ist ... Jahre alt.",
+            "tr": "Adi ... ve ... yasinda."
+          },
+          {
+            "de": "Er/Sie arbeitet als ... bei ...",
+            "tr": "...'de ... olarak calisiyor."
+          },
+          {
+            "de": "Er/Sie kommt aus ... / wohnt in ...",
+            "tr": "...'den geliyor / ...'de oturuyor."
+          }
+        ]
+      },
+      {
+        "title": "Eigenschaften beschreiben (Ozellikleri Anlatma)",
+        "items": [
+          {
+            "de": "Er/Sie ist sehr/ziemlich/etwas ...",
+            "tr": "Cok / oldukca / biraz ..."
+          },
+          {
+            "de": "Was mir an ihm/ihr gefallt, ist ...",
+            "tr": "Onda hosuma giden sey ..."
+          },
+          {
+            "de": "Was mich stort, ist, dass ...",
+            "tr": "Beni rahatsiz eden sey ..."
+          },
+          {
+            "de": "Seine/Ihre beste Eigenschaft ist ...",
+            "tr": "En iyi ozelligi ..."
+          },
+          {
+            "de": "Manchmal kann er/sie aber auch ... sein.",
+            "tr": "Bazen ... de olabilir."
+          },
+          {
+            "de": "Das Beste/Schlimmste an ihm/ihr ist ...",
+            "tr": "Ondaki en iyi/kotu sey ..."
+          }
+        ]
+      },
+      {
+        "title": "Vergleichen und Bewerten (Karsilastirma ve Degerlendirme)",
+        "items": [
+          {
+            "de": "Im Vergleich zu ... ist er/sie ...",
+            "tr": "...'a kiyasla o ..."
+          },
+          {
+            "de": "Er/Sie ist ... -er als ...",
+            "tr": "...'dan daha ..."
+          },
+          {
+            "de": "Er/Sie ist (genau)so ... wie ...",
+            "tr": "... kadar ..."
+          },
+          {
+            "de": "Meiner Meinung nach ist er/sie ...",
+            "tr": "Bence o ..."
+          },
+          {
+            "de": "Insgesamt ist er/sie ein(e) ... Mensch.",
+            "tr": "Genel olarak ... bir insan."
+          }
+        ]
+      },
+      {
+        "title": "Gefuhle und Reaktionen (Duygular ve Tepkiler)",
+        "items": [
+          {
+            "de": "Ich bin beeindruckt von ...",
+            "tr": "...'dan etkilendim."
+          },
+          {
+            "de": "Ich bin enttauscht von ...",
+            "tr": "...'dan hayal kirikligina ugradim."
+          },
+          {
+            "de": "Er/Sie hat einen guten Eindruck auf mich gemacht.",
+            "tr": "Uzerimde iyi bir izlenim birakti."
+          },
+          {
+            "de": "Ich kann auf ihn/sie zahlen.",
+            "tr": "Ona guvenebilirim."
+          },
+          {
+            "de": "Ich vertraue ihm/ihr.",
+            "tr": "Ona guveniyorum."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Ubung 1: Zuordnung (Eslestirme)",
+        "instructions": "Sol sutundaki Almanca kelimeyi sag sutundaki Turkce karsiligiyla eslestirin.",
+        "type": "matching",
+        "questions": [
+          {
+            "q": "1. zuverlassig  2. bescheiden  3. neugierig  4. sensibel  5. stur  6. ehrgeizig  7. launisch  8. tolerant  9. kontaktfreudig  10. chaotisch",
+            "a": "1-d, 2-e, 3-a, 4-b, 5-c, 6-g, 7-h, 8-f, 9-j, 10-i",
+            "options": "a) merakli | b) hassas | c) inatci | d) guvenilir | e) mutevazi | f) hosgorulu | g) hirsli | h) kaprisli | i) daginik | j) sosyal, girgin"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 2: Gegenteile (Zit Anlamlilar)",
+        "instructions": "Her sifatin zit anlamlisini yazin.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "ehrlich != __________",
+            "a": "unehrlich"
+          },
+          {
+            "q": "geduldig != __________",
+            "a": "ungeduldig"
+          },
+          {
+            "q": "ordentlich != __________",
+            "a": "chaotisch"
+          },
+          {
+            "q": "selbstbewusst != __________",
+            "a": "schuchtern"
+          },
+          {
+            "q": "grosszugig != __________",
+            "a": "geizig"
+          },
+          {
+            "q": "kontaktfreudig != __________",
+            "a": "zuruckhaltend"
+          },
+          {
+            "q": "humorvoll != __________",
+            "a": "humorlos"
+          },
+          {
+            "q": "bescheiden != __________",
+            "a": "arrogant|eingebildet"
+          },
+          {
+            "q": "zuverlassig != __________",
+            "a": "unzuverlassig"
+          },
+          {
+            "q": "tolerant != __________",
+            "a": "intolerant"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 3: Luckentext (Bosluk Doldurma)",
+        "instructions": "Cumledeki bosluga uygun sifati yazin. Her kelime bir kez kullanilir.\nKelimeler: ehrlich, geduldig, neugierig, stur, launisch, selbstbewusst, humorvoll, sensibel, ehrgeizig, zuruckhaltend",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Kinder fragen immer viel - sie sind einfach __________.",
+            "a": "neugierig"
+          },
+          {
+            "q": "Mein Chef sagt immer die Wahrheit, er ist sehr __________.",
+            "a": "ehrlich"
+          },
+          {
+            "q": "Bitte schrei ihn nicht an, er ist sehr __________.",
+            "a": "sensibel"
+          },
+          {
+            "q": "Sie andert ihre Meinung nie. Sie ist ziemlich __________.",
+            "a": "stur"
+          },
+          {
+            "q": "Er spricht nicht viel bei Meetings, er ist eher __________.",
+            "a": "zuruckhaltend"
+          },
+          {
+            "q": "Heute ist sie gut gelaunt, morgen schlecht - sie ist sehr __________.",
+            "a": "launisch"
+          },
+          {
+            "q": "Er macht bei der Arbeit immer Witze. Er ist wirklich __________.",
+            "a": "humorvoll"
+          },
+          {
+            "q": "Sie prasentiert ihre Ideen ohne Angst. Sie ist sehr __________.",
+            "a": "selbstbewusst"
+          },
+          {
+            "q": "Der Lehrer erklart alles dreimal ohne Stress. Er ist sehr __________.",
+            "a": "geduldig"
+          },
+          {
+            "q": "Er will unbedingt Teamleiter werden. Er ist sehr __________.",
+            "a": "ehrgeizig"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 4: Ceviri (Turkce -> Almanca)",
+        "instructions": "Cumleleri Almancaya cevirin.",
+        "type": "translation",
+        "questions": [
+          {
+            "q": "O cok guvenilir bir calisan.",
+            "a": "Er/Sie ist ein(e) sehr zuverlassige(r) Mitarbeiter(in)."
+          },
+          {
+            "q": "Patronum bugun cok huysuz.",
+            "a": "Mein Chef ist heute sehr launisch."
+          },
+          {
+            "q": "Sabirli olmalisin.",
+            "a": "Du musst geduldig sein."
+          },
+          {
+            "q": "Komsum cok comert bir insan.",
+            "a": "Mein Nachbar ist ein sehr grosszugiger Mensch."
+          },
+          {
+            "q": "Meslektasima guveniyorum.",
+            "a": "Ich vertraue meinem Kollegen."
+          },
+          {
+            "q": "Bu davranişindan dolayi sinirleniyorum.",
+            "a": "Ich argere mich uber dieses Verhalten."
+          },
+          {
+            "q": "Ilk izlenim cok olumluydu.",
+            "a": "Der erste Eindruck war sehr positiv."
+          },
+          {
+            "q": "Bana guvenebilirsin.",
+            "a": "Du kannst auf mich zahlen."
+          }
+        ]
+      },
+      {
+        "title": "Ubung 5: Personen beschreiben (Kisileri Tanimlayin)",
+        "instructions": "Tanimi okuyun ve hangi sifat oldugunu yazin.",
+        "type": "definition",
+        "questions": [
+          {
+            "q": "Diese Person sagt immer die Wahrheit.",
+            "a": "ehrlich"
+          },
+          {
+            "q": "Diese Person teilt gern mit anderen.",
+            "a": "grosszugig"
+          },
+          {
+            "q": "Diese Person andert ihre Meinung nie.",
+            "a": "stur"
+          },
+          {
+            "q": "Diese Person hat viele Freunde und spricht gern.",
+            "a": "kontaktfreudig"
+          },
+          {
+            "q": "Diese Person bleibt ruhig, auch wenn es lange dauert.",
+            "a": "geduldig"
+          },
+          {
+            "q": "Diese Person will immer alles wissen.",
+            "a": "neugierig"
+          },
+          {
+            "q": "Diese Person macht immer Witze.",
+            "a": "humorvoll"
+          },
+          {
+            "q": "Diese Person ist mal gut, mal schlecht gelaunt.",
+            "a": "launisch"
+          },
+          {
+            "q": "Diese Person gibt nicht an und bleibt bescheiden.",
+            "a": "bescheiden"
+          },
+          {
+            "q": "Diese Person hat keine Angst, ihre Meinung zu sagen.",
+            "a": "selbstbewusst"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 6: Was passt nicht? (Hangisi Uymuyor?)",
+        "instructions": "Her satirdaki dort kelimeden gruba uymayani bulun.",
+        "type": "odd_one_out",
+        "questions": [
+          {
+            "q": "ehrlich - zuverlassig - stur - geduldig",
+            "a": "stur",
+            "explanation": "olumsuz; digerleri olumlu"
+          },
+          {
+            "q": "launisch - chaotisch - humorvoll - eifersuchtig",
+            "a": "humorvoll",
+            "explanation": "olumlu; digerleri olumsuz"
+          },
+          {
+            "q": "die Eigenschaft - der Charakter - der Humor - der Eindruck",
+            "a": "der Humor",
+            "explanation": "soyut; digerleri kisisel ozellik/durum"
+          },
+          {
+            "q": "vertrauen - sich argern - sich Sorgen machen - enttauscht sein",
+            "a": "vertrauen",
+            "explanation": "olumlu; digerleri olumsuz duygular"
+          },
+          {
+            "q": "kontaktfreudig - tolerant - grosszugig - engstirnig",
+            "a": "engstirnig",
+            "explanation": "olumsuz; digerleri olumlu"
+          },
+          {
+            "q": "die Beziehung - das Verhalten - die Stimmung - der Praktikant",
+            "a": "der Praktikant",
+            "explanation": "kisi; digerleri soyut kavramlar"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 7: Verben mit Prapositionen (Edatli Fiiller)",
+        "instructions": "Dogru edati (auf, uber, um, von, fur) yazin.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Ich argere mich __________ das Verhalten meines Kollegen.",
+            "a": "uber"
+          },
+          {
+            "q": "Sie freut sich __________ das Wochenende.",
+            "a": "auf"
+          },
+          {
+            "q": "Er macht sich Sorgen __________ seine Kinder.",
+            "a": "um"
+          },
+          {
+            "q": "Ich bin enttauscht __________ der Entscheidung.",
+            "a": "von"
+          },
+          {
+            "q": "Du kannst __________ mich zahlen.",
+            "a": "auf"
+          },
+          {
+            "q": "Mein Chef hat Verstandnis __________ meine Situation.",
+            "a": "fur"
+          },
+          {
+            "q": "Ich freue mich __________ das Geschenk. (erhalten)",
+            "a": "uber"
+          },
+          {
+            "q": "Sie hat __________ alle einen guten Eindruck gemacht.",
+            "a": "auf"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 8: Buchstabensalat (Harf Karisikligi)",
+        "instructions": "Harfleri dogru siraya koyarak karakter sifatini bulun. Turkce ipucu verilmistir.",
+        "type": "word_scramble",
+        "questions": [
+          {
+            "q": "CELHIRH (durust)",
+            "a": "ehrlich"
+          },
+          {
+            "q": "DIGGLUED (sabirli)",
+            "a": "geduldig"
+          },
+          {
+            "q": "RSTU (inatci)",
+            "a": "stur"
+          },
+          {
+            "q": "BLISENES (hassas)",
+            "a": "sensibel"
+          },
+          {
+            "q": "GIZIGHERE (hirsli)",
+            "a": "ehrgeizig"
+          },
+          {
+            "q": "ROLHULVOM (espritli)",
+            "a": "humorvoll"
+          },
+          {
+            "q": "SEIBEHCNDE (mutevazi)",
+            "a": "bescheiden"
+          },
+          {
+            "q": "GIIRUENE (merakli)",
+            "a": "neugierig"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 9: Textproduktion (Yazili Anlatim)",
+        "instructions": "Asagidaki sorulari en az 2-3 cumleyle Almanca cevaplayin. Lektion 1 kelimelerini kullanin.",
+        "type": "free_writing",
+        "questions": [
+          {
+            "q": "Beschreiben Sie den Charakter Ihres besten Freundes / Ihrer besten Freundin.",
+            "sample_answer": "Mein bester Freund heisst Emre. Er ist sehr zuverlassig und ehrlich. Was mir an ihm besonders gefallt, ist, dass er immer geduldig zuhort. Manchmal ist er etwas stur, aber insgesamt ist er ein toller Mensch."
+          },
+          {
+            "q": "Welche Eigenschaften sind fur einen guten Product Manager wichtig? Warum?",
+            "sample_answer": "Ein guter Product Manager muss geduldig und kontaktfreudig sein. Er muss auch selbstbewusst seine Ideen prasentieren konnen. Zuverlassigkeit ist wichtig, weil das Team sich auf ihn verlassen muss."
+          },
+          {
+            "q": "Beschreiben Sie eine Person in Ihrem Team. Welche Eigenschaften hat sie?",
+            "sample_answer": "In meinem Team gibt es eine Kollegin namens Anna. Sie ist sehr neugierig und ehrgeizig. Was mich manchmal stort, ist, dass sie etwas chaotisch ist, aber sie macht das mit Humor und Freundlichkeit wett."
+          }
+        ]
+      },
+      {
+        "title": "Ubung 10: Welches Wort passt? (Hangi Kelime Uyar?)",
+        "instructions": "Her cumlede dogru kelimeyi secin.",
+        "type": "multiple_choice",
+        "questions": [
+          {
+            "q": "Er hat eine starke __________.",
+            "options": "a) Stimmung | b) Personlichkeit | c) Beziehung",
+            "a": "b"
+          },
+          {
+            "q": "Mein erster __________ von Stuttgart war sehr positiv.",
+            "options": "a) Charakter | b) Respekt | c) Eindruck",
+            "a": "c"
+          },
+          {
+            "q": "Das __________ im Team muss besser werden.",
+            "options": "a) Vertrauen | b) Humor | c) Verhalten",
+            "a": "a"
+          },
+          {
+            "q": "Sie __________ sich immer uber den Verkehr.",
+            "options": "a) freut | b) argert | c) verhalt",
+            "a": "b"
+          },
+          {
+            "q": "In einer guten __________ braucht man Vertrauen.",
+            "options": "a) Eigenschaft | b) Stimmung | c) Beziehung",
+            "a": "c"
+          },
+          {
+            "q": "Er hat einen guten __________ auf den Kunden gemacht.",
+            "options": "a) Respekt | b) Eindruck | c) Charakter",
+            "a": "b"
+          },
+          {
+            "q": "Meine Kollegin __________ sich immer professionell.",
+            "options": "a) verhalt | b) verstandigt | c) vertraut",
+            "a": "a"
+          },
+          {
+            "q": "Ich habe grossen __________ vor meinem Vorgesetzten.",
+            "options": "a) Humor | b) Vertrauen | c) Respekt",
+            "a": "c"
+          }
+        ]
+      }
+    ]
+  },
+  "lesen": {
+    "texts": [
+      {
+        "title": "Text 1: Forumsbeitrag - Was macht einen guten Kollegen aus?",
+        "pre_question": "Okuma Oncesi: Bir is arkadasinda en onemli ozellik nedir?",
+        "content": "Betreff: Was macht einen guten Kollegen aus?\nNinaM_Stuttgart | 14. Mai, 09:23\n\nHallo zusammen, ich arbeite seit drei Jahren in einem grossen Unternehmen in Stuttgart und habe in dieser Zeit viele verschiedene Kollegen kennengelernt. Manche waren sehr nett, andere eher schwierig. Deshalb mochte ich euch fragen: Was macht fur euch einen guten Kollegen aus?\n\nFur mich ist das Wichtigste, dass ein Kollege zuverlassig ist. Wenn jemand sagt, dass er etwas bis Freitag erledigt, dann muss ich mich darauf verlassen konnen. Ich hatte einmal einen Kollegen, der war zwar sehr kontaktfreudig und humorvoll, aber leider total unzuverlassig. Er hat standig Termine vergessen und Deadlines nicht eingehalten. Das war sehr frustrierend.\n\nMein jetziger Kollege Markus ist das genaue Gegenteil. Er ist vielleicht etwas zuruckhaltend und spricht nicht so viel, aber er ist unglaublich ehrlich und geduldig. Wenn ich einen Fehler mache, dann sagt er mir das direkt, aber immer auf eine verstandnisvolle Art. Er argert sich nie uber Kleinigkeiten und hat immer Verstandnis fur meine Situation. Auf ihn kann ich wirklich zahlen.\n\nIch glaube, die perfekte Mischung ist: Zuverlassigkeit, Ehrlichkeit und ein bisschen Humor. Was denkt ihr?",
+        "vocabulary": [
+          {
+            "de": "ausmachen",
+            "tr": "olusturmak, belirlemek"
+          },
+          {
+            "de": "sich verlassen auf (+Akk.)",
+            "tr": "guvenmek, bel baglamak"
+          },
+          {
+            "de": "erledigen",
+            "tr": "halletmek, tamamlamak"
+          },
+          {
+            "de": "standig",
+            "tr": "surekli"
+          },
+          {
+            "de": "einhalten",
+            "tr": "uymak (sureye)"
+          },
+          {
+            "de": "das Gegenteil",
+            "tr": "zit, karsit"
+          },
+          {
+            "de": "die Kleinigkeit, -en",
+            "tr": "kucuk sey, onemsiz sey"
+          },
+          {
+            "de": "die Mischung, -en",
+            "tr": "karisim, bilesim"
+          }
+        ]
+      },
+      {
+        "title": "Text 2: Geschaftliche E-Mail - Feedback zur Probezeit",
+        "pre_question": "Okuma Oncesi: Is yerinde yeni bir calisanin deneme suresi hakkinda geri bildirim vermeniz gerekse, nelere dikkat edersiniz?",
+        "content": "Von: petra.wagner@daimler-example.de\nAn: team-leads@daimler-example.de\nBetreff: Feedback zur Probezeit - Lukas Meier\nDatum: 12. Mai 2026\n\nLiebe Kolleginnen und Kollegen,\n\nwie besprochen mochte ich euch mein Feedback zu Lukas Meier geben. Er ist seit sechs Monaten als Praktikant in unserer Abteilung und seine Probezeit endet nachste Woche.\n\nPositive Eigenschaften:\nLukas ist ein sehr ehrgeiziger junger Mann. Er kommt immer punktlich, oft sogar fruher als die anderen. Er ist ausserdem sehr neugierig und stellt viele Fragen, was ich personlich sehr schatze. In der Zusammenarbeit mit dem Team zeigt er sich geduldig und tolerant. Auch in stressigen Situationen bleibt er ruhig und ordentlich. Seine Arbeit erledigt er immer sorgfaltig und zuverlassig.\n\nVerbesserungsmoglichkeiten:\nAllerdings ist Lukas manchmal etwas zu zuruckhaltend in Meetings. Er hat oft gute Ideen, aber er traut sich nicht, sie vor der Gruppe zu prasentieren. Ich wurde mir wunschen, dass er etwas selbstbewusster wird. Ausserdem fallt es ihm schwer, Kritik anzunehmen - er reagiert manchmal etwas zu sensibel darauf.\n\nEmpfehlung:\nTrotz dieser kleinen Punkte bin ich der Meinung, dass Lukas eine Bereicherung fur unser Team ist. Ich empfehle, seinen Vertrag zu verlangern. Mit etwas mehr Erfahrung wird er sicher selbstbewusster werden.\n\nMit freundlichen Grussen\nPetra Wagner\nTeamleiterin - Produktentwicklung",
+        "vocabulary": [
+          {
+            "de": "die Probezeit",
+            "tr": "deneme suresi"
+          },
+          {
+            "de": "die Abteilung, -en",
+            "tr": "bolum, departman"
+          },
+          {
+            "de": "schatzen",
+            "tr": "takdir etmek, deger vermek"
+          },
+          {
+            "de": "sorgfaltig",
+            "tr": "ozenli, dikkatli"
+          },
+          {
+            "de": "die Verbesserungsmoglichkeit, -en",
+            "tr": "gelistirme alani"
+          },
+          {
+            "de": "sich trauen",
+            "tr": "cesaret etmek"
+          },
+          {
+            "de": "die Kritik, -en",
+            "tr": "elestiri"
+          },
+          {
+            "de": "annehmen",
+            "tr": "kabul etmek"
+          },
+          {
+            "de": "die Bereicherung",
+            "tr": "zenginlik, katki"
+          },
+          {
+            "de": "verlangern",
+            "tr": "uzatmak"
+          }
+        ]
+      },
+      {
+        "title": "Text 3: Zeitschriftenartikel - Welche Eigenschaften schatzen die Deutschen am meisten?",
+        "pre_question": "Okuma Oncesi: Turkiye ve Almanya'da iyi bir arkadas veya meslektas icin onemli gorulen ozellikler sizce farkli mi?",
+        "content": "Welche Eigenschaften schatzen die Deutschen am meisten?\n\nEine aktuelle Umfrage zeigt: Die wichtigsten Charaktereigenschaften unterscheiden sich je nach Kultur und Generation. Das Meinungsforschungsinstitut Charakter-Kompass hat im Fruhjahr 2026 eine Umfrage mit 2.500 Erwachsenen in Deutschland durchgefuhrt. Die Teilnehmer sollten die funf wichtigsten Eigenschaften fur einen guten Freund, einen guten Kollegen und einen guten Nachbarn nennen.\n\nErgebnisse - Freundschaft:\nBei der Frage nach dem idealen Freund nannten 87% der Befragten Ehrlichkeit als wichtigste Eigenschaft. Danach folgten Zuverlassigkeit (82%), Humor (74%) und Verstandnis (68%). Interessanterweise war Grosszugigkeit nur fur 23% der Teilnehmer wichtig.\n\nErgebnisse - Arbeit:\nIm beruflichen Umfeld sieht das Bild anders aus. Hier steht Zuverlassigkeit mit 91% auf Platz eins. Es folgen Ehrlichkeit (78%), Geduld (65%) und Toleranz (58%). Humor landete mit 41% nur auf Platz funf.\n\nErgebnisse - Nachbarschaft:\nBei Nachbarn wunschen sich die meisten Menschen vor allem Toleranz (79%) und Zuruckhaltung (72%). An dritter Stelle steht Ordentlichkeit (66%). Kontaktfreudigkeit war uberraschenderweise nur fur 34% wichtig.\n\nGenerationsunterschiede:\nJungere Menschen (18-29) legen mehr Wert auf Toleranz und Offenheit, wahrend altere Menschen (uber 60) Zuverlassigkeit und Ehrlichkeit starker betonen. Eine Eigenschaft verbindet aber alle Generationen: Vertrauen ist die Basis jeder guten Beziehung.",
+        "vocabulary": [
+          {
+            "de": "die Umfrage, -n",
+            "tr": "anket"
+          },
+          {
+            "de": "das Meinungsforschungsinstitut",
+            "tr": "kamuoyu arastirma kurulusu"
+          },
+          {
+            "de": "durchfuhren",
+            "tr": "gerceklestirmek, yurutmek"
+          },
+          {
+            "de": "der/die Befragte, -n",
+            "tr": "ankete katilan kisi"
+          },
+          {
+            "de": "interessanterweise",
+            "tr": "ilginc bir sekilde"
+          },
+          {
+            "de": "das berufliche Umfeld",
+            "tr": "is ortami"
+          },
+          {
+            "de": "aufdringlich",
+            "tr": "girici, rahatsiz edici"
+          },
+          {
+            "de": "Wert legen auf (+Akk.)",
+            "tr": "onem vermek"
+          },
+          {
+            "de": "betonen",
+            "tr": "vurgulamak"
+          },
+          {
+            "de": "verbinden",
+            "tr": "birlestirmek"
+          }
+        ]
+      },
+      {
+        "title": "Text 4: Chat-Nachrichten - Neuer Teamleiter",
+        "pre_question": "Okuma Oncesi: Yeni bir takim lideriyle ilk gununuz nasil gecti?",
+        "content": "Elif: Hey, wie war der erste Tag mit dem neuen Teamleiter?\n\nIsa: Hmm, gemischt. Er ist auf jeden Fall sehr ehrlich. Das finde ich gut.\n\nElif: Und? Ist er nett?\n\nIsa: Nett schon, aber ziemlich stur. In der Besprechung wollte niemand seine Meinung andern, und er auch nicht. Er hat null Kompromissbereitschaft gezeigt.\n\nElif: Oh nein. Und wie ist er sonst so?\n\nIsa: Eigentlich ganz ordentlich und zuverlassig. Er hat schon am ersten Tag alles gut organisiert. Aber er ist gar nicht humorvoll. Kein einziger Witz den ganzen Tag!\n\nElif: Das klingt anstrengend. Vielleicht ist er einfach nervos am Anfang?\n\nIsa: Kann sein. Ich gebe ihm eine Chance. Vielleicht wird er noch lockerer.\n\nElif: Genau, geduldig bleiben! Du bist ja selbst auch nicht immer einfach.\n\nIsa: Hey! Das stimmt uberhaupt nicht!",
+        "vocabulary": [
+          {
+            "de": "gemischt",
+            "tr": "karisik"
+          },
+          {
+            "de": "die Kompromissbereitschaft",
+            "tr": "uzlasma hazirligi"
+          },
+          {
+            "de": "anstrengend",
+            "tr": "yorucu"
+          },
+          {
+            "de": "locker",
+            "tr": "rahat"
+          },
+          {
+            "de": "die Chance, -n",
+            "tr": "sans"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Text 1 - A) Richtig oder Falsch?",
+        "instructions": "Cumle metne gore dogruysa R, yanlissa F yazin.",
+        "type": "true_false",
+        "questions": [
+          {
+            "q": "Nina arbeitet seit funf Jahren in Stuttgart.",
+            "a": "F",
+            "correction": "Sie arbeitet seit drei Jahren."
+          },
+          {
+            "q": "Fur Nina ist Zuverlassigkeit die wichtigste Eigenschaft.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Ninas fruherer Kollege war zuverlassig, aber langweilig.",
+            "a": "F",
+            "correction": "Er war kontaktfreudig und humorvoll, aber unzuverlassig."
+          },
+          {
+            "q": "Markus spricht viel und ist sehr kontaktfreudig.",
+            "a": "F",
+            "correction": "Markus ist zuruckhaltend und spricht nicht viel."
+          },
+          {
+            "q": "Markus sagt Nina ehrlich, wenn sie einen Fehler macht.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Markus argert sich oft uber kleine Probleme.",
+            "a": "F",
+            "correction": "Er argert sich nie uber Kleinigkeiten."
+          }
+        ]
+      },
+      {
+        "title": "Text 1 - B) Fragen zum Text",
+        "instructions": "Sorulari tam cumleyle Almanca cevaplayin.",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Was ist fur Nina die wichtigste Eigenschaft bei einem Kollegen?",
+            "sample_answer": "Zuverlassigkeit ist fur Nina die wichtigste Eigenschaft."
+          },
+          {
+            "q": "Welche positiven Eigenschaften hatte der fruhere Kollege?",
+            "sample_answer": "Der fruhere Kollege war kontaktfreudig und humorvoll."
+          },
+          {
+            "q": "Was war das Problem mit dem fruheren Kollegen?",
+            "sample_answer": "Er war unzuverlassig - er hat Termine vergessen und Deadlines nicht eingehalten."
+          },
+          {
+            "q": "Wie reagiert Markus, wenn Nina einen Fehler macht?",
+            "sample_answer": "Er sagt es ihr direkt, aber auf eine verstandnisvolle Art."
+          },
+          {
+            "q": "Welche drei Eigenschaften bilden fur Nina die perfekte Mischung?",
+            "sample_answer": "Zuverlassigkeit, Ehrlichkeit und Humor."
+          }
+        ]
+      },
+      {
+        "title": "Text 1 - C) Wortschatz aus dem Text",
+        "instructions": "Metinde gecen asagidaki ifadelerin Turkce karsiliklarini yazin.",
+        "type": "translation",
+        "questions": [
+          {
+            "q": "sich auf jemanden verlassen konnen",
+            "a": "birine guvenebilmek / bel baglayabilmek"
+          },
+          {
+            "q": "Deadlines einhalten",
+            "a": "son teslim tarihlerine uymak"
+          },
+          {
+            "q": "das genaue Gegenteil",
+            "a": "tam ziddi / karsiti"
+          },
+          {
+            "q": "auf eine verstandnisvolle Art",
+            "a": "anlayisli bir sekilde"
+          },
+          {
+            "q": "auf jemanden zahlen konnen",
+            "a": "birine guvenebilmek"
+          }
+        ]
+      },
+      {
+        "title": "Text 2 - A) Richtig oder Falsch?",
+        "instructions": "Cumle metne gore dogruysa R, yanlissa F yazin.",
+        "type": "true_false",
+        "questions": [
+          {
+            "q": "Lukas arbeitet seit sechs Monaten als Teamleiter.",
+            "a": "F",
+            "correction": "Er arbeitet als Praktikant."
+          },
+          {
+            "q": "Lukas kommt oft zu spat zur Arbeit.",
+            "a": "F",
+            "correction": "Er kommt immer punktlich, oft sogar fruher."
+          },
+          {
+            "q": "Petra findet es gut, dass Lukas viele Fragen stellt.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "In stressigen Situationen wird Lukas schnell nervos.",
+            "a": "F",
+            "correction": "In stressigen Situationen bleibt er ruhig."
+          },
+          {
+            "q": "Lukas prasentiert seine Ideen gern in Meetings.",
+            "a": "F",
+            "correction": "Er traut sich nicht, sie vor der Gruppe zu prasentieren."
+          },
+          {
+            "q": "Petra empfiehlt, den Vertrag von Lukas zu verlangern.",
+            "a": "R",
+            "correction": ""
+          }
+        ]
+      },
+      {
+        "title": "Text 2 - B) Eigenschaften zuordnen",
+        "instructions": "Metne gore Lukas'in ozelliklerini ikiye ayirin: Positiv ve Verbesserung.",
+        "type": "matching",
+        "questions": [
+          {
+            "q": "Positive Eigenschaften (en az 5 tane yazin)",
+            "a": "ehrgeizig, punktlich, neugierig, geduldig, tolerant, ruhig, ordentlich, sorgfaltig, zuverlassig"
+          },
+          {
+            "q": "Verbesserungsmoglichkeiten (en az 2 tane yazin)",
+            "a": "zuruckhaltend (in Meetings), nicht selbstbewusst genug, zu sensibel bei Kritik"
+          }
+        ]
+      },
+      {
+        "title": "Text 2 - C) Fragen zum Text",
+        "instructions": "Almanca tam cumleyle cevaplayin.",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Seit wann arbeitet Lukas in der Abteilung?",
+            "sample_answer": "Er arbeitet seit sechs Monaten in der Abteilung."
+          },
+          {
+            "q": "Wie verhalt sich Lukas in stressigen Situationen?",
+            "sample_answer": "Er bleibt ruhig und ordentlich."
+          },
+          {
+            "q": "Warum prasentiert Lukas seine Ideen nicht gern?",
+            "sample_answer": "Weil er sich nicht traut, sie vor der Gruppe zu prasentieren."
+          },
+          {
+            "q": "Wie reagiert Lukas auf Kritik?",
+            "sample_answer": "Er reagiert manchmal zu sensibel darauf."
+          },
+          {
+            "q": "Was ist Petras Empfehlung fur Lukas?",
+            "sample_answer": "Petra empfiehlt, seinen Vertrag zu verlangern."
+          }
+        ]
+      },
+      {
+        "title": "Text 3 - A) Tabelle erganzen",
+        "instructions": "Metne gore tablodaki bosluklari yuzde degerleriyle doldurun.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Ehrlichkeit - Arbeit: ____%",
+            "a": "78"
+          },
+          {
+            "q": "Zuverlassigkeit - Freundschaft: ____%",
+            "a": "82"
+          },
+          {
+            "q": "Humor - Arbeit: ____%",
+            "a": "41"
+          },
+          {
+            "q": "Toleranz - Arbeit: ____%",
+            "a": "58"
+          },
+          {
+            "q": "Zuruckhaltung - Nachbarschaft: ____%",
+            "a": "72"
+          },
+          {
+            "q": "Ordentlichkeit - Nachbarschaft: ____%",
+            "a": "66"
+          },
+          {
+            "q": "Grosszugigkeit - Freundschaft: ____%",
+            "a": "23"
+          }
+        ]
+      },
+      {
+        "title": "Text 3 - B) Richtig / Falsch / Steht nicht im Text",
+        "instructions": "Metne gore dogru, yanlis veya metinde gecmiyor olarak isaretleyin.",
+        "type": "true_false_notintext",
+        "questions": [
+          {
+            "q": "An der Umfrage haben 2.500 Personen teilgenommen.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Grosszugigkeit ist fur die meisten Deutschen sehr wichtig bei Freunden.",
+            "a": "F",
+            "correction": "Nur fur 23% wichtig."
+          },
+          {
+            "q": "Im Beruf ist Zuverlassigkeit wichtiger als Ehrlichkeit.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Die Umfrage wurde auch in der Turkei durchgefuhrt.",
+            "a": "N",
+            "correction": "Steht nicht im Text."
+          },
+          {
+            "q": "Viele Deutsche mogen Nachbarn, die nicht zu aufdringlich sind.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Jungere Menschen finden Toleranz wichtiger als altere Menschen.",
+            "a": "R",
+            "correction": ""
+          },
+          {
+            "q": "Humor ist bei der Arbeit fur 74% der Befragten wichtig.",
+            "a": "F",
+            "correction": "Im Beruf nur 41%; 74% war bei Freundschaft."
+          },
+          {
+            "q": "Vertrauen ist fur alle Generationen wichtig.",
+            "a": "R",
+            "correction": ""
+          }
+        ]
+      },
+      {
+        "title": "Text 3 - C) Fragen zum Nachdenken",
+        "instructions": "Asagidaki sorulari 2-3 cumleyle Almanca cevaplayin.",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Welche Eigenschaft ist fur Sie bei einem Kollegen am wichtigsten? Warum?",
+            "sample_answer": "Fur mich ist Zuverlassigkeit am wichtigsten. Wenn ich mich auf einen Kollegen verlassen kann, funktioniert die Zusammenarbeit viel besser."
+          },
+          {
+            "q": "Finden Sie die Ergebnisse der Umfrage uberraschend? Was ware in der Turkei anders?",
+            "sample_answer": "In der Turkei ware Grosszugigkeit wahrscheinlich wichtiger. Auch Kontaktfreudigkeit bei Nachbarn wird in der Turkei starker geschatzt."
+          },
+          {
+            "q": "Welche Eigenschaften schatzen Sie bei Ihrem Nachbarn?",
+            "sample_answer": "Ich schatze Toleranz und Zuruckhaltung. Mein Nachbar ist freundlich, aber nicht aufdringlich - das finde ich ideal."
+          }
+        ]
+      },
+      {
+        "title": "Text 4 - A) Eigenschaften des Teamleiters",
+        "instructions": "Metne gore yeni takim liderinin ozelliklerini + (olumlu) veya - (olumsuz) olarak siniflandirin.",
+        "type": "matching",
+        "questions": [
+          {
+            "q": "ehrlich",
+            "a": "+"
+          },
+          {
+            "q": "stur",
+            "a": "-"
+          },
+          {
+            "q": "ordentlich",
+            "a": "+"
+          },
+          {
+            "q": "zuverlassig",
+            "a": "+"
+          },
+          {
+            "q": "humorvoll (Wie ist er wirklich?)",
+            "a": "- (Er ist NICHT humorvoll)"
+          }
+        ]
+      },
+      {
+        "title": "Text 4 - B) Fragen zum Text",
+        "instructions": "Sorulari cevaplayin.",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Wie findet Isa den neuen Teamleiter insgesamt?",
+            "sample_answer": "Er findet ihn gemischt - manche Sachen gut, manche nicht."
+          },
+          {
+            "q": "Was hat der Teamleiter am ersten Tag gut gemacht?",
+            "sample_answer": "Er hat alles gut organisiert."
+          },
+          {
+            "q": "Was fehlt dem Teamleiter laut Isa?",
+            "sample_answer": "Humor und Kompromissbereitschaft."
+          },
+          {
+            "q": "Was rat Elif?",
+            "sample_answer": "Elif rat, geduldig zu bleiben und ihm eine Chance zu geben."
+          }
+        ]
+      },
+      {
+        "title": "Text 4 - C) Schreibaufgabe",
+        "instructions": "Chat'i devam ettirin: Isa ertesi gun Elif'e yeni takim liderinin ikinci gununu anlatiyor. 4-5 mesaj yazin.",
+        "type": "free_writing",
+        "questions": [
+          {
+            "q": "Isa ertesi gun Elif'e yeni takim liderinin ikinci gununu anlatiyor.",
+            "sample_answer": "Isa: Hey Elif, der zweite Tag war besser!\nElif: Echt? Was hat sich geandert?\nIsa: Er hat in der Besprechung tatsachlich einen Witz gemacht! Alle waren uberrascht.\nElif: Na siehst du! Geduld zahlt sich aus!\nIsa: Stimmt. Vielleicht war er wirklich nur nervos."
+          }
+        ]
+      }
+    ]
+  },
+  "schreiben": {
+    "sections": [
+      {
+        "title": "Ubung 1: Adjektive als Nomen - Cumleleri Donusturun",
+        "instructions": "Verilen cumleleri sifati isim olarak kullanarak yeniden yazin.\nOrnek: Der Mann, der fremd ist, hat mich gefragt. -> Ein Fremder hat mich gefragt.",
+        "type": "transform",
+        "questions": [
+          {
+            "q": "Die Frau, die mit mir verwandt ist, kommt morgen.",
+            "a": "Meine Verwandte kommt morgen."
+          },
+          {
+            "q": "Der Mann, den ich kenne, arbeitet bei Daimler Truck.",
+            "a": "Mein Bekannter / Ein Bekannter von mir arbeitet bei Daimler Truck."
+          },
+          {
+            "q": "Die Leute, die erwachsen sind, sitzen im Wohnzimmer.",
+            "a": "Die Erwachsenen sitzen im Wohnzimmer."
+          },
+          {
+            "q": "Der Mann, der mein Chef ist, hat eine Besprechung.",
+            "a": "Mein Vorgesetzter hat eine Besprechung."
+          },
+          {
+            "q": "Der Junge, der noch jugendlich ist, spielt Fussball.",
+            "a": "Der Jugendliche spielt Fussball."
+          },
+          {
+            "q": "Es ist etwas passiert, das schlimm ist.",
+            "a": "Es ist etwas Schlimmes passiert."
+          }
+        ]
+      },
+      {
+        "title": "Ubung 2: n-Deklination - Cumleleri Tamamlayin ve Yeniden Yazin",
+        "instructions": "Verilen kelimeleri kullanarak anlamli cumleler yazin. n-Deklination'a dikkat edin.",
+        "type": "sentence_building",
+        "questions": [
+          {
+            "q": "schreiben / ich / der Kunde / eine E-Mail",
+            "a": "Ich schreibe dem Kunden eine E-Mail."
+          },
+          {
+            "q": "gestern / treffen / wir / der Praktikant / im Buro",
+            "a": "Gestern haben wir den Praktikanten im Buro getroffen."
+          },
+          {
+            "q": "helfen / ich / der Nachbar / beim Einparken",
+            "a": "Ich habe dem Nachbarn beim Einparken geholfen."
+          },
+          {
+            "q": "sprechen / der Chef / mit / der Experte / uber das Projekt",
+            "a": "Der Chef spricht mit dem Experten uber das Projekt."
+          },
+          {
+            "q": "einladen / wir / der Kollege / zum Abendessen",
+            "a": "Wir haben den Kollegen zum Abendessen eingeladen."
+          },
+          {
+            "q": "kennen / du / der Herr / an der Rezeption / ?",
+            "a": "Kennst du den Herrn an der Rezeption?"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 3: Personenbeschreibung (Kisi Tanimlama)",
+        "instructions": "Asagidaki bilgilere gore Markus hakkinda bir paragraf yazin (6-8 cumle).\n\nName: Markus Fischer | Alter: 34 | Beruf: Ingenieur bei Daimler Truck | Wohnort: Stuttgart-Vaihingen\nPositive Eigenschaften: zuverlassig, ehrlich, geduldig, ordentlich\nNegative Eigenschaften: zuruckhaltend, manchmal stur\nHobbys: Wandern, Kochen | Familie: verheiratet, ein Kind",
+        "type": "guided_writing",
+        "redemittel": [
+          "Ich mochte euch meinen Kollegen ... vorstellen.",
+          "Er/Sie ist ... Jahre alt und arbeitet als ... bei ...",
+          "Er/Sie wohnt in ...",
+          "Was mir an ihm/ihr gefallt, ist, dass er/sie ... ist.",
+          "Manchmal kann er/sie aber auch etwas ... sein.",
+          "In seiner/ihrer Freizeit ... er/sie gern.",
+          "Insgesamt ist er/sie ein(e) ..."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen Absatz uber Markus Fischer.",
+            "sample_answer": "Ich mochte euch meinen Kollegen Markus Fischer vorstellen. Er ist 34 Jahre alt und arbeitet als Ingenieur bei Daimler Truck. Er wohnt in Stuttgart-Vaihingen. Was mir an ihm besonders gefallt, ist, dass er sehr zuverlassig und ehrlich ist. Man kann sich immer auf ihn verlassen. Ausserdem ist er sehr geduldig und ordentlich - sein Schreibtisch ist immer perfekt aufgeraumt. Manchmal kann er aber auch etwas zuruckhaltend und stur sein. In seiner Freizeit wandert und kocht er gern. Er ist verheiratet und hat ein Kind. Insgesamt ist Markus ein toller Kollege."
+          }
+        ]
+      },
+      {
+        "title": "Ubung 4: Personliche E-Mail (Kisisel E-posta)",
+        "instructions": "Arkadasiniz Mehmet size yeni is arkadaslarinizi sormus. E-postayi cevaplayin (8-10 cumle).\n\nVon: mehmet.yilmaz@mail.de\nBetreff: Wie geht's bei der Arbeit?\n\nSchreiben Sie uber:\n- Wie es Ihnen bei der Arbeit geht (allgemein)\n- Mindestens 2 Kollegen beschreiben (Name + Eigenschaften)\n- Ihren Vorgesetzten beschreiben\n- Ob Sie sich gut mit dem Team verstehen",
+        "type": "guided_writing",
+        "redemittel": [
+          "Danke fur deine E-Mail! Es freut mich, von dir zu horen.",
+          "Bei der Arbeit lauft es ... (gut/ganz okay/stressig).",
+          "In meinem Team gibt es jetzt ...",
+          "Er/Sie ist sehr ... und ausserdem ...",
+          "Was mich manchmal stort, ist, dass ...",
+          "Insgesamt verstehe ich mich ... mit ...",
+          "Mein Vorgesetzter ist ... Das finde ich ...",
+          "Schreib mir bald zuruck! / Wie lauft es bei dir?"
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie eine Antwort-E-Mail an Mehmet.",
+            "sample_answer": "Hallo Mehmet, vielen Dank fur deine E-Mail! Es freut mich, von dir zu horen. Bei der Arbeit lauft es gerade ganz gut. In meinem Team gibt es jetzt zwei neue Kollegen. Der eine heisst Thomas. Er ist sehr ehrlich und zuverlassig, aber manchmal etwas stur. Die andere ist Sara - sie ist total kontaktfreudig und humorvoll. Mit ihr macht die Arbeit Spass! Mein neuer Vorgesetzter ist Herr Weber. Er ist geduldig und verstandnisvoll, was ich sehr schatze. Insgesamt verstehe ich mich gut mit dem Team. Wie lauft es bei dir? Viele Grusse Isa"
+          }
+        ]
+      },
+      {
+        "title": "Ubung 5: Forumsbeitrag (Forum Yazisi)",
+        "instructions": "Asagidaki forum konusuna bir yorum yazin (8-10 cumle).\n\nForum: Leben in Deutschland\nThema: Welche Eigenschaften braucht man, um in Deutschland erfolgreich zu leben?\n\nSchreiben Sie uber:\n- Ihre eigene Erfahrung als Turke in Deutschland\n- Welche Eigenschaften wichtig sind (mindestens 3)\n- Warum diese Eigenschaften wichtig sind (mit Beispielen)\n- Ob sich Ihr Charakter verandert hat",
+        "type": "free_writing",
+        "redemittel": [
+          "Ich lebe seit ... Jahren in Deutschland und ...",
+          "Meiner Meinung nach braucht man vor allem ...",
+          "Zum Beispiel ist es wichtig, ... zu sein, weil ...",
+          "In meiner Heimat ist/war ... wichtiger als ...",
+          "Ich musste lernen, ... zu sein.",
+          "Seitdem ich in Deutschland lebe, bin ich ... geworden.",
+          "Ich glaube, das Wichtigste ist ..."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen Forumsbeitrag zu diesem Thema.",
+            "sample_answer": ""
+          }
+        ]
+      },
+      {
+        "title": "Ubung 6: Beschwerdebrief (Resmi Sikayet Mektubu)",
+        "instructions": "Apartmaninizda bir komsunun davranişindan rahatsizsiniz. Ev yonetimine resmi bir sikayet mektubu yazin (8-10 cumle).\n\nDurum: Komsunuz Herr Braun cok gurultucu, duzensiz ve saygisiz biri.\n\nBriefstruktur:\n- Absender + Datum\n- Empfanger: Hausverwaltung Muller GmbH\n- Betreff: Beschwerde uber Nachbar in Wohnung 3B\n- Anrede: Sehr geehrte Damen und Herren,\n- Einleitung -> Hauptteil -> Schluss\n- Grussformel: Mit freundlichen Grussen",
+        "type": "guided_writing",
+        "redemittel": [
+          "Ich schreibe Ihnen, weil ich ein Problem mit meinem Nachbarn habe.",
+          "Herr Braun verhalt sich leider sehr ... und ...",
+          "Er hort bis spat in die Nacht laute Musik.",
+          "Ausserdem ist der Flur immer chaotisch, weil er ...",
+          "Wenn ich versuche, mit ihm zu sprechen, reagiert er ...",
+          "Ich bitte Sie, ... / Ich wurde mich freuen, wenn ...",
+          "Konnten Sie bitte ein Gesprach mit Herrn Braun fuhren?"
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen formellen Beschwerdebrief.",
+            "sample_answer": ""
+          }
+        ]
+      },
+      {
+        "title": "Ubung 7: Tagebucheintrag (Gunluk Girisi)",
+        "instructions": "Bugunku gununuzde tanistiginiz veya etkilesimde bulundugunuz birisini anlatan bir gunluk yazisi yazin (6-8 cumle).\n\nMogliche Themen:\n- Ein neuer Kollege / eine neue Kollegin\n- Ein Elternabend an der Schule Ihres Kindes\n- Ein Erlebnis beim Einkaufen oder in der Nachbarschaft\n- Ein Gesprach mit einem Bekannten oder Verwandten",
+        "type": "free_writing",
+        "redemittel": [
+          "Liebes Tagebuch, heute war ein interessanter Tag.",
+          "Ich habe heute ... kennengelernt / getroffen.",
+          "Er/Sie war sehr ... und hat ... gemacht.",
+          "Was mich uberrascht hat, war ...",
+          "Sein/Ihr Verhalten hat mich ... gemacht.",
+          "Ich habe einen guten/schlechten Eindruck von ihm/ihr bekommen.",
+          "Ich glaube, er/sie ist ein(e) ... Mensch."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen Tagebucheintrag.",
+            "sample_answer": ""
+          }
+        ]
+      }
+    ]
+  }
+}

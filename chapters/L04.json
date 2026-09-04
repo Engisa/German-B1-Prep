@@ -1,0 +1,1902 @@
+{
+  "id": "L04",
+  "title": "Kundenservice",
+  "grammatik": {
+    "rules": [
+      {
+        "title": "obwohl (Nebensatz-Konjunktion)",
+        "explanation": "obwohl bir yan cümle (Nebensatz) bağlacıdır. Fiil yan cümlenin sonuna gider. Türkçe karşılığı: \"...e rağmen\", \"her ne kadar ... olsa da\". obwohl yan cümlesi başta da gelebilir — bu durumda ana cümle fiil ile başlar.",
+        "table": {
+          "headers": [
+            "Yapı",
+            "Örnek"
+          ],
+          "rows": [
+            [
+              "Hauptsatz + obwohl + Nebensatz",
+              "Er geht zur Arbeit, obwohl er krank ist."
+            ],
+            [
+              "obwohl + Nebensatz, + Hauptsatz",
+              "Obwohl er krank ist, geht er zur Arbeit."
+            ],
+            [
+              "Hauptsatz + obwohl + Nebensatz",
+              "Sie kaufte das Auto, obwohl es teuer war."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Obwohl ich mich beschwert habe, hat sich nichts geändert.",
+            "tr": "Şikâyet etmeme rağmen hiçbir şey değişmedi."
+          },
+          {
+            "de": "Er beschwerte sich nicht, obwohl das Essen kalt war.",
+            "tr": "Yemek soğuk olmasına rağmen şikâyet etmedi."
+          },
+          {
+            "de": "Obwohl die Lieferung zu spät kam, war die Qualität gut.",
+            "tr": "Teslimat geç gelmesine rağmen kalite iyiydi."
+          },
+          {
+            "de": "Obwohl er den Kundenservice anrief, bekam er keine Hilfe.",
+            "tr": "Müşteri hizmetlerini aramasına rağmen yardım alamadı."
+          },
+          {
+            "de": "Obwohl das Gerät neu war, funktionierte es nicht richtig.",
+            "tr": "Cihaz yeni olmasına rağmen düzgün çalışmıyordu."
+          }
+        ]
+      },
+      {
+        "title": "trotzdem (Adverb / Hauptsatz-Konnektor)",
+        "explanation": "trotzdem bir zarftır (Adverb) ve iki ana cümleyi (Hauptsatz) bağlar. trotzdem'den sonra fiil hemen ikinci pozisyona gelir (Verb auf Position 2). Türkçe karşılığı: \"yine de\", \"buna rağmen\".",
+        "table": {
+          "headers": [
+            "Yapı",
+            "Örnek"
+          ],
+          "rows": [
+            [
+              "Hauptsatz 1. Trotzdem + Verb + ...",
+              "Er ist krank. Trotzdem geht er zur Arbeit."
+            ],
+            [
+              "Hauptsatz 1. Trotzdem + Verb + ...",
+              "Das Auto war teuer. Trotzdem kaufte sie es."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Der Techniker kam nicht. Trotzdem wartete ich den ganzen Tag.",
+            "tr": "Teknisyen gelmedi. Yine de bütün gün bekledim."
+          },
+          {
+            "de": "Das Produkt war defekt. Trotzdem wollte die Firma es nicht umtauschen.",
+            "tr": "Ürün arızalıydı. Yine de firma değiştirmek istemedi."
+          },
+          {
+            "de": "Die Rechnung war falsch. Trotzdem musste ich zuerst bezahlen.",
+            "tr": "Fatura yanlıştı. Yine de önce ödemek zorundaydım."
+          }
+        ]
+      },
+      {
+        "title": "obwohl vs. trotzdem – Karşılaştırma",
+        "explanation": "Her iki bağlaç aynı çelişkiyi (zıtlık) ifade eder, sadece cümle yapısı farklıdır. obwohl bir Nebensatz bağlacıdır (fiil sonda), trotzdem bir Hauptsatz zarfıdır (fiil 2. pozisyonda).",
+        "table": {
+          "headers": [
+            "Özellik",
+            "obwohl",
+            "trotzdem"
+          ],
+          "rows": [
+            [
+              "Tür",
+              "Konjunktion (Nebensatz)",
+              "Adverb (Hauptsatz)"
+            ],
+            [
+              "Fiil pozisyonu",
+              "Cümlenin sonunda",
+              "Hemen arkasında (Pos. 2)"
+            ],
+            [
+              "Cümle yapısı",
+              "Hauptsatz + Nebensatz",
+              "Hauptsatz + Hauptsatz"
+            ],
+            [
+              "Anlam",
+              "...e rağmen",
+              "yine de, buna rağmen"
+            ],
+            [
+              "Noktalama",
+              "Virgül ile ayrılır",
+              "Nokta veya virgül"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Er geht zur Arbeit, obwohl er krank ist. = Er ist krank. Trotzdem geht er zur Arbeit.",
+            "tr": "Hasta olmasına rağmen işe gidiyor. = Hasta. Yine de işe gidiyor."
+          },
+          {
+            "de": "Ich kaufte das Handy, obwohl es teuer war. = Das Handy war teuer. Trotzdem kaufte ich es.",
+            "tr": "Pahalı olmasına rağmen telefonu aldım. = Telefon pahalıydı. Yine de aldım."
+          },
+          {
+            "de": "Sie beschwerte sich nicht, obwohl der Service schlecht war. = Der Service war schlecht. Trotzdem beschwerte sie sich nicht.",
+            "tr": "Servis kötü olmasına rağmen şikâyet etmedi. = Servis kötüydü. Yine de şikâyet etmedi."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Übung 1: obwohl – Cümleleri Tamamlayın",
+        "instructions": "Boşluğa uygun fiili doğru formda ve doğru pozisyona yazın.",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Obwohl er müde ____, ging er ins Fitnessstudio. (sein)",
+            "a": "war"
+          },
+          {
+            "q": "Sie kaufte das Kleid, obwohl es zu teuer ____. (sein)",
+            "a": "war"
+          },
+          {
+            "q": "Obwohl ich den Kundenservice ____, bekam ich keine Antwort. (anrufen)",
+            "a": "anrief"
+          },
+          {
+            "q": "Er beschwerte sich nicht, obwohl das Essen kalt ____. (sein)",
+            "a": "war"
+          },
+          {
+            "q": "Obwohl sie kein Deutsch ____, verstand sie den Brief. (sprechen)",
+            "a": "sprach"
+          },
+          {
+            "q": "Wir warteten lange, obwohl wir einen Termin ____. (haben)",
+            "a": "hatten"
+          },
+          {
+            "q": "Obwohl der Laden schon zu ____, ließ uns die Verkäuferin noch rein. (sein)",
+            "a": "war"
+          },
+          {
+            "q": "Er blieb freundlich, obwohl der Kunde sehr unhöflich ____. (sein)",
+            "a": "war"
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: trotzdem – Cümleleri Birleştirin",
+        "instructions": "İki cümleyi trotzdem ile birleştirin. Dikkat: trotzdem Pos.1, fiil Pos.2!",
+        "type": "transform",
+        "questions": [
+          {
+            "q": "Das Wetter war schlecht. Wir gingen spazieren.",
+            "a": "Das Wetter war schlecht. Trotzdem gingen wir spazieren."
+          },
+          {
+            "q": "Der Flug hatte Verspätung. Sie blieb ruhig.",
+            "a": "Der Flug hatte Verspätung. Trotzdem blieb sie ruhig."
+          },
+          {
+            "q": "Die Bedienung war unfreundlich. Wir gaben Trinkgeld.",
+            "a": "Die Bedienung war unfreundlich. Trotzdem gaben wir Trinkgeld."
+          },
+          {
+            "q": "Er hatte keine Erfahrung. Er bekam die Stelle.",
+            "a": "Er hatte keine Erfahrung. Trotzdem bekam er die Stelle."
+          },
+          {
+            "q": "Das Produkt war defekt. Die Firma nahm es nicht zurück.",
+            "a": "Das Produkt war defekt. Trotzdem nahm die Firma es nicht zurück."
+          },
+          {
+            "q": "Ich war sehr müde. Ich machte Überstunden.",
+            "a": "Ich war sehr müde. Trotzdem machte ich Überstunden."
+          },
+          {
+            "q": "Der Preis war hoch. Viele Kunden kauften das Gerät.",
+            "a": "Der Preis war hoch. Trotzdem kauften viele Kunden das Gerät."
+          },
+          {
+            "q": "Sie hatte sich beschwert. Nichts änderte sich.",
+            "a": "Sie hatte sich beschwert. Trotzdem änderte sich nichts."
+          }
+        ]
+      },
+      {
+        "title": "Übung 3: obwohl → trotzdem – Cümle Dönüştürme",
+        "instructions": "obwohl ile yazılmış cümleleri trotzdem ile yeniden yazın.\nÖrnek: Er ging zur Arbeit, obwohl er krank war. → Er war krank. Trotzdem ging er zur Arbeit.",
+        "type": "transform",
+        "questions": [
+          {
+            "q": "Obwohl das Restaurant voll war, fanden wir einen Platz.",
+            "a": "Das Restaurant war voll. Trotzdem fanden wir einen Platz."
+          },
+          {
+            "q": "Sie reklamierte das Gerät, obwohl die Garantie abgelaufen war.",
+            "a": "Die Garantie war abgelaufen. Trotzdem reklamierte sie das Gerät."
+          },
+          {
+            "q": "Obwohl der Kundenberater unfreundlich war, blieb sie höflich.",
+            "a": "Der Kundenberater war unfreundlich. Trotzdem blieb sie höflich."
+          },
+          {
+            "q": "Er kaufte das Auto, obwohl es Kratzer hatte.",
+            "a": "Das Auto hatte Kratzer. Trotzdem kaufte er es."
+          },
+          {
+            "q": "Obwohl die Lieferzeit zwei Wochen betrug, bestellte sie das Möbelstück.",
+            "a": "Die Lieferzeit betrug zwei Wochen. Trotzdem bestellte sie das Möbelstück."
+          },
+          {
+            "q": "Ich kündigte den Vertrag, obwohl ich keinen anderen Anbieter hatte.",
+            "a": "Ich hatte keinen anderen Anbieter. Trotzdem kündigte ich den Vertrag."
+          }
+        ]
+      },
+      {
+        "title": "Übung 4: trotzdem → obwohl – Cümle Dönüştürme",
+        "instructions": "trotzdem ile yazılmış cümleleri obwohl ile yeniden yazın.\nÖrnek: Es regnete. Trotzdem fuhr er mit dem Fahrrad. → Er fuhr mit dem Fahrrad, obwohl es regnete.",
+        "type": "transform",
+        "questions": [
+          {
+            "q": "Der Service war langsam. Trotzdem gaben die Gäste ein gutes Trinkgeld.",
+            "a": "Die Gäste gaben ein gutes Trinkgeld, obwohl der Service langsam war."
+          },
+          {
+            "q": "Sie hatte wenig Zeit. Trotzdem half sie dem Kunden.",
+            "a": "Sie half dem Kunden, obwohl sie wenig Zeit hatte."
+          },
+          {
+            "q": "Das Handy war sehr teuer. Trotzdem kaufte er es sofort.",
+            "a": "Er kaufte das Handy sofort, obwohl es sehr teuer war."
+          },
+          {
+            "q": "Ich hatte mich beschwert. Trotzdem bekam ich keine Antwort.",
+            "a": "Ich bekam keine Antwort, obwohl ich mich beschwert hatte."
+          },
+          {
+            "q": "Die Reparatur dauerte lange. Trotzdem war der Kunde zufrieden.",
+            "a": "Der Kunde war zufrieden, obwohl die Reparatur lange dauerte."
+          },
+          {
+            "q": "Er sprach kein Deutsch. Trotzdem verstand er die Anleitung.",
+            "a": "Er verstand die Anleitung, obwohl er kein Deutsch sprach."
+          }
+        ]
+      },
+      {
+        "title": "Übung 5: Çeviri (Türkçe → Almanca)",
+        "instructions": "Cümleleri obwohl veya trotzdem kullanarak Almancaya çevirin. Parantez içinde hangisini kullanacağınız belirtilmiştir.",
+        "type": "translation",
+        "questions": [
+          {
+            "q": "Hasta olmasına rağmen işe gitti. (obwohl)",
+            "a": "Er ging zur Arbeit, obwohl er krank war."
+          },
+          {
+            "q": "Hava kötüydü. Yine de pikniğe gittik. (trotzdem)",
+            "a": "Das Wetter war schlecht. Trotzdem gingen wir zum Picknick."
+          },
+          {
+            "q": "Ürün pahalı olmasına rağmen çok sattı. (obwohl)",
+            "a": "Das Produkt verkaufte sich gut, obwohl es teuer war."
+          },
+          {
+            "q": "Müşteri şikâyet etti. Yine de firma hiçbir şey yapmadı. (trotzdem)",
+            "a": "Der Kunde beschwerte sich. Trotzdem machte die Firma nichts."
+          },
+          {
+            "q": "Geç kalmama rağmen toplantıya katılabildim. (obwohl)",
+            "a": "Ich konnte an der Besprechung teilnehmen, obwohl ich zu spät kam."
+          },
+          {
+            "q": "Garanti süresi dolmuştu. Yine de cihazı değiştirdiler. (trotzdem)",
+            "a": "Die Garantiezeit war abgelaufen. Trotzdem tauschten sie das Gerät um."
+          },
+          {
+            "q": "Servis kötü olmasına rağmen yemeği beğendim. (obwohl)",
+            "a": "Ich mochte das Essen, obwohl der Service schlecht war."
+          },
+          {
+            "q": "Çok bekledi. Yine de teknisyen gelmedi. (trotzdem)",
+            "a": "Er wartete lange. Trotzdem kam der Techniker nicht."
+          }
+        ]
+      },
+      {
+        "title": "Übung 6: Fehlerkorrektur (Hata Bulma)",
+        "instructions": "Her cümlede obwohl/trotzdem kullanımıyla ilgili bir hata var. Hatayı bulun ve düzeltin.",
+        "type": "error_correction",
+        "questions": [
+          {
+            "q": "Obwohl er war krank, ging er zur Arbeit.",
+            "a": "Obwohl er krank war, ging er zur Arbeit.",
+            "explanation": "Nebensatz: Verb am Ende!"
+          },
+          {
+            "q": "Das Essen war kalt. Trotzdem er beschwerte sich nicht.",
+            "a": "Das Essen war kalt. Trotzdem beschwerte er sich nicht.",
+            "explanation": "trotzdem Pos.1, Verb Pos.2"
+          },
+          {
+            "q": "Sie kaufte das Kleid, trotzdem es zu teuer war.",
+            "a": "Sie kaufte das Kleid, obwohl es zu teuer war.",
+            "explanation": "trotzdem → obwohl, çünkü Nebensatz yapısı"
+          },
+          {
+            "q": "Obwohl die Garantie war abgelaufen, reklamierte sie das Gerät.",
+            "a": "Obwohl die Garantie abgelaufen war, reklamierte sie das Gerät.",
+            "explanation": "Verb am Ende!"
+          },
+          {
+            "q": "Er hatte keine Zeit. Obwohl half er dem Kunden.",
+            "a": "Er hatte keine Zeit. Trotzdem half er dem Kunden.",
+            "explanation": "obwohl → trotzdem, çünkü Hauptsatz"
+          },
+          {
+            "q": "Trotzdem das Wetter schlecht war, gingen wir spazieren.",
+            "a": "Obwohl das Wetter schlecht war, gingen wir spazieren.",
+            "explanation": "trotzdem → obwohl, Nebensatz gerekiyor"
+          },
+          {
+            "q": "Der Kunde war unhöflich, obwohl blieb die Verkäuferin freundlich.",
+            "a": "Der Kunde war unhöflich. Trotzdem blieb die Verkäuferin freundlich.",
+            "explanation": "obwohl burada Hauptsatz+Hauptsatz olmalı: trotzdem"
+          },
+          {
+            "q": "Sie rief den Kundenservice an. Trotzdem sie bekam keine Hilfe.",
+            "a": "Sie rief den Kundenservice an. Trotzdem bekam sie keine Hilfe.",
+            "explanation": "trotzdem Pos.1, Verb Pos.2!"
+          }
+        ]
+      },
+      {
+        "title": "Übung 7: Lückentext – Kundenbeschwerde",
+        "instructions": "Boşlukları obwohl veya trotzdem ile doldurun.",
+        "type": "fill_blank",
+        "context": "Letzte Woche bestellte ich ein Regal online. ____(1) die Lieferzeit nur drei Tage betragen sollte, kam das Paket erst nach zehn Tagen. Außerdem war ein Teil beschädigt. Ich rief den Kundenservice an, aber ____(2) wartete ich 30 Minuten in der Warteschleife. ____(3) ich dem Berater das Problem genau erklärte, konnte er mir nicht helfen. Er sagte, ich solle eine E-Mail schreiben. Das machte ich. ____(4) bekam ich keine Antwort. Nach zwei Wochen schrieb ich noch einmal. ____(5) ich sehr höflich schrieb, war die Antwort unfreundlich. Sie boten mir nur einen Gutschein über 5 Euro an, ____(6) das Regal 120 Euro gekostet hatte. Ich war sehr enttäuscht. ____(7) werde ich dort nie wieder bestellen!",
+        "questions": [
+          {
+            "q": "(1)",
+            "a": "Obwohl"
+          },
+          {
+            "q": "(2)",
+            "a": "trotzdem"
+          },
+          {
+            "q": "(3)",
+            "a": "Obwohl"
+          },
+          {
+            "q": "(4)",
+            "a": "Trotzdem"
+          },
+          {
+            "q": "(5)",
+            "a": "Obwohl"
+          },
+          {
+            "q": "(6)",
+            "a": "obwohl"
+          },
+          {
+            "q": "(7)",
+            "a": "Trotzdem"
+          }
+        ]
+      },
+      {
+        "title": "Übung 8: Satzbausteine ordnen – Cümle Kurun",
+        "instructions": "Verilen kelimelerden anlamlı cümleler kurun.",
+        "type": "sentence_building",
+        "questions": [
+          {
+            "q": "obwohl / krank / er / war / , / ging / er / zur Arbeit",
+            "a": "Obwohl er krank war, ging er zur Arbeit."
+          },
+          {
+            "q": "der Kunde / sich beschwerte / . / trotzdem / nichts / passierte",
+            "a": "Der Kunde beschwerte sich. Trotzdem passierte nichts."
+          },
+          {
+            "q": "sie / die Rechnung / bezahlte / , / obwohl / falsch / sie / war",
+            "a": "Sie bezahlte die Rechnung, obwohl sie falsch war."
+          },
+          {
+            "q": "die Reparatur / war / teuer / . / trotzdem / ließ / er / das Auto / reparieren",
+            "a": "Die Reparatur war teuer. Trotzdem ließ er das Auto reparieren."
+          },
+          {
+            "q": "obwohl / der Service / war / schlecht / , / kam / sie / wieder",
+            "a": "Obwohl der Service schlecht war, kam sie wieder."
+          },
+          {
+            "q": "er / hatte / keine Garantie / . / trotzdem / tauschte / die Firma / das Gerät / um",
+            "a": "Er hatte keine Garantie. Trotzdem tauschte die Firma das Gerät um."
+          }
+        ]
+      },
+      {
+        "title": "Übung 9: Gemischte Übung (obwohl / trotzdem / weil)",
+        "instructions": "Boşluğa obwohl, trotzdem veya weil yazın. Dikkat: weil de bir yan cümle bağlacıdır ama neden bildirir, çelişki değil!",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Er ging nicht zum Arzt, ____ er starke Schmerzen hatte.",
+            "a": "obwohl",
+            "explanation": "çelişki: ağrıya rağmen gitmedi"
+          },
+          {
+            "q": "Sie war müde. ____ arbeitete sie bis Mitternacht.",
+            "a": "Trotzdem",
+            "explanation": "çelişki: yorgun ama çalıştı"
+          },
+          {
+            "q": "Ich blieb zu Hause, ____ ich krank war.",
+            "a": "weil",
+            "explanation": "neden: hasta olduğu için"
+          },
+          {
+            "q": "____ das Produkt billig war, hatte es gute Qualität.",
+            "a": "Obwohl",
+            "explanation": "çelişki: ucuz ama kaliteli"
+          },
+          {
+            "q": "Er kündigte, ____ er mit dem Chef Probleme hatte.",
+            "a": "weil",
+            "explanation": "neden: sorunları olduğu için"
+          },
+          {
+            "q": "Die Lieferung kam zu spät. ____ war der Kunde nicht böse.",
+            "a": "Trotzdem",
+            "explanation": "çelişki: geç ama kızmadı"
+          },
+          {
+            "q": "Sie beschwerte sich, ____ das Gerät nach einer Woche kaputt ging.",
+            "a": "weil",
+            "explanation": "neden: bozulduğu için"
+          },
+          {
+            "q": "____ er kein Auto hatte, fuhr er jeden Tag mit dem Fahrrad.",
+            "a": "Obwohl|weil",
+            "explanation": "çelişki vurgusu: araba yok ama bisikletle (weil de olabilir bağlama göre)"
+          },
+          {
+            "q": "Das Hotel war laut. ____ schliefen wir gut.",
+            "a": "Trotzdem",
+            "explanation": "çelişki: gürültülü ama iyi uyuduk"
+          },
+          {
+            "q": "Er bewarb sich bei der Firma, ____ er dort arbeiten wollte.",
+            "a": "weil",
+            "explanation": "neden: orada çalışmak istediği için"
+          }
+        ]
+      },
+      {
+        "title": "Übung 10: Richtig oder Falsch? (Gramer Kontrolü)",
+        "instructions": "Cümle gramer açısından doğruysa R, yanlışsa F yazın ve düzeltin.",
+        "type": "true_false_grammar",
+        "questions": [
+          {
+            "q": "Obwohl er krank ist, geht er zur Arbeit.",
+            "a": "R"
+          },
+          {
+            "q": "Obwohl das Wetter war schön, blieben wir zu Hause.",
+            "a": "F",
+            "correction": "Obwohl das Wetter schön war, blieben wir zu Hause.",
+            "explanation": "Verb am Ende!"
+          },
+          {
+            "q": "Sie war müde. Trotzdem ging sie joggen.",
+            "a": "R"
+          },
+          {
+            "q": "Trotzdem er viel lernte, bestand er die Prüfung nicht.",
+            "a": "F",
+            "correction": "Er lernte viel. Trotzdem bestand er die Prüfung nicht.",
+            "explanation": "trotzdem = Hauptsatz!"
+          },
+          {
+            "q": "Er beschwerte sich, obwohl der Service gut war.",
+            "a": "R"
+          },
+          {
+            "q": "Das Essen war schlecht. Trotzdem wir bezahlten die Rechnung.",
+            "a": "F",
+            "correction": "Das Essen war schlecht. Trotzdem bezahlten wir die Rechnung.",
+            "explanation": "Verb Pos.2!"
+          },
+          {
+            "q": "Obwohl ich mich beeilt habe, kam ich zu spät.",
+            "a": "R"
+          },
+          {
+            "q": "Der Zug hatte Verspätung. Trotzdem kam er pünktlich an.",
+            "a": "R"
+          },
+          {
+            "q": "Trotzdem regnete es, gingen wir spazieren.",
+            "a": "F",
+            "correction": "Obwohl es regnete, gingen wir spazieren.",
+            "explanation": "trotzdem → obwohl, Nebensatz yapısı"
+          },
+          {
+            "q": "Obwohl sie wenig verdiente, war sie zufrieden.",
+            "a": "R"
+          }
+        ]
+      }
+    ]
+  },
+  "wortschatz": {
+    "vocab_lists": [
+      {
+        "title": "Kundenservice (Müşteri Hizmeti)",
+        "items": [
+          {
+            "de": "der Kundenservice",
+            "tr": "müşteri hizmeti",
+            "example": "Der Kundenservice ist von 8 bis 18 Uhr erreichbar."
+          },
+          {
+            "de": "die Beschwerde, -n",
+            "tr": "şikâyet",
+            "example": "Ich möchte eine Beschwerde einreichen."
+          },
+          {
+            "de": "die Reklamation, -en",
+            "tr": "şikâyet/iade talebi",
+            "example": "Die Reklamation wurde bearbeitet."
+          },
+          {
+            "de": "der Umtausch",
+            "tr": "değişim, takas",
+            "example": "Ein Umtausch ist innerhalb von 14 Tagen möglich."
+          },
+          {
+            "de": "die Rückgabe, -n",
+            "tr": "iade",
+            "example": "Die Rückgabe war problemlos."
+          },
+          {
+            "de": "die Garantie, -n",
+            "tr": "garanti",
+            "example": "Die Garantie gilt zwei Jahre."
+          },
+          {
+            "de": "die Reparatur, -en",
+            "tr": "tamir, onarım",
+            "example": "Die Reparatur dauerte drei Wochen."
+          },
+          {
+            "de": "der Gutschein, -e",
+            "tr": "kupon, hediye çeki",
+            "example": "Sie bekam einen Gutschein über 20 Euro."
+          },
+          {
+            "de": "die Quittung, -en",
+            "tr": "fiş, makbuz",
+            "example": "Haben Sie die Quittung noch?"
+          },
+          {
+            "de": "die Rechnung, -en",
+            "tr": "fatura",
+            "example": "Die Rechnung stimmt nicht."
+          },
+          {
+            "de": "die Lieferung, -en",
+            "tr": "teslimat",
+            "example": "Die Lieferung kam zwei Tage zu spät."
+          },
+          {
+            "de": "die Bestellung, -en",
+            "tr": "sipariş",
+            "example": "Ich möchte meine Bestellung stornieren."
+          },
+          {
+            "de": "der Mangel, Mängel",
+            "tr": "kusur, eksiklik",
+            "example": "Das Gerät hatte einen Mangel."
+          },
+          {
+            "de": "der Kassenbon, -s",
+            "tr": "kasa fişi",
+            "example": "Bitte bewahren Sie den Kassenbon auf."
+          }
+        ]
+      },
+      {
+        "title": "Probleme beschreiben (Sorun Tanımlama)",
+        "items": [
+          {
+            "de": "defekt / kaputt",
+            "tr": "arızalı, bozuk",
+            "example": "Das Gerät ist defekt."
+          },
+          {
+            "de": "beschädigt",
+            "tr": "hasarlı",
+            "example": "Das Paket kam beschädigt an."
+          },
+          {
+            "de": "falsch",
+            "tr": "yanlış",
+            "example": "Sie haben mir das falsche Produkt geschickt."
+          },
+          {
+            "de": "zu spät",
+            "tr": "çok geç",
+            "example": "Die Lieferung kam zu spät."
+          },
+          {
+            "de": "fehlen",
+            "tr": "eksik olmak",
+            "example": "Ein Teil fehlt in der Verpackung."
+          },
+          {
+            "de": "funktionieren",
+            "tr": "çalışmak (cihaz)",
+            "example": "Die Waschmaschine funktioniert nicht mehr."
+          },
+          {
+            "de": "stornieren",
+            "tr": "iptal etmek",
+            "example": "Ich möchte die Bestellung stornieren."
+          },
+          {
+            "de": "umtauschen",
+            "tr": "değiştirmek",
+            "example": "Kann ich das Produkt umtauschen?"
+          },
+          {
+            "de": "zurückgeben",
+            "tr": "iade etmek",
+            "example": "Ich möchte das Gerät zurückgeben."
+          },
+          {
+            "de": "zurückschicken",
+            "tr": "geri göndermek",
+            "example": "Ich schickte das Paket sofort zurück."
+          },
+          {
+            "de": "erstatten",
+            "tr": "geri ödemek",
+            "example": "Können Sie mir das Geld erstatten?"
+          },
+          {
+            "de": "reparieren",
+            "tr": "tamir etmek",
+            "example": "Wer kann das Gerät reparieren?"
+          },
+          {
+            "de": "sich beschweren (über + Akk.)",
+            "tr": "şikâyet etmek",
+            "example": "Ich beschwerte mich über den Service."
+          },
+          {
+            "de": "reklamieren",
+            "tr": "şikâyet/iade etmek",
+            "example": "Sie reklamierte den Fernseher."
+          }
+        ]
+      },
+      {
+        "title": "Kommunikation mit dem Kundenservice (Müşteri Hizmetleriyle İletişim)",
+        "items": [
+          {
+            "de": "der Kundenberater, -",
+            "tr": "müşteri danışmanı",
+            "example": "Der Kundenberater war sehr hilfsbereit."
+          },
+          {
+            "de": "die Hotline, -s",
+            "tr": "telefon hattı",
+            "example": "Ich rief die Hotline an."
+          },
+          {
+            "de": "die Warteschleife, -n",
+            "tr": "bekleme hattı",
+            "example": "Ich hing 20 Minuten in der Warteschleife."
+          },
+          {
+            "de": "der Ansprechpartner, -",
+            "tr": "muhatap, ilgili kişi",
+            "example": "Wer ist mein Ansprechpartner?"
+          },
+          {
+            "de": "die Lösung, -en",
+            "tr": "çözüm",
+            "example": "Wir finden eine Lösung für Sie."
+          },
+          {
+            "de": "zuständig (für + Akk.)",
+            "tr": "sorumlu, yetkili",
+            "example": "Wer ist dafür zuständig?"
+          },
+          {
+            "de": "weiterleiten",
+            "tr": "yönlendirmek",
+            "example": "Ich leite Sie an die Fachabteilung weiter."
+          },
+          {
+            "de": "sich kümmern (um + Akk.)",
+            "tr": "ilgilenmek",
+            "example": "Ich kümmere mich sofort darum."
+          },
+          {
+            "de": "nachfragen",
+            "tr": "sormak, bilgi almak",
+            "example": "Darf ich kurz nachfragen?"
+          },
+          {
+            "de": "sich entschuldigen",
+            "tr": "özür dilemek",
+            "example": "Wir entschuldigen uns für die Unannehmlichkeiten."
+          },
+          {
+            "de": "Bescheid geben/sagen",
+            "tr": "haber vermek",
+            "example": "Ich gebe Ihnen Bescheid."
+          },
+          {
+            "de": "erreichbar",
+            "tr": "ulaşılabilir",
+            "example": "Der Service ist telefonisch erreichbar."
+          }
+        ]
+      }
+    ],
+    "phrase_lists": [
+      {
+        "title": "Kunde (Müşteri) – Kalıp İfadeler",
+        "items": [
+          {
+            "de": "Ich möchte mich beschweren über ...",
+            "tr": "... hakkında şikâyet etmek istiyorum."
+          },
+          {
+            "de": "Ich habe ein Problem mit ...",
+            "tr": "... ile ilgili bir sorunum var."
+          },
+          {
+            "de": "Das Gerät funktioniert nicht / ist defekt.",
+            "tr": "Cihaz çalışmıyor / arızalı."
+          },
+          {
+            "de": "Ich möchte das Produkt umtauschen / zurückgeben.",
+            "tr": "Ürünü değiştirmek / iade etmek istiyorum."
+          },
+          {
+            "de": "Können Sie mir das Geld erstatten?",
+            "tr": "Paramı iade edebilir misiniz?"
+          },
+          {
+            "de": "Ich warte schon seit ... Tagen/Wochen.",
+            "tr": "... gündür/haftadır bekliyorum."
+          },
+          {
+            "de": "Ich bin damit nicht einverstanden.",
+            "tr": "Bunu kabul etmiyorum."
+          },
+          {
+            "de": "Ich hätte gern eine Lösung.",
+            "tr": "Bir çözüm istiyorum."
+          },
+          {
+            "de": "Können Sie mich bitte weiterleiten?",
+            "tr": "Beni lütfen yönlendirebilir misiniz?"
+          },
+          {
+            "de": "Ich möchte den Vorgesetzten sprechen.",
+            "tr": "Yöneticiyle konuşmak istiyorum."
+          }
+        ]
+      },
+      {
+        "title": "Kundenberater (Danışman) – Kalıp İfadeler",
+        "items": [
+          {
+            "de": "Wie kann ich Ihnen helfen?",
+            "tr": "Size nasıl yardımcı olabilirim?"
+          },
+          {
+            "de": "Ich verstehe das Problem.",
+            "tr": "Sorunu anlıyorum."
+          },
+          {
+            "de": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+            "tr": "Rahatsızlık için özür dileriz."
+          },
+          {
+            "de": "Ich kümmere mich sofort darum.",
+            "tr": "Hemen ilgileniyorum."
+          },
+          {
+            "de": "Haben Sie die Quittung / den Kassenbon?",
+            "tr": "Fişiniz / makbuzunuz var mı?"
+          },
+          {
+            "de": "Ich leite Sie an die zuständige Abteilung weiter.",
+            "tr": "Sizi ilgili departmana yönlendiriyorum."
+          },
+          {
+            "de": "Wir können Ihnen einen Gutschein anbieten.",
+            "tr": "Size bir kupon sunabiliriz."
+          },
+          {
+            "de": "Die Reparatur dauert etwa ... Tage.",
+            "tr": "Tamir yaklaşık ... gün sürer."
+          },
+          {
+            "de": "Ich gebe Ihnen so schnell wie möglich Bescheid.",
+            "tr": "En kısa sürede size haber veririm."
+          },
+          {
+            "de": "Wir finden sicher eine Lösung.",
+            "tr": "Mutlaka bir çözüm buluruz."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Übung 1: Zuordnung (Eşleştirme)",
+        "type": "matching",
+        "questions": [
+          {
+            "q": "1. die Beschwerde\n2. der Umtausch\n3. die Garantie\n4. die Reparatur\n5. die Lieferung\n6. der Gutschein\n7. die Quittung\n8. die Rückgabe\n9. die Warteschleife\n10. die Bestellung",
+            "options": "a) tamir\nb) şikâyet\nc) teslimat\nd) kupon\ne) garanti\nf) değişim\ng) iade\nh) makbuz, fiş\ni) sipariş\nj) bekleme hattı",
+            "a": "1-b, 2-f, 3-e, 4-a, 5-c, 6-d, 7-h, 8-g, 9-j, 10-i"
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: Lückentext (Boşluk Doldurma)",
+        "instructions": "Doğru kelimeyi yazın.\nKelimeler: Beschwerde, Kundenservice, Garantie, Rechnung, Lieferung, umtauschen, defekt, Gutschein, Reparatur, reklamierte",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Das neue Handy war leider ____. Es ging nach zwei Tagen kaputt.",
+            "a": "defekt"
+          },
+          {
+            "q": "Ich rief den ____ an und wartete 15 Minuten.",
+            "a": "Kundenservice"
+          },
+          {
+            "q": "Die ____ kam fünf Tage zu spät.",
+            "a": "Lieferung"
+          },
+          {
+            "q": "Die ____ stimmt nicht – hier steht ein falscher Betrag.",
+            "a": "Rechnung"
+          },
+          {
+            "q": "Kann ich das Gerät ____? Es hat die falsche Farbe.",
+            "a": "umtauschen"
+          },
+          {
+            "q": "Die ____ gilt noch ein Jahr. Die Firma muss es kostenlos reparieren.",
+            "a": "Garantie"
+          },
+          {
+            "q": "Ich schrieb eine ____ per E-Mail.",
+            "a": "Beschwerde"
+          },
+          {
+            "q": "Statt Geld zurück bekam ich nur einen ____ über 10 Euro.",
+            "a": "Gutschein"
+          },
+          {
+            "q": "Die ____ dauerte drei Wochen – viel zu lang!",
+            "a": "Reparatur"
+          },
+          {
+            "q": "Sie ____ den Fernseher, weil das Bild nicht scharf war.",
+            "a": "reklamierte"
+          }
+        ]
+      },
+      {
+        "title": "Übung 3: Was passt nicht? (Hangisi Uymuyor?)",
+        "type": "odd_one_out",
+        "questions": [
+          {
+            "q": "Beschwerde – Reklamation – Gutschein – Mangel",
+            "a": "Gutschein",
+            "explanation": "diğerleri sorun/şikâyet ile ilgili"
+          },
+          {
+            "q": "umtauschen – zurückgeben – erstatten – bestellen",
+            "a": "bestellen",
+            "explanation": "diğerleri iade/geri verme ile ilgili"
+          },
+          {
+            "q": "Hotline – Warteschleife – Kundenberater – Kassenbon",
+            "a": "Kassenbon",
+            "explanation": "diğerleri iletişim kanalı ile ilgili"
+          },
+          {
+            "q": "defekt – beschädigt – kaputt – zufrieden",
+            "a": "zufrieden",
+            "explanation": "diğerleri arıza/hasar ile ilgili"
+          },
+          {
+            "q": "Quittung – Rechnung – Kassenbon – Reparatur",
+            "a": "Reparatur",
+            "explanation": "diğerleri belge/kâğıt ile ilgili"
+          }
+        ]
+      },
+      {
+        "title": "Übung 4: Definitionen (Tanımlar)",
+        "type": "definition",
+        "questions": [
+          {
+            "q": "Man schickt ein Produkt an den Verkäufer zurück und bekommt das Geld.",
+            "a": "Rückgabe|Erstattung"
+          },
+          {
+            "q": "Ein Dokument, das zeigt, wie viel man bezahlen muss.",
+            "a": "Rechnung"
+          },
+          {
+            "q": "Wenn ein Gerät nicht mehr funktioniert, ist es ...",
+            "a": "defekt|kaputt"
+          },
+          {
+            "q": "Der Zeitraum, in dem ein Hersteller ein Produkt kostenlos repariert.",
+            "a": "Garantie"
+          },
+          {
+            "q": "Man wartet am Telefon und hört Musik – man ist in der ...",
+            "a": "Warteschleife"
+          },
+          {
+            "q": "Ein Papier, das man im Geschäft nach dem Bezahlen bekommt.",
+            "a": "Quittung|Kassenbon"
+          },
+          {
+            "q": "Wenn man ein Produkt gegen ein anderes wechselt.",
+            "a": "Umtausch"
+          },
+          {
+            "q": "Die Person, die im Kundenservice arbeitet und den Kunden hilft.",
+            "a": "Kundenberater"
+          },
+          {
+            "q": "Man ist unzufrieden und sagt dem Geschäft, was falsch ist.",
+            "a": "sich beschweren|reklamieren"
+          },
+          {
+            "q": "Ein Stück Papier oder ein Code, mit dem man günstiger einkaufen kann.",
+            "a": "Gutschein"
+          }
+        ]
+      },
+      {
+        "title": "Übung 5: Çeviri (Türkçe → Almanca)",
+        "type": "translation",
+        "questions": [
+          {
+            "q": "Cihaz arızalı – değiştirmek istiyorum.",
+            "a": "Das Gerät ist defekt – ich möchte es umtauschen."
+          },
+          {
+            "q": "Teslimat çok geç geldi.",
+            "a": "Die Lieferung kam viel zu spät."
+          },
+          {
+            "q": "Müşteri hizmetlerini aradım ama 30 dakika bekledim.",
+            "a": "Ich rief den Kundenservice an, aber ich wartete 30 Minuten."
+          },
+          {
+            "q": "Fatura yanlış – lütfen kontrol edin.",
+            "a": "Die Rechnung ist falsch – bitte überprüfen Sie sie."
+          },
+          {
+            "q": "Paramı iade edebilir misiniz?",
+            "a": "Können Sie mir das Geld erstatten?"
+          },
+          {
+            "q": "Garanti süresi henüz dolmadı.",
+            "a": "Die Garantie ist noch nicht abgelaufen."
+          },
+          {
+            "q": "Bir kusur buldum ve ürünü şikâyet ettim.",
+            "a": "Ich fand einen Mangel und reklamierte das Produkt."
+          },
+          {
+            "q": "Danışman beni ilgili departmana yönlendirdi.",
+            "a": "Der Berater leitete mich an die zuständige Abteilung weiter."
+          }
+        ]
+      },
+      {
+        "title": "Übung 6: Verben mit Präpositionen",
+        "instructions": "Doğru edatı yazın: über, um, auf, für, an, nach",
+        "type": "fill_blank",
+        "questions": [
+          {
+            "q": "Ich beschwerte mich ____ den schlechten Service.",
+            "a": "über"
+          },
+          {
+            "q": "Er kümmerte sich ____ das Problem.",
+            "a": "um"
+          },
+          {
+            "q": "Wir warteten ____ die Lieferung.",
+            "a": "auf"
+          },
+          {
+            "q": "Sie fragte ____ dem Ansprechpartner.",
+            "a": "nach"
+          },
+          {
+            "q": "Der Berater entschuldigte sich ____ die Verspätung.",
+            "a": "für"
+          },
+          {
+            "q": "Ich rief ____ der Hotline ____. (anrufen bei)",
+            "a": "bei...an"
+          },
+          {
+            "q": "Er bat ____ eine Lösung.",
+            "a": "um"
+          },
+          {
+            "q": "Sie beschwerte sich ____ die falsche Rechnung.",
+            "a": "über"
+          }
+        ]
+      },
+      {
+        "title": "Übung 7: Buchstabensalat (Harf Karışıklığı)",
+        "type": "word_scramble",
+        "questions": [
+          {
+            "q": "DWESBECHER",
+            "a": "Beschwerde",
+            "hint": "şikâyet"
+          },
+          {
+            "q": "TAIRGNAE",
+            "a": "Garantie",
+            "hint": "garanti"
+          },
+          {
+            "q": "TGHUSEICN",
+            "a": "Gutschein",
+            "hint": "kupon"
+          },
+          {
+            "q": "RAPETRURA",
+            "a": "Reparatur",
+            "hint": "tamir"
+          },
+          {
+            "q": "GUFRENIEL",
+            "a": "Lieferung",
+            "hint": "teslimat"
+          },
+          {
+            "q": "UMTHSAUC",
+            "a": "Umtausch",
+            "hint": "değişim"
+          },
+          {
+            "q": "CHNURGEN",
+            "a": "Rechnung",
+            "hint": "fatura"
+          },
+          {
+            "q": "GNUTTQUI",
+            "a": "Quittung",
+            "hint": "makbuz"
+          }
+        ]
+      },
+      {
+        "title": "Übung 8: Lückentext – Im Kundenservice",
+        "instructions": "Boşlukları kelime listesinden doldurun.\nKelimeler: beschweren, Rechnung, defekt, Garantie, umtauschen, Quittung, Lösung, Kundenberater, dauert, entschuldigen",
+        "type": "fill_blank",
+        "context": "Dialog:\nKunde: Guten Tag. Ich möchte mich ____(1). Ich habe letzte Woche einen Staubsauger gekauft und er ist schon ____(2).\n____(3): Das tut mir leid. Haben Sie die ____(4) dabei?\nKunde: Ja, hier bitte. Und er hat noch ____(5).\n____(3): Gut. Möchten Sie das Gerät ____(6) oder reparieren lassen?\nKunde: Ich möchte ihn lieber umtauschen. Wie lange ____(7) das?\n____(3): Das geht sofort. Wir ____(8) uns für die Unannehmlichkeiten.\nKunde: Und die ____(9) stimmt auch nicht. Hier steht ein falscher Betrag.\n____(3): Kein Problem, wir finden eine ____(10). Ich korrigiere das sofort.",
+        "questions": [
+          {
+            "q": "(1)",
+            "a": "beschweren"
+          },
+          {
+            "q": "(2)",
+            "a": "defekt"
+          },
+          {
+            "q": "(3)",
+            "a": "Kundenberater"
+          },
+          {
+            "q": "(4)",
+            "a": "Quittung"
+          },
+          {
+            "q": "(5)",
+            "a": "Garantie"
+          },
+          {
+            "q": "(6)",
+            "a": "umtauschen"
+          },
+          {
+            "q": "(7)",
+            "a": "dauert"
+          },
+          {
+            "q": "(8)",
+            "a": "entschuldigen"
+          },
+          {
+            "q": "(9)",
+            "a": "Rechnung"
+          },
+          {
+            "q": "(10)",
+            "a": "Lösung"
+          }
+        ]
+      },
+      {
+        "title": "Übung 9: Welches Wort passt?",
+        "type": "multiple_choice",
+        "questions": [
+          {
+            "q": "Das Produkt war ____. Es funktionierte nicht.",
+            "options": "a) erreichbar|b) defekt|c) zuständig",
+            "a": "b"
+          },
+          {
+            "q": "Die ____ kam drei Tage zu spät.",
+            "options": "a) Garantie|b) Warteschleife|c) Lieferung",
+            "a": "c"
+          },
+          {
+            "q": "Ich möchte das Gerät ____.",
+            "options": "a) weiterleiten|b) umtauschen|c) nachfragen",
+            "a": "b"
+          },
+          {
+            "q": "Der ____ war sehr freundlich und half mir sofort.",
+            "options": "a) Gutschein|b) Kundenberater|c) Mangel",
+            "a": "b"
+          },
+          {
+            "q": "Können Sie mir das Geld ____?",
+            "options": "a) erstatten|b) stornieren|c) beschweren",
+            "a": "a"
+          },
+          {
+            "q": "Haben Sie den ____ noch? Ohne ihn können wir nichts machen.",
+            "options": "a) Umtausch|b) Kassenbon|c) Ansprechpartner",
+            "a": "b"
+          },
+          {
+            "q": "Die ____ gilt noch bis nächstes Jahr.",
+            "options": "a) Beschwerde|b) Quittung|c) Garantie",
+            "a": "c"
+          },
+          {
+            "q": "Ich hing 20 Minuten in der ____.",
+            "options": "a) Lieferung|b) Warteschleife|c) Rückgabe",
+            "a": "b"
+          }
+        ]
+      },
+      {
+        "title": "Übung 10: Schreibaufgabe – Kundenbeschwerde",
+        "type": "free_writing",
+        "instructions": "Lektion 4 kelimelerini kullanarak bir müşteri şikâyeti yazın (5-6 cümle). Ne satın aldınız? Sorun neydi? Kundenservice ile ne konuştunuz? Sonuç ne oldu?",
+        "questions": [
+          {
+            "q": "Bir müşteri şikâyeti yazın (5-6 cümle).",
+            "sample_answer": "Letzte Woche kaufte ich einen neuen Staubsauger im Online-Shop. Die Lieferung kam drei Tage zu spät. Als ich das Gerät auspackte, stellte ich fest, dass es defekt war. Ich rief den Kundenservice an, aber ich wartete 20 Minuten in der Warteschleife. Der Kundenberater war freundlich und bot mir einen Umtausch an. Am Ende bekam ich ein neues Gerät und einen Gutschein über 15 Euro als Entschädigung."
+          }
+        ]
+      }
+    ]
+  },
+  "lesen": {
+    "texts": [
+      {
+        "title": "Text 1: Kundenbeschwerde (Müşteri Şikâyeti – E-Mail)",
+        "pre_question": "Hiç bir ürün yüzünden şikâyette bulundunuz mu? Sonuç ne oldu?",
+        "content": "Von: thomas.weber@mail.de An: kundenservice@elektromarkt24.de Betreff: Beschwerde – Bestellung Nr. 78432\n\nSehr geehrte Damen und Herren,\n\nam 15. August bestellte ich über Ihren Online-Shop eine Kaffeemaschine (Modell ProBrew 3000, Artikelnummer KM-3000). Die Lieferzeit sollte laut Webseite drei bis fünf Werktage betragen. Obwohl ich Express-Versand bezahlt hatte, kam das Paket erst nach zwölf Tagen an.\n\nAls ich die Verpackung öffnete, stellte ich fest, dass die Kaffeemaschine beschädigt war. Der Wassertank hatte einen Riss und das Gerät funktionierte nicht. Außerdem fehlte die Bedienungsanleitung.\n\nIch rief sofort Ihre Hotline an, aber obwohl ich dreimal anrief, musste ich jedes Mal über 20 Minuten in der Warteschleife warten. Der Kundenberater sagte mir, ich solle das Gerät zurückschicken und auf den Umtausch warten. Das tat ich. Trotzdem habe ich nach drei Wochen immer noch kein Ersatzgerät bekommen.\n\nIch bin sehr enttäuscht über Ihren Service. Ich möchte Sie daher bitten, mir entweder sofort ein neues Gerät zu schicken oder mir den vollen Kaufpreis von 189 Euro zu erstatten. Wenn ich bis zum 30. September keine Antwort bekomme, werde ich mich an die Verbraucherzentrale wenden.\n\nMit freundlichen Grüßen\nThomas Weber",
+        "vocabulary": [
+          {
+            "de": "der Werktag, -e",
+            "tr": "iş günü"
+          },
+          {
+            "de": "der Express-Versand",
+            "tr": "hızlı kargo"
+          },
+          {
+            "de": "der Riss, -e",
+            "tr": "çatlak"
+          },
+          {
+            "de": "die Bedienungsanleitung, -en",
+            "tr": "kullanım kılavuzu"
+          },
+          {
+            "de": "das Ersatzgerät, -e",
+            "tr": "yedek cihaz"
+          },
+          {
+            "de": "die Verbraucherzentrale",
+            "tr": "tüketici danışma merkezi"
+          },
+          {
+            "de": "sich wenden an (+Akk.)",
+            "tr": "başvurmak"
+          }
+        ]
+      },
+      {
+        "title": "Text 2: Zeitungsartikel (Gazete Makalesi – Almanya'da Müşteri Hizmetleri)",
+        "pre_question": "Almanya'da müşteri hizmetleri sizce nasıl? İyi mi, kötü mü?",
+        "content": "Kundenservice in Deutschland: Besser als sein Ruf?\n\nEine aktuelle Umfrage des Deutschen Instituts für Servicequalität (DISQ) untersuchte die Zufriedenheit der Verbraucher mit dem Kundenservice in verschiedenen Branchen. Die Ergebnisse überraschen: Obwohl viele Deutsche über schlechten Service klagen, zeigt die Studie ein differenziertes Bild.\n\nInsgesamt wurden 5.000 Verbraucher befragt. Die wichtigsten Ergebnisse:\n• 67% der Befragten waren mit dem Kundenservice im Einzelhandel zufrieden oder sehr zufrieden.\n• Im Online-Handel lag die Zufriedenheit bei nur 52%.\n• Die größten Beschwerden betrafen lange Wartezeiten (43%), unfreundliches Personal (31%) und komplizierte Rückgabeprozesse (27%).\n• 72% der Kunden erwarten eine Antwort auf ihre Beschwerde innerhalb von 24 Stunden.\n• Aber nur 35% bekamen tatsächlich so schnell eine Reaktion.\n\nBesonders gut schnitten Drogerieketten wie dm und Rossmann ab. Sie erhielten die höchsten Bewertungen für freundliches Personal und unkomplizierte Rückgabe. Am schlechtesten bewerteten die Kunden Telekommunikationsunternehmen und Internetanbieter. Trotzdem gab es auch hier Verbesserungen: Die durchschnittliche Wartezeit bei Hotlines sank von 12 Minuten (2020) auf 7 Minuten (2025).\n\nServiceexperte Dr. Anna Klein kommentierte: \"Der Kundenservice hat sich in den letzten Jahren deutlich verbessert, besonders im digitalen Bereich. Chatbots und KI-gestützte Systeme beantworten einfache Fragen schnell. Trotzdem wünschen sich viele Kunden bei komplizierten Problemen einen persönlichen Ansprechpartner.\"",
+        "vocabulary": [
+          {
+            "de": "die Umfrage, -n",
+            "tr": "anket"
+          },
+          {
+            "de": "die Zufriedenheit",
+            "tr": "memnuniyet"
+          },
+          {
+            "de": "die Branche, -n",
+            "tr": "sektör"
+          },
+          {
+            "de": "der Einzelhandel",
+            "tr": "perakende"
+          },
+          {
+            "de": "klagen (über + Akk.)",
+            "tr": "şikâyet etmek, yakınmak"
+          },
+          {
+            "de": "die Bewertung, -en",
+            "tr": "değerlendirme"
+          },
+          {
+            "de": "abschneiden",
+            "tr": "başarı göstermek"
+          },
+          {
+            "de": "die Verbesserung, -en",
+            "tr": "iyileşme"
+          },
+          {
+            "de": "sinken/sank",
+            "tr": "düşmek"
+          },
+          {
+            "de": "KI-gestützt",
+            "tr": "yapay zekâ destekli"
+          }
+        ]
+      },
+      {
+        "title": "Text 3: Forumsbeiträge (Forum Yorumları – Kundenservice-Erfahrungen)",
+        "pre_question": "Online forumlarda ürün yorumları okur musunuz? Neden?",
+        "content": "Forum: Verbraucher-Talk\nThema: Eure schlimmsten und besten Kundenservice-Erfahrungen\n\nUserMartin82: Ich hatte letzten Monat ein Problem mit meinem Laptop. Der Bildschirm wurde plötzlich schwarz. Obwohl das Gerät erst sechs Monate alt war, wollte der Hersteller es nicht kostenlos reparieren. Sie sagten, der Schaden sei \"selbst verursacht\". Ich musste einen Anwalt einschalten. Nach zwei Monaten bekam ich endlich ein neues Gerät. So ein Stress!\n\nUserLena_S: Ich hatte eine ganz andere Erfahrung! Mein Kühlschrank von ElektroPlus ging nach einem Jahr kaputt. Ich rief den Kundenservice an und der Berater war super freundlich. Obwohl die Garantie schon abgelaufen war, boten sie mir eine kostenlose Reparatur an. Der Techniker kam am nächsten Tag. Seitdem kaufe ich nur noch bei ElektroPlus!\n\nUserAhmet_K: Bei mir ging es um einen Online-Shop. Ich bestellte Schuhe, aber sie schickten mir die falsche Größe. Ich wollte sie umtauschen, aber der Kundenservice war nur per E-Mail erreichbar – keine Telefonnummer, kein Chat. Ich schrieb drei E-Mails. Trotzdem bekam ich erst nach zwei Wochen eine Antwort. Am Ende musste ich die Rücksendung selbst bezahlen, obwohl der Fehler beim Shop lag. Nie wieder!\n\nUserSophie99: Ich kann Lena nur zustimmen – guter Service macht den Unterschied! Mein Staubsauger ging nach der Garantiezeit kaputt. Trotzdem rief ich beim Hersteller an. Die Mitarbeiterin war sehr nett, fragte nach dem Problem und schickte mir kostenlos ein Ersatzteil. Das nenne ich Kundenservice!",
+        "vocabulary": [
+          {
+            "de": "der Hersteller, -",
+            "tr": "üretici"
+          },
+          {
+            "de": "selbst verursacht",
+            "tr": "kendi kaynaklı"
+          },
+          {
+            "de": "der Anwalt, Anwälte",
+            "tr": "avukat"
+          },
+          {
+            "de": "einschalten",
+            "tr": "devreye sokmak"
+          },
+          {
+            "de": "die Rücksendung, -en",
+            "tr": "iade gönderisi"
+          },
+          {
+            "de": "das Ersatzteil, -e",
+            "tr": "yedek parça"
+          },
+          {
+            "de": "zustimmen",
+            "tr": "katılmak, onaylamak"
+          }
+        ]
+      },
+      {
+        "title": "Text 4: Antwort-E-Mail (Kundenservice Yanıt E-postası)",
+        "pre_question": "Text 1'deki Thomas Weber'in şikâyetini hatırlayın. Firma nasıl yanıt vermiş olabilir?",
+        "content": "Von: kundenservice@elektromarkt24.de An: thomas.weber@mail.de Betreff: Re: Beschwerde – Bestellung Nr. 78432\n\nSehr geehrter Herr Weber,\n\nvielen Dank für Ihre E-Mail vom 20. September. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten, die Ihnen entstanden sind.\n\nWir haben Ihren Fall geprüft und können Folgendes bestätigen:\n• Die Verzögerung bei der Lieferung lag an einem Fehler in unserem Lager. Obwohl wir den Express-Versand bearbeitet hatten, wurde Ihr Paket versehentlich als Standardversand verschickt.\n• Das beschädigte Gerät tut uns sehr leid. Wir haben Ihren Umtauschantrag nochmals geprüft und ein neues Gerät an Sie verschickt. Sie sollten es innerhalb von drei Werktagen erhalten.\n• Als Entschädigung erstatten wir Ihnen die Versandkosten (9,95 Euro) und bieten Ihnen zusätzlich einen Gutschein über 25 Euro für Ihre nächste Bestellung an.\n\nWir bedauern, dass unser telefonischer Service Sie enttäuscht hat. Wir arbeiten derzeit daran, unsere Wartezeiten zu verkürzen. Trotzdem verstehen wir Ihren Ärger und nehmen Ihre Kritik sehr ernst.\n\nSollten Sie weitere Fragen haben, erreichen Sie mich direkt unter der Durchwahl 0711-555-4321.\n\nMit freundlichen Grüßen\nSandra Hoffmann\nLeiterin Kundenservice, ElektroMarkt24",
+        "vocabulary": [
+          {
+            "de": "aufrichtig",
+            "tr": "içtenlikle"
+          },
+          {
+            "de": "die Unannehmlichkeit, -en",
+            "tr": "rahatsızlık, sıkıntı"
+          },
+          {
+            "de": "bestätigen",
+            "tr": "onaylamak, doğrulamak"
+          },
+          {
+            "de": "versehentlich",
+            "tr": "yanlışlıkla"
+          },
+          {
+            "de": "die Entschädigung, -en",
+            "tr": "tazminat"
+          },
+          {
+            "de": "bedauern",
+            "tr": "üzülmek, pişman olmak"
+          },
+          {
+            "de": "verkürzen",
+            "tr": "kısaltmak"
+          },
+          {
+            "de": "die Durchwahl, -en",
+            "tr": "dahili numara"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Text 1 – A) Richtig oder Falsch?",
+        "type": "true_false",
+        "questions": [
+          {
+            "q": "Thomas bestellte die Kaffeemaschine in einem Geschäft.",
+            "a": "F",
+            "correction": "Er bestellte online (im Online-Shop)."
+          },
+          {
+            "q": "Er bezahlte extra für schnellere Lieferung.",
+            "a": "R"
+          },
+          {
+            "q": "Das Paket kam innerhalb von fünf Werktagen.",
+            "a": "F",
+            "correction": "Es kam erst nach zwölf Tagen."
+          },
+          {
+            "q": "Die Kaffeemaschine war bei der Ankunft beschädigt.",
+            "a": "R"
+          },
+          {
+            "q": "Der Kundenservice war sofort erreichbar.",
+            "a": "F",
+            "correction": "Er musste jedes Mal über 20 Minuten warten."
+          },
+          {
+            "q": "Thomas hat das Gerät bereits zurückgeschickt.",
+            "a": "R"
+          },
+          {
+            "q": "Er hat inzwischen ein Ersatzgerät bekommen.",
+            "a": "F",
+            "correction": "Nach drei Wochen hat er immer noch kein Ersatzgerät."
+          },
+          {
+            "q": "Thomas droht mit der Verbraucherzentrale.",
+            "a": "R"
+          }
+        ]
+      },
+      {
+        "title": "Text 1 – B) Chronologie ordnen",
+        "type": "ordering",
+        "instructions": "Olayları doğru sıraya koyun (1-6).",
+        "questions": [
+          {
+            "q": "Thomas rief die Hotline an. / Er bestellte eine Kaffeemaschine online. / Er schrieb eine Beschwerde-E-Mail. / Das Paket kam nach zwölf Tagen an. / Er schickte das Gerät zurück. / Er stellte fest, dass die Maschine beschädigt war.",
+            "a": "2, 4, 6, 3, 5, 1",
+            "explanation": "Bestellung → Lieferung → Feststellung → Hotline → Rücksendung → Beschwerde-E-Mail"
+          }
+        ]
+      },
+      {
+        "title": "Text 1 – C) Fragen zum Text",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Was bestellte Thomas und wo?",
+            "sample_answer": "Er bestellte eine Kaffeemaschine (ProBrew 3000) im Online-Shop von ElektroMarkt24."
+          },
+          {
+            "q": "Was waren die Probleme mit der Lieferung? (Nennen Sie zwei.)",
+            "sample_answer": "Das Paket kam zu spät (12 statt 3-5 Tage) und er hatte Express-Versand bezahlt."
+          },
+          {
+            "q": "Was war mit der Kaffeemaschine nicht in Ordnung? (Nennen Sie drei Probleme.)",
+            "sample_answer": "Der Wassertank hatte einen Riss, das Gerät funktionierte nicht, die Bedienungsanleitung fehlte."
+          },
+          {
+            "q": "Was passierte, als Thomas die Hotline anrief?",
+            "sample_answer": "Er musste jedes Mal über 20 Minuten in der Warteschleife warten."
+          },
+          {
+            "q": "Was möchte Thomas als Lösung?",
+            "sample_answer": "Er möchte entweder ein neues Gerät oder den vollen Kaufpreis (189 Euro) zurück."
+          }
+        ]
+      },
+      {
+        "title": "Text 1 – D) obwohl und trotzdem im Text",
+        "type": "find_in_text",
+        "questions": [
+          {
+            "q": "obwohl (1. kullanım):",
+            "sample_answer": "Obwohl ich Express-Versand bezahlt hatte, kam das Paket erst nach zwölf Tagen an."
+          },
+          {
+            "q": "obwohl (2. kullanım):",
+            "sample_answer": "obwohl ich dreimal anrief, musste ich jedes Mal über 20 Minuten warten"
+          },
+          {
+            "q": "trotzdem:",
+            "sample_answer": "Trotzdem habe ich nach drei Wochen immer noch kein Ersatzgerät bekommen."
+          }
+        ]
+      },
+      {
+        "title": "Text 2 – A) R / F / Steht nicht im Text (N)",
+        "type": "true_false_notintext",
+        "questions": [
+          {
+            "q": "Die Studie befragte mehr als 4.000 Verbraucher.",
+            "a": "R",
+            "correction": "5.000 Verbraucher (mehr als 4.000)."
+          },
+          {
+            "q": "Im Online-Handel ist die Zufriedenheit höher als im Einzelhandel.",
+            "a": "F",
+            "correction": "Im Online-Handel nur 52%, im Einzelhandel 67%."
+          },
+          {
+            "q": "Die meisten Kunden beschweren sich über lange Wartezeiten.",
+            "a": "R",
+            "correction": "43% der Beschwerden."
+          },
+          {
+            "q": "Die Mehrheit der Kunden bekam innerhalb von 24 Stunden eine Antwort.",
+            "a": "F",
+            "correction": "Nur 35% bekamen so schnell eine Antwort."
+          },
+          {
+            "q": "Supermärkte bekamen die besten Bewertungen.",
+            "a": "N",
+            "correction": "Es steht, dass Drogerieketten (dm, Rossmann) am besten abschnitten, nicht Supermärkte."
+          },
+          {
+            "q": "Die Wartezeiten bei Hotlines wurden in den letzten Jahren kürzer.",
+            "a": "R",
+            "correction": "Von 12 Min. (2020) auf 7 Min. (2025)."
+          },
+          {
+            "q": "Dr. Klein ist gegen den Einsatz von Chatbots.",
+            "a": "F",
+            "correction": "Sie sagt, Chatbots beantworten einfache Fragen schnell, aber Kunden wünschen sich bei komplizierten Problemen einen persönlichen Ansprechpartner."
+          }
+        ]
+      },
+      {
+        "title": "Text 2 – B) Zahlen und Fakten",
+        "type": "matching",
+        "questions": [
+          {
+            "q": "1. 67%\n2. 52%\n3. 43%\n4. 72%\n5. 35%",
+            "options": "a) Kunden, die schnelle Antwort erwarten\nb) Beschwerden über lange Wartezeiten\nc) Zufriedenheit im Einzelhandel\nd) Zufriedenheit im Online-Handel\ne) Kunden, die tatsächlich schnell Antwort bekamen",
+            "a": "1-c, 2-d, 3-b, 4-a, 5-e"
+          }
+        ]
+      },
+      {
+        "title": "Text 2 – C) Fragen zum Text",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Worüber beschweren sich die meisten Kunden? (Nennen Sie die drei häufigsten Gründe.)",
+            "sample_answer": "Lange Wartezeiten (43%), unfreundliches Personal (31%), komplizierte Rückgabeprozesse (27%)."
+          },
+          {
+            "q": "Welche Geschäfte bekamen die besten Bewertungen und warum?",
+            "sample_answer": "Drogerien wie dm und Rossmann – wegen freundlichem Personal und unkomplizierter Rückgabe."
+          },
+          {
+            "q": "Welche Branche wurde am schlechtesten bewertet?",
+            "sample_answer": "Telekommunikationsunternehmen und Internetanbieter."
+          },
+          {
+            "q": "Was sagt Dr. Klein über Chatbots und persönlichen Kontakt?",
+            "sample_answer": "Chatbots beantworten einfache Fragen schnell, aber bei komplizierten Problemen wünschen sich Kunden einen persönlichen Ansprechpartner."
+          }
+        ]
+      },
+      {
+        "title": "Text 3 – A) Wer sagt das?",
+        "type": "matching",
+        "questions": [
+          {
+            "q": "Der Kundenservice war nur per E-Mail erreichbar.",
+            "a": "Ahmet"
+          },
+          {
+            "q": "Ich musste einen Anwalt einschalten.",
+            "a": "Martin"
+          },
+          {
+            "q": "Der Techniker kam am nächsten Tag.",
+            "a": "Lena"
+          },
+          {
+            "q": "Ich musste die Rücksendung selbst bezahlen.",
+            "a": "Ahmet"
+          },
+          {
+            "q": "Ich bekam kostenlos ein Ersatzteil.",
+            "a": "Sophie"
+          },
+          {
+            "q": "Der Hersteller wollte das Gerät nicht kostenlos reparieren.",
+            "a": "Martin"
+          },
+          {
+            "q": "Obwohl die Garantie abgelaufen war, bekam ich Hilfe.",
+            "a": "Lena|Sophie"
+          },
+          {
+            "q": "Seitdem kaufe ich nur noch bei diesem Geschäft.",
+            "a": "Lena"
+          }
+        ]
+      },
+      {
+        "title": "Text 3 – B) Positiv oder Negativ?",
+        "type": "true_false",
+        "questions": [
+          {
+            "q": "Martin82",
+            "a": "−",
+            "correction": "Hersteller wollte nicht reparieren, brauchte Anwalt"
+          },
+          {
+            "q": "Lena_S",
+            "a": "+",
+            "correction": "kostenlose Reparatur trotz abgelaufener Garantie, schneller Techniker"
+          },
+          {
+            "q": "Ahmet_K",
+            "a": "−",
+            "correction": "falsche Größe, nur E-Mail-Kontakt, lange Wartezeit, Rücksendung selbst bezahlt"
+          },
+          {
+            "q": "Sophie99",
+            "a": "+",
+            "correction": "kostenloses Ersatzteil, nette Mitarbeiterin"
+          }
+        ]
+      },
+      {
+        "title": "Text 3 – C) Fragen zum Text",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Warum wollte der Hersteller Martins Laptop nicht reparieren?",
+            "sample_answer": "Er sagte, der Schaden sei \"selbst verursacht\"."
+          },
+          {
+            "q": "Was war an Lenas Erfahrung besonders positiv?",
+            "sample_answer": "Obwohl die Garantie abgelaufen war, bekam sie eine kostenlose Reparatur, und der Techniker kam am nächsten Tag."
+          },
+          {
+            "q": "Welche Probleme hatte Ahmet mit dem Online-Shop? (Nennen Sie drei.)",
+            "sample_answer": "Falsche Schuhgröße, Kundenservice nur per E-Mail erreichbar, Antwort erst nach zwei Wochen, Rücksendung selbst bezahlt."
+          },
+          {
+            "q": "Was haben Lena und Sophie gemeinsam?",
+            "sample_answer": "Beide hatten positive Erfahrungen – sie bekamen Hilfe, obwohl die Garantie abgelaufen war bzw. das Gerät alt war."
+          }
+        ]
+      },
+      {
+        "title": "Text 4 – A) Richtig oder Falsch?",
+        "type": "true_false",
+        "questions": [
+          {
+            "q": "ElektroMarkt24 akzeptiert die Schuld für die Verspätung.",
+            "a": "R"
+          },
+          {
+            "q": "Das Paket wurde absichtlich als Standardversand geschickt.",
+            "a": "F",
+            "correction": "Es wurde versehentlich (yanlışlıkla) als Standardversand geschickt."
+          },
+          {
+            "q": "Thomas bekommt ein neues Gerät.",
+            "a": "R"
+          },
+          {
+            "q": "Die Firma erstattet nur die Versandkosten.",
+            "a": "F",
+            "correction": "Sie erstattet die Versandkosten UND bietet einen 25-Euro-Gutschein an."
+          },
+          {
+            "q": "Sandra Hoffmann gibt Thomas ihre direkte Telefonnummer.",
+            "a": "R"
+          },
+          {
+            "q": "Die Firma will die Wartezeiten bei der Hotline verbessern.",
+            "a": "R"
+          }
+        ]
+      },
+      {
+        "title": "Text 4 – B) Was bietet die Firma als Lösung an?",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Firmanın Thomas'a sunduğu çözümleri listeleyin (en az 3 madde).",
+            "sample_answer": "1. Neues Gerät wird innerhalb von drei Werktagen geschickt.\n2. Versandkosten (9,95 Euro) werden erstattet.\n3. Gutschein über 25 Euro für die nächste Bestellung.\n4. Direkte Telefonnummer (Durchwahl) für weitere Fragen."
+          }
+        ]
+      },
+      {
+        "title": "Text 4 – C) Vergleich: Text 1 und Text 4",
+        "type": "open_question",
+        "questions": [
+          {
+            "q": "Was wollte Thomas? (Text 1) Und was bietet die Firma? (Text 4)",
+            "sample_answer": "Thomas wollte entweder ein neues Gerät oder den vollen Kaufpreis zurück. Die Firma schickt ein neues Gerät, erstattet die Versandkosten und bietet einen 25-Euro-Gutschein an."
+          },
+          {
+            "q": "Finden Sie die Antwort der Firma angemessen? Warum / Warum nicht?",
+            "sample_answer": "Die Antwort ist teilweise angemessen: Thomas bekommt ein neues Gerät, aber keine vollständige Erstattung. Der Gutschein ist eine nette Geste, aber für die lange Wartezeit und den schlechten Service vielleicht nicht genug."
+          }
+        ]
+      },
+      {
+        "title": "Text 4 – D) Antwort-E-Mail schreiben",
+        "type": "guided_writing",
+        "instructions": "Thomas olarak Sandra Hoffmann'ın e-postasına 5-6 cümleyle cevap yazın: Teşekkür edin, çözümü kabul edip etmediğinizi belirtin, ek bir soru veya yorum ekleyin.",
+        "questions": [
+          {
+            "q": "Betreff: Re: Re: Beschwerde – Bestellung Nr. 78432",
+            "sample_answer": "Sehr geehrte Frau Hoffmann,\n\nvielen Dank für Ihre schnelle Antwort und die Entschuldigung. Ich bin froh, dass Sie mir ein neues Gerät schicken. Den Gutschein nehme ich gerne an. Allerdings hätte ich mir gewünscht, dass der gesamte Kaufpreis erstattet wird, da ich wirklich sehr lange warten musste. Könnten Sie mir bitte eine Sendungsnummer für das neue Gerät geben? Ich hoffe, dass die Lieferung diesmal pünktlich kommt.\n\nMit freundlichen Grüßen\nThomas Weber"
+          }
+        ]
+      }
+    ]
+  },
+  "schreiben": {
+    "sections": [
+      {
+        "title": "Übung 1: weil → obwohl – Cümlenin Anlamını Değiştirin",
+        "instructions": "Aşağıdaki cümlelerde weil'i obwohl ile değiştirin. Dikkat: anlam değişir!\nÖrnek: Er ging nicht zur Arbeit, weil er krank war. → Er ging zur Arbeit, obwohl er krank war.",
+        "type": "transform",
+        "questions": [
+          {
+            "q": "Sie kaufte das Handy nicht, weil es teuer war.",
+            "a": "Sie kaufte das Handy, obwohl es teuer war."
+          },
+          {
+            "q": "Er beschwerte sich, weil der Service schlecht war.",
+            "a": "Er beschwerte sich nicht, obwohl der Service schlecht war."
+          },
+          {
+            "q": "Ich blieb zu Hause, weil das Wetter schlecht war.",
+            "a": "Ich ging nach draußen, obwohl das Wetter schlecht war."
+          },
+          {
+            "q": "Sie kündigte, weil die Arbeitsbedingungen schlecht waren.",
+            "a": "Sie blieb bei der Firma, obwohl die Arbeitsbedingungen schlecht waren."
+          },
+          {
+            "q": "Wir gingen nicht ins Restaurant, weil es voll war.",
+            "a": "Wir gingen ins Restaurant, obwohl es voll war."
+          },
+          {
+            "q": "Er rief den Kundenservice nicht an, weil er keine Zeit hatte.",
+            "a": "Er rief den Kundenservice an, obwohl er keine Zeit hatte."
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: Satzbausteine ordnen – Cümle Kurun",
+        "instructions": "Verilen kelimelerden anlamlı cümleler kurun. obwohl veya trotzdem kullanın.",
+        "type": "sentence_building",
+        "questions": [
+          {
+            "q": "obwohl / das Gerät / war / neu / , / funktionierte / es / nicht",
+            "a": "Obwohl das Gerät neu war, funktionierte es nicht."
+          },
+          {
+            "q": "die Lieferung / kam / zu spät / . / trotzdem / war / der Kunde / zufrieden",
+            "a": "Die Lieferung kam zu spät. Trotzdem war der Kunde zufrieden."
+          },
+          {
+            "q": "obwohl / sie / sich beschwerte / , / passierte / nichts",
+            "a": "Obwohl sie sich beschwerte, passierte nichts."
+          },
+          {
+            "q": "der Service / war / unfreundlich / . / trotzdem / gaben / wir / Trinkgeld",
+            "a": "Der Service war unfreundlich. Trotzdem gaben wir Trinkgeld."
+          },
+          {
+            "q": "obwohl / er / die Quittung / hatte / , / wollte / das Geschäft / nichts / umtauschen",
+            "a": "Obwohl er die Quittung hatte, wollte das Geschäft nichts umtauschen."
+          },
+          {
+            "q": "das Essen / war / kalt / . / trotzdem / bezahlte / sie / die volle Rechnung",
+            "a": "Das Essen war kalt. Trotzdem bezahlte sie die volle Rechnung."
+          }
+        ]
+      },
+      {
+        "title": "Übung 3: Beschwerde-E-Mail schreiben (Şikâyet E-postası)",
+        "type": "guided_writing",
+        "instructions": "Aşağıdaki bilgilere göre bir şikâyet e-postası yazın (8-10 cümle). En az 2 kez obwohl veya trotzdem kullanın.\n\nÜrün: Waschmaschine (çamaşır makinesi), Modell CleanPro 500\nSatın alma: Online-Shop \"HausGeräte24\", 3 hafta önce, 549 Euro\nSorun 1: Lieferung 10 gün geç geldi (söz verilen: 3-5 Werktage)\nSorun 2: Makine ilk kullanımda su kaçırdı (Wasserschaden im Bad)\nKundenservice: Hotline: 45 Minuten Warteschleife, Berater unhöflich\nSonuç: Techniker-Termin: erst in 3 Wochen – kabul edilemez\nTalep: Sofort neues Gerät oder Geld zurück + Entschädigung für Wasserschaden",
+        "redemittel": [
+          "Sehr geehrte Damen und Herren,",
+          "am ... bestellte ich über Ihren Online-Shop ...",
+          "Obwohl die Lieferzeit ... betragen sollte, ...",
+          "Beim ersten Gebrauch stellte ich fest, dass ...",
+          "Ich rief Ihre Hotline an, aber trotzdem ...",
+          "Obwohl der Berater ... versprach, ...",
+          "Ich bin sehr enttäuscht / unzufrieden über ...",
+          "Ich bitte Sie daher, ... / Ich erwarte, dass ...",
+          "Wenn ich bis zum ... keine Antwort bekomme, ...",
+          "Mit freundlichen Grüßen"
+        ],
+        "questions": [
+          {
+            "q": "An: kundenservice@hausgeraete24.de\nBetreff: Beschwerde – Bestellung Nr. ...",
+            "sample_answer": "Sehr geehrte Damen und Herren,\n\nam 10. August bestellte ich über Ihren Online-Shop eine Waschmaschine (Modell CleanPro 500) für 549 Euro. Obwohl die Lieferzeit drei bis fünf Werktage betragen sollte, kam das Gerät erst nach zehn Tagen an. Beim ersten Gebrauch stellte ich fest, dass die Maschine Wasser verliert. Es entstand ein Wasserschaden in meinem Badezimmer. Ich rief sofort Ihre Hotline an, musste aber 45 Minuten in der Warteschleife warten. Der Kundenberater war leider unfreundlich und bot mir einen Techniker-Termin erst in drei Wochen an. Obwohl das Gerät ganz neu ist, funktioniert es nicht richtig. Trotzdem konnte mir niemand schnell helfen. Ich bitte Sie daher, mir sofort ein neues Gerät zu schicken oder den vollen Kaufpreis zu erstatten. Außerdem erwarte ich eine Entschädigung für den Wasserschaden. Wenn ich bis zum 15. September keine Lösung bekomme, werde ich mich an die Verbraucherzentrale wenden.\n\nMit freundlichen Grüßen\nIsa"
+          }
+        ]
+      },
+      {
+        "title": "Übung 4: Antwort-E-Mail als Kundenberater",
+        "type": "guided_writing",
+        "instructions": "Siz bir müşteri hizmetleri çalışanısınız. Aşağıdaki müşteri şikâyetini okuyun ve resmi bir yanıt e-postası yazın (8-10 cümle). Çözüm önerin, özür dileyin.\n\nKundenbeschwerde:\nVon: maria.schmidt@mail.de Betreff: Defekter Staubsauger\n\"Ich kaufte vor zwei Wochen einen Staubsauger (Modell TurboClean 200) in Ihrer Filiale in Stuttgart. Gestern ging er plötzlich nicht mehr an. Obwohl ich die Quittung habe und das Gerät noch Garantie hat, sagte mir die Verkäuferin im Geschäft, ich solle den Kundenservice anrufen. Trotzdem konnte ich niemanden erreichen. Ich bin sehr verärgert!\"",
+        "redemittel": [
+          "Sehr geehrte Frau Schmidt,",
+          "vielen Dank für Ihre Nachricht / Ihr Schreiben vom ...",
+          "Wir entschuldigen uns aufrichtig für ...",
+          "Wir haben Ihren Fall geprüft und ...",
+          "Obwohl ... , möchten wir Ihnen folgende Lösung anbieten: ...",
+          "Wir können das Gerät kostenlos reparieren / umtauschen / ...",
+          "Als Entschädigung bieten wir Ihnen ... an.",
+          "Trotzdem nehmen wir Ihre Kritik sehr ernst.",
+          "Bitte bringen Sie ... mit / Senden Sie ... an ...",
+          "Mit freundlichen Grüßen / Ihr Kundenservice-Team"
+        ],
+        "questions": [
+          {
+            "q": "Von: kundenservice@sauber-und-gut.de\nBetreff: Re: Defekter Staubsauger",
+            "sample_answer": "Sehr geehrte Frau Schmidt,\n\nvielen Dank für Ihre Nachricht. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten mit Ihrem Staubsauger TurboClean 200. Wir haben Ihren Fall geprüft. Obwohl die Verkäuferin Sie an den Kundenservice verwiesen hat, hätte sie Ihnen direkt im Geschäft helfen sollen. Trotzdem nehmen wir Ihre Kritik sehr ernst und möchten Ihnen folgende Lösung anbieten: Wir tauschen das Gerät kostenlos gegen ein neues um. Bitte bringen Sie den Staubsauger zusammen mit der Quittung in unsere Filiale in Stuttgart. Als Entschädigung bieten wir Ihnen zusätzlich einen Gutschein über 20 Euro an. Wir hoffen, dass Sie uns als Kundin erhalten bleiben.\n\nMit freundlichen Grüßen\nIhr Kundenservice-Team"
+          }
+        ]
+      },
+      {
+        "title": "Übung 5: Erfahrungsbericht – Mein Einkaufs-Erlebnis",
+        "type": "guided_writing",
+        "instructions": "Aşağıdaki bilgilere göre bir alışveriş deneyimi anlatın (8-10 cümle). Präteritum kullanın. En az 2 kez obwohl veya trotzdem kullanın.\n\nGeçen ay: Neues Sofa online bestellt (Möbelhaus \"WohnTraum\"), 899 Euro\nLieferung: 2 Wochen später als versprochen\nProblem 1: Falsche Farbe (bestellt: grau, geliefert: braun)\nKundenservice angerufen: Freundlicher Berater, versprach Umtausch in 5 Tagen\nProblem 2: Umtausch kam erst nach 3 Wochen\nErgebnis: Richtiges Sofa + Gutschein 50 Euro als Entschädigung\nFazit: Zufrieden mit dem Sofa, aber der Prozess war stressig",
+        "redemittel": [
+          "Letzten Monat bestellte ich ...",
+          "Obwohl die Lieferzeit ... betragen sollte, ...",
+          "Als das Sofa ankam, stellte ich fest, dass ...",
+          "Ich rief sofort den Kundenservice an und ...",
+          "Der Berater war ... und versprach ...",
+          "Trotzdem dauerte der Umtausch ...",
+          "Am Ende bekam ich ... / Als Entschädigung ...",
+          "Insgesamt war die Erfahrung ... , obwohl ..."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen Erfahrungsbericht (8-10 Sätze).",
+            "sample_answer": "Letzten Monat bestellte ich ein neues Sofa beim Online-Möbelhaus WohnTraum für 899 Euro. Obwohl die Lieferzeit zwei Wochen betragen sollte, kam das Sofa erst nach vier Wochen. Als es endlich ankam, stellte ich fest, dass die Farbe falsch war – ich hatte grau bestellt, aber das Sofa war braun. Ich rief sofort den Kundenservice an. Der Berater war freundlich und versprach einen Umtausch innerhalb von fünf Tagen. Trotzdem dauerte es noch drei Wochen, bis das richtige Sofa kam. Obwohl der Berater nett war, war der gesamte Prozess sehr stressig. Am Ende bekam ich das richtige Sofa und einen Gutschein über 50 Euro als Entschädigung. Insgesamt bin ich mit dem Sofa zufrieden, aber ich werde dort wahrscheinlich nicht mehr bestellen."
+          }
+        ]
+      },
+      {
+        "title": "Übung 6: Forumsbeitrag – Online-Shopping: Ja oder Nein?",
+        "type": "free_writing",
+        "instructions": "Aşağıdaki forum konusuna bir yorum yazın (8-10 cümle).\n\nForum: Verbraucher-Talk\nThema: Online-Shopping vs. Einkaufen im Geschäft\nUserLisa_M: Ich kaufe fast alles online. Es ist bequem, oft günstiger und ich kann Bewertungen lesen. Aber letzte Woche hatte ich ein schreckliches Erlebnis: Mein Paket kam beschädigt an und der Kundenservice war eine Katastrophe. Jetzt überlege ich, ob ich wieder mehr im Geschäft einkaufen soll. Was meint ihr?\n\nSchreiben Sie über: Ob Sie lieber online oder im Geschäft einkaufen, Vorteile und Nachteile (mindestens je 2), eine persönliche Erfahrung (gut oder schlecht), Ihre Empfehlung an Lisa (obwohl/trotzdem verwenden!)",
+        "redemittel": [
+          "Ich kann dich gut verstehen, weil ...",
+          "Meiner Erfahrung nach ist Online-Shopping ...",
+          "Ein Vorteil / Nachteil ist, dass ...",
+          "Obwohl Online-Shopping ... ist, finde ich ...",
+          "Trotzdem kaufe ich lieber ..., weil ...",
+          "Ich hatte einmal ein Problem mit ... Trotzdem ...",
+          "Ich würde dir empfehlen, ... zu ..."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen Forumsbeitrag (8-10 Sätze).",
+            "sample_answer": "Hallo Lisa, ich kann dich gut verstehen! Meiner Erfahrung nach ist Online-Shopping bequem und man kann Preise leicht vergleichen. Ein Vorteil ist, dass man von zu Hause bestellen kann und eine große Auswahl hat. Aber ein Nachteil ist, dass man die Produkte nicht anfassen oder ausprobieren kann. Ich hatte einmal ein ähnliches Problem: Mein neues Handy kam beschädigt an und der Kundenservice war unfreundlich. Trotzdem kaufe ich meistens online, weil es einfach praktischer ist. Obwohl Online-Shopping manchmal stressig sein kann, finde ich die Vorteile größer. Ich würde dir empfehlen, bei bekannten Shops zu kaufen und immer die Bewertungen zu lesen. Vielleicht könntest du teure Sachen im Geschäft kaufen und kleine Dinge online bestellen."
+          }
+        ]
+      },
+      {
+        "title": "Übung 7: Online-Bewertung schreiben (Ürün Değerlendirmesi)",
+        "type": "free_writing",
+        "instructions": "Hayal edin: Bir ürün satın aldınız. Aşağıdaki bilgilere göre bir online değerlendirme yazın (6-8 cümle). obwohl veya trotzdem kullanın.\n\nDurum A (olumlu): Bir kablosuz kulaklık aldınız. Ses kalitesi mükemmel, batarya 20 saat sürüyor. Teslimat bir gün geç geldi ama ürün harika. ★★★★☆ (4/5)\nDurum B (olumsuz): Bir robot süpürge aldınız. Pahalıydı ama iyi çalışmıyor, halılarda takılıyor, batarya sadece 30 dakika sürüyor. Kundenservice yardımcı olmadı. ★★☆☆☆ (2/5)",
+        "redemittel": [
+          "Ich habe ... vor ... Wochen gekauft.",
+          "Obwohl ..., bin ich insgesamt zufrieden / enttäuscht.",
+          "Die Qualität ist ... / Die Lieferung war ...",
+          "Trotzdem kann ich das Produkt (nicht) empfehlen.",
+          "Was mich gestört hat, war, dass ...",
+          "Das Preis-Leistungs-Verhältnis ist ...",
+          "Ich würde das Produkt (nicht) noch einmal kaufen."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie eine Produktbewertung (Durum A oder B, 6-8 Sätze).",
+            "sample_answer": "Ich habe vor drei Wochen kabellose Kopfhörer bei diesem Shop bestellt. Die Lieferung kam einen Tag zu spät. Trotzdem bin ich insgesamt sehr zufrieden. Die Soundqualität ist ausgezeichnet und der Bass ist stark. Die Batterie hält etwa 20 Stunden – das ist super für lange Reisen. Obwohl die Lieferung nicht pünktlich war, kann ich das Produkt auf jeden Fall empfehlen. Das Preis-Leistungs-Verhältnis ist sehr gut. Ich würde die Kopfhörer sofort wieder kaufen. ★★★★☆"
+          }
+        ]
+      },
+      {
+        "title": "Übung 8: Tagebucheintrag – Ein ärgerlicher Tag",
+        "type": "free_writing",
+        "instructions": "Hayal edin: Bugün her şey ters gitti – alışverişte, müşteri hizmetlerinde, teslimatla ilgili sorunlar yaşadınız. Günlüğünüze bu günü anlatın (6-8 cümle, Präteritum + Präsens karışık). En az 2 kez obwohl/trotzdem kullanın.",
+        "redemittel": [
+          "Liebes Tagebuch, was für ein Tag!",
+          "Heute Morgen wollte ich ... , aber ...",
+          "Obwohl ich ... , konnte/musste ich ...",
+          "Dann rief ich ... an. Trotzdem ...",
+          "Am schlimmsten war, dass ...",
+          "Jetzt bin ich ... und hoffe, dass morgen ..."
+        ],
+        "questions": [
+          {
+            "q": "Schreiben Sie einen Tagebucheintrag (6-8 Sätze).",
+            "sample_answer": "Liebes Tagebuch, was für ein schrecklicher Tag! Heute Morgen wollte ich meine neue Kaffeemaschine benutzen, aber sie funktionierte nicht. Obwohl ich sie erst letzte Woche gekauft hatte, war sie schon kaputt. Ich rief den Kundenservice an und wartete 30 Minuten in der Warteschleife. Der Berater war unfreundlich und sagte, ich solle das Gerät zurückschicken. Trotzdem bot er mir keine schnelle Lösung an. Am schlimmsten war, dass ich auch noch ein falsches Paket von einem Online-Shop bekam. Jetzt bin ich müde und verärgert, aber ich hoffe, dass morgen ein besserer Tag wird."
+          }
+        ]
+      }
+    ]
+  }
+}
