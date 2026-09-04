@@ -582,7 +582,8 @@ function Section({section, sectionKey, progress, onProgressChange}) {
   const [showSolutions, setShowSolutions] = useState(false);
   const answers = progress[sectionKey] || {};
   const setAnswer = (idx, val) => { onProgressChange(sectionKey, {...answers, [idx]: val}); };
-  const gradable = section.exercises.filter(e=>isAutoGradable(e.type));
+  const exercises = section.exercises || [];
+  const gradable = exercises.filter(e=>isAutoGradable(e.type));
   const correct = gradable.filter((e,i)=>{
     const a = answers[i];
     if (e.type==="matching") return e.answers&&e.answers.every((ans,j)=>(a||{})[j]===ans);
@@ -593,7 +594,7 @@ function Section({section, sectionKey, progress, onProgressChange}) {
 
   return (<div className="section-block">
     <div className="section-header"><h3>{section.title}</h3>{section.instruction && <p className="section-instr">{section.instruction}</p>}</div>
-    {section.exercises.map((ex,i)=>{const Comp=getExComponent(ex.type);return(<div key={i} className="exercise-item"><div className="ex-number">{i+1}</div><div className="ex-body">{ex.label&&<div className="ex-label">{ex.label}</div>}<Comp ex={ex} answer={answers[i]} onChange={val=>setAnswer(i,val)} showSolution={showSolutions}/></div></div>);})}
+    {exercises.map((ex,i)=>{const Comp=getExComponent(ex.type);return(<div key={i} className="exercise-item"><div className="ex-number">{i+1}</div><div className="ex-body">{ex.label&&<div className="ex-label">{ex.label}</div>}<Comp ex={ex} answer={answers[i]} onChange={val=>setAnswer(i,val)} showSolution={showSolutions}/></div></div>);})}
     <div className="section-footer">
       <button className="btn-check" onClick={()=>setShowSolutions(!showSolutions)}>{showSolutions?"Cevapları Gizle":"Kontrol Et"}</button>
       {showSolutions && gradable.length>0 && <div className="score-badge">{correct.length}/{gradable.length} doğru</div>}
