@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menschen B1 – Çalışma Kitapçığı</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇩🇪</text></svg>">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.24.7/babel.min.js"></script>
+<style>
+/* ─── Reset & Base ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --sidebar-bg: #1a1d23;
+  --sidebar-text: #c8ccd4;
+  --sidebar-active: #e8eaed;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --correct: #16a34a;
+  --correct-bg: #dcfce7;
+  --wrong: #dc2626;
+  --wrong-bg: #fef2f2;
+  --info-bg: #f0f9ff;
+  --text: #1f2937;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --sidebar-w: 260px;
+  --header-h: 56px;
+  --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+html { font-size: 16px; }
+body { font-family: var(--font); color: var(--text); background: var(--bg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+button { cursor: pointer; font-family: inherit; }
+input, textarea, select { font-family: inherit; font-size: inherit; }
+
+/* ─── PIN Screen ─── */
+.pin-overlay {
+  position: fixed; inset: 0; background: linear-gradient(135deg, #1e3a5f 0%, #2d1b4e 100%);
+  display: flex; align-items: center; justify-content: center; z-index: 1000;
+}
+.pin-box {
+  background: var(--surface); border-radius: var(--radius-lg); padding: 3rem 2.5rem;
+  text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,.3); max-width: 320px; width: 90%;
+}
+.pin-icon { font-size: 3rem; margin-bottom: 0.5rem; }
+.pin-box h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.2rem; }
+.pin-box p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+.pin-box input {
+  display: block; width: 100%; padding: 0.8rem; font-size: 1.5rem; text-align: center;
+  border: 2px solid var(--border); border-radius: var(--radius); outline: none;
+  letter-spacing: 0.5em; margin-bottom: 1rem; transition: border-color .2s;
+}
+.pin-box input:focus { border-color: var(--accent); }
+.pin-box input.pin-error { border-color: var(--wrong); animation: shake .4s; }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.pin-box button {
+  width: 100%; padding: 0.8rem; background: var(--accent); color: white; border: none;
+  border-radius: var(--radius); font-size: 1rem; font-weight: 600; transition: opacity .2s;
+}
+.pin-box button:hover { opacity: .9; }
+
+/* ─── Loading ─── */
+.loading-screen { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+.spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-screen p { margin-top: 1rem; color: var(--text-muted); }
+
+/* ─── Layout ─── */
+.app-container { display: flex; min-height: 100vh; }
+
+/* ─── Mobile Header ─── */
+.mobile-header {
+  display: none; position: fixed; top: 0; left: 0; right: 0; height: var(--header-h);
+  background: var(--sidebar-bg); color: white; z-index: 50;
+  padding: 0 1rem; align-items: center; gap: 0.75rem;
+}
+.hamburger { background: none; border: none; color: white; font-size: 1.4rem; padding: 0.5rem; }
+.header-title { font-size: 0.95rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ─── Sidebar ─── */
+.sidebar {
+  position: fixed; left: 0; top: 0; bottom: 0; width: var(--sidebar-w);
+  background: var(--sidebar-bg); color: var(--sidebar-text); overflow-y: auto;
+  display: flex; flex-direction: column; z-index: 100;
+  scrollbar-width: thin; scrollbar-color: #3a3f4b transparent;
+}
+.sidebar-header { padding: 1.5rem 1.25rem 1rem; display: flex; align-items: center; gap: 0.75rem; border-bottom: 1px solid rgba(255,255,255,.08); }
+.sidebar-header .logo { font-size: 1.5rem; }
+.sidebar-header h1 { font-size: 1.1rem; font-weight: 700; color: var(--sidebar-active); }
+.chapter-list { flex: 1; padding: 0.5rem 0; }
+.chapter-btn {
+  display: flex; align-items: center; gap: 0.6rem; width: 100%;
+  padding: 0.55rem 1.25rem; background: none; border: none; color: var(--sidebar-text);
+  font-size: 0.85rem; text-align: left; transition: all .15s;
+}
+.chapter-btn:hover:not(.locked) { background: rgba(255,255,255,.06); color: var(--sidebar-active); }
+.chapter-btn.active { background: rgba(37,99,235,.2); color: white; font-weight: 600; border-left: 3px solid var(--accent); }
+.chapter-btn.locked { opacity: .35; cursor: default; }
+.ch-num { font-weight: 700; font-size: 0.8rem; min-width: 28px; color: inherit; opacity: .7; }
+.ch-title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ch-lock { font-size: 0.7rem; }
+.sidebar-footer { padding: 1rem 1.25rem; border-top: 1px solid rgba(255,255,255,.08); display: flex; flex-direction: column; gap: 0.5rem; }
+.btn-export, .btn-import {
+  display: block; width: 100%; padding: 0.5rem; background: rgba(255,255,255,.06);
+  border: none; color: var(--sidebar-text); border-radius: var(--radius); font-size: 0.8rem;
+  text-align: center; cursor: pointer; transition: background .15s;
+}
+.btn-export:hover, .btn-import:hover { background: rgba(255,255,255,.12); }
+.sidebar-overlay { display: none; }
+
+/* ─── Content ─── */
+.content {
+  flex: 1; margin-left: var(--sidebar-w); padding: 2rem 2.5rem;
+  max-height: 100vh; overflow-y: auto;
+}
+
+/* ─── Empty State ─── */
+.empty-state { text-align: center; padding: 4rem 1rem; }
+.empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+.empty-state h2 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+.empty-state p { color: var(--text-muted); max-width: 400px; margin: 0 auto 0.5rem; }
+.empty-hint { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin-top: 1rem; }
+
+/* ─── Tab Bar ─── */
+.tab-bar {
+  display: flex; gap: 0; background: var(--surface); border-radius: var(--radius-lg);
+  padding: 4px; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  position: sticky; top: 0; z-index: 10;
+}
+.tab-btn {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+  padding: 0.7rem 0.5rem; background: none; border: none; border-radius: var(--radius);
+  font-size: 0.85rem; font-weight: 500; color: var(--text-muted); transition: all .15s;
+}
+.tab-btn:hover:not(:disabled) { background: var(--bg); color: var(--text); }
+.tab-btn.active { background: var(--accent); color: white; font-weight: 600; box-shadow: 0 2px 8px rgba(37,99,235,.25); }
+.tab-btn:disabled { opacity: .3; cursor: default; }
+.tab-icon { font-size: 1.1rem; }
+.tab-label {}
+
+/* ─── Tab Content ─── */
+.tab-content { max-width: 800px; }
+
+/* ─── Grammar Rules ─── */
+.grammar-rule, .vocab-list, .phrase-list { background: var(--surface); border-radius: var(--radius-lg); margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,.05); overflow: hidden; }
+.rule-toggle, .vocab-toggle, .phrase-toggle {
+  display: flex; align-items: center; gap: 0.5rem; width: 100%;
+  padding: 1rem 1.25rem; background: none; border: none; font-size: 0.95rem;
+  font-weight: 600; color: var(--text); text-align: left; transition: background .15s;
+}
+.rule-toggle:hover, .vocab-toggle:hover, .phrase-toggle:hover { background: var(--bg); }
+.rule-body, .vocab-table-wrap, .phrase-table-wrap { padding: 0 1.25rem 1.25rem; }
+.rule-text { color: var(--text); font-size: 0.9rem; line-height: 1.7; white-space: pre-line; margin-bottom: 1rem; }
+.rule-table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+.rule-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.rule-table th { background: var(--accent-light); color: var(--accent); padding: 0.5rem 0.75rem; text-align: left; font-weight: 600; white-space: nowrap; }
+.rule-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); }
+.rule-table tr:last-child td { border-bottom: none; }
+.rule-examples { display: flex; flex-direction: column; gap: 0.5rem; }
+.rule-ex { background: var(--bg); padding: 0.6rem 0.9rem; border-radius: var(--radius); font-size: 0.9rem; border-left: 3px solid var(--accent); }
+.rule-ex .de { display: block; font-weight: 500; }
+.rule-ex .tr { display: block; color: var(--text-muted); font-size: 0.85rem; margin-top: 0.15rem; }
+
+/* ─── Vocab Table ─── */
+.vocab-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.vocab-table th { background: var(--bg); padding: 0.5rem 0.75rem; text-align: left; font-weight: 600; color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.vocab-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.vt-de { font-weight: 500; }
+.vt-tr { color: var(--text-muted); }
+.vt-ex { font-size: 0.82rem; color: var(--text-muted); font-style: italic; }
+
+/* ─── Reading Block ─── */
+.reading-block { background: var(--surface); border-radius: var(--radius-lg); margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,.05); overflow: hidden; }
+.reading-toggle {
+  display: flex; align-items: center; gap: 0.5rem; width: 100%;
+  padding: 1rem 1.25rem; background: none; border: none; font-size: 0.95rem;
+  font-weight: 600; color: var(--text); text-align: left;
+}
+.reading-toggle:hover { background: var(--bg); }
+.pre-q { padding: 0 1.25rem; margin-bottom: 0.75rem; font-size: 0.9rem; color: var(--accent); font-style: italic; }
+.reading-body {
+  padding: 0 1.25rem 1.25rem; font-size: 0.92rem; line-height: 1.8;
+  white-space: pre-line; background: #fefce8; margin: 0 0.75rem 0.75rem;
+  border-radius: var(--radius); padding: 1.25rem; border-left: 4px solid #eab308;
+}
+.vocab-box { margin: 0 1.25rem 1.25rem; }
+.vocab-box summary { cursor: pointer; font-size: 0.85rem; font-weight: 600; color: var(--accent); padding: 0.5rem 0; }
+.vocab-box ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; font-size: 0.85rem; }
+.vocab-box li { color: var(--text-muted); }
+
+/* ─── Section ─── */
+.section-block { background: var(--surface); border-radius: var(--radius-lg); margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.05); overflow: hidden; }
+.section-header { padding: 1.25rem 1.25rem 0.75rem; border-bottom: 1px solid var(--border); }
+.section-header h3 { font-size: 1rem; font-weight: 700; color: var(--text); }
+.section-instr { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem; line-height: 1.5; }
+
+/* ─── Exercise items ─── */
+.exercise-item { display: flex; gap: 0.75rem; padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); }
+.exercise-item:last-child { border-bottom: none; }
+.ex-number {
+  min-width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
+  background: var(--bg); border-radius: 50%; font-size: 0.8rem; font-weight: 700; color: var(--text-muted);
+  flex-shrink: 0; margin-top: 2px;
+}
+.ex-body { flex: 1; min-width: 0; }
+.ex-label { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+.ex-context { margin-bottom: 0.3rem; }
+.ctx { font-size: 0.82rem; color: var(--text-muted); font-style: italic; }
+
+/* ─── Input styles ─── */
+.fill-sentence { font-size: 0.95rem; line-height: 2.2; }
+.fill-input {
+  display: inline-block; width: 160px; padding: 0.25rem 0.5rem; border: none;
+  border-bottom: 2px solid var(--border); background: transparent; font-size: 0.95rem;
+  outline: none; transition: border-color .2s; margin: 0 0.15rem;
+}
+.fill-input:focus { border-bottom-color: var(--accent); }
+.fill-input.correct { border-bottom-color: var(--correct); background: var(--correct-bg); }
+.fill-input.wrong { border-bottom-color: var(--wrong); background: var(--wrong-bg); }
+
+.transform-source { font-size: 0.95rem; font-weight: 500; padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius); margin-bottom: 0.3rem; }
+.transform-arrow { color: var(--accent); font-size: 1.1rem; font-weight: 700; padding: 0.2rem 0; }
+.transform-input, .build-input, .translate-input {
+  width: 100%; padding: 0.5rem 0.75rem; border: 2px solid var(--border); border-radius: var(--radius);
+  font-size: 0.92rem; outline: none; resize: vertical; transition: border-color .2s;
+}
+.transform-input:focus, .build-input:focus, .translate-input:focus { border-color: var(--accent); }
+.transform-input.correct, .build-input.correct, .translate-input.correct { border-color: var(--correct); background: var(--correct-bg); }
+.transform-input.wrong, .build-input.wrong, .translate-input.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+
+/* ─── True/False ─── */
+.tf-statement { font-size: 0.95rem; margin-bottom: 0.5rem; }
+.tf-options { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.tf-btn, .mc-btn, .odd-btn {
+  padding: 0.4rem 1rem; border: 2px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); font-size: 0.85rem; font-weight: 500; transition: all .15s;
+}
+.tf-btn:hover:not(:disabled), .mc-btn:hover:not(:disabled), .odd-btn:hover:not(:disabled) { border-color: var(--accent); }
+.tf-btn.selected, .mc-btn.selected, .odd-btn.selected { border-color: var(--accent); background: var(--accent-light); color: var(--accent); }
+.correct-opt { border-color: var(--correct) !important; background: var(--correct-bg) !important; color: var(--correct) !important; }
+.wrong-opt { border-color: var(--wrong) !important; background: var(--wrong-bg) !important; color: var(--wrong) !important; }
+
+/* ─── MC question ─── */
+.mc-question { font-size: 0.95rem; margin-bottom: 0.5rem; }
+.mc-options { display: flex; flex-direction: column; gap: 0.4rem; }
+.mc-btn { text-align: left; width: 100%; }
+
+/* ─── Matching ─── */
+.match-grid { display: flex; flex-direction: column; gap: 0.5rem; }
+.match-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+.match-left { font-size: 0.92rem; min-width: 140px; font-weight: 500; }
+.match-select {
+  flex: 1; min-width: 120px; padding: 0.4rem 0.5rem; border: 2px solid var(--border);
+  border-radius: var(--radius); font-size: 0.85rem; outline: none;
+}
+.match-select.correct { border-color: var(--correct); background: var(--correct-bg); }
+.match-select.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+.match-correct { font-size: 0.82rem; color: var(--correct); font-weight: 600; }
+
+/* ─── Ordering ─── */
+.order-row { display: flex; align-items: center; gap: 0.75rem; padding: 0.3rem 0; }
+.order-input {
+  width: 48px; padding: 0.4rem; text-align: center; border: 2px solid var(--border);
+  border-radius: var(--radius); font-size: 0.9rem; outline: none;
+}
+.order-input.correct { border-color: var(--correct); background: var(--correct-bg); }
+.order-input.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+.order-text { font-size: 0.92rem; flex: 1; }
+.order-correct { font-size: 0.82rem; color: var(--correct); font-weight: 600; }
+
+/* ─── Odd one out ─── */
+.odd-words { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+/* ─── Word scramble ─── */
+.scramble-letters { font-size: 1.3rem; font-weight: 700; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 0.3rem; font-family: monospace; }
+.scramble-hint { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+.scramble-input, .def-input, .find-input, .error-input {
+  width: 100%; max-width: 300px; padding: 0.5rem 0.75rem; border: 2px solid var(--border);
+  border-radius: var(--radius); font-size: 0.92rem; outline: none; transition: border-color .2s;
+}
+.scramble-input:focus, .def-input:focus, .find-input:focus, .error-input:focus { border-color: var(--accent); }
+.scramble-input.correct, .def-input.correct, .find-input.correct, .error-input.correct { border-color: var(--correct); background: var(--correct-bg); }
+.scramble-input.wrong, .def-input.wrong, .find-input.wrong, .error-input.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+
+/* ─── Build ─── */
+.build-parts { font-size: 0.92rem; font-weight: 500; padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius); margin-bottom: 0.4rem; font-family: monospace; }
+
+/* ─── Error correction ─── */
+.error-sentence { font-size: 0.95rem; font-weight: 500; padding: 0.5rem 0.75rem; background: var(--wrong-bg); border-radius: var(--radius); margin-bottom: 0.4rem; border-left: 3px solid var(--wrong); }
+
+/* ─── Translation ─── */
+.translate-source { font-size: 0.95rem; font-weight: 500; padding: 0.5rem 0.75rem; background: #fef3c7; border-radius: var(--radius); margin-bottom: 0.4rem; border-left: 3px solid #f59e0b; }
+
+/* ─── Definition ─── */
+.def-text { font-size: 0.92rem; font-style: italic; color: var(--text-muted); margin-bottom: 0.4rem; }
+
+/* ─── Open & Free writing ─── */
+.open-prompt { font-size: 0.95rem; font-weight: 500; margin-bottom: 0.4rem; }
+.open-input, .free-input {
+  width: 100%; padding: 0.75rem; border: 2px solid var(--border); border-radius: var(--radius);
+  font-size: 0.92rem; outline: none; resize: vertical; line-height: 1.6; transition: border-color .2s;
+}
+.open-input:focus, .free-input:focus { border-color: var(--accent); }
+.free-scenario { font-size: 0.92rem; padding: 0.75rem; background: #f0f9ff; border-radius: var(--radius); margin-bottom: 0.5rem; border-left: 3px solid var(--accent); white-space: pre-line; }
+.free-instructions { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+.free-hints { margin-bottom: 0.75rem; }
+.free-hints summary { cursor: pointer; font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+.free-hints ul { list-style: disc; padding-left: 1.5rem; margin-top: 0.4rem; font-size: 0.85rem; color: var(--text-muted); }
+
+/* ─── Find in text ─── */
+.find-prompt { font-size: 0.92rem; font-weight: 500; margin-bottom: 0.4rem; }
+
+/* ─── Solutions ─── */
+.solution { font-size: 0.85rem; padding: 0.4rem 0.6rem; border-radius: var(--radius); margin-top: 0.4rem; }
+.sol-correct { background: var(--correct-bg); color: var(--correct); }
+.sol-wrong { background: var(--wrong-bg); color: var(--wrong); }
+.sol-info { background: var(--info-bg); color: #1e40af; }
+.explanation { font-weight: 400; }
+
+/* ─── Section Footer ─── */
+.section-footer { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1.25rem; background: var(--bg); border-top: 1px solid var(--border); }
+.btn-check {
+  padding: 0.5rem 1.2rem; background: var(--accent); color: white; border: none;
+  border-radius: var(--radius); font-size: 0.85rem; font-weight: 600; transition: opacity .15s;
+}
+.btn-check:hover { opacity: .9; }
+.btn-reset {
+  padding: 0.5rem 1rem; background: none; border: 1px solid var(--border);
+  border-radius: var(--radius); font-size: 0.85rem; color: var(--text-muted); transition: all .15s;
+}
+.btn-reset:hover { border-color: var(--text-muted); color: var(--text); }
+.score-badge {
+  padding: 0.3rem 0.8rem; background: var(--correct-bg); color: var(--correct);
+  border-radius: 20px; font-size: 0.85rem; font-weight: 700;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .mobile-header { display: flex; }
+  .sidebar {
+    transform: translateX(-100%); transition: transform .25s ease;
+    width: min(280px, 85vw); top: 0;
+  }
+  .sidebar.open { transform: translateX(0); }
+  .sidebar-overlay { display: block; position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 90; }
+  .content { margin-left: 0; padding: 1rem; padding-top: calc(var(--header-h) + 0.75rem); }
+  .tab-bar { top: var(--header-h); }
+  .tab-label { display: none; }
+  .tab-icon { font-size: 1.3rem; }
+  .tab-btn { padding: 0.8rem; }
+  .fill-input { width: 120px; }
+  .match-left { min-width: 100px; font-size: 0.85rem; }
+  .section-footer { flex-wrap: wrap; }
+}
+@media (max-width: 380px) {
+  .fill-input { width: 90px; font-size: 0.85rem; }
+  .tab-btn { padding: 0.7rem 0.3rem; }
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useCallback, useRef } = React;
+
+// ─── Storage helpers ───
+const STORAGE_KEY = "almanca_progress";
+const loadProgress = () => {
+  try { const r = localStorage.getItem(STORAGE_KEY); return r ? JSON.parse(r) : {}; } catch { return {}; }
+};
+const saveProgress = (p) => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(p)); } catch {} };
+
+// ─── Chapter data ───
+const CHAPTER_MANIFEST = Array.from({ length: 24 }, (_, i) => {
+  const n = String(i + 1).padStart(2, "0");
+  return { id: `L${n}`, file: `chapters/L${n}.json`, num: i + 1 };
+});
+const LEKTION_TITLES = {
+  1:"Charaktereigenschaften",2:"Arbeit",3:"Wohnen",4:"Kundenservice",
+  5:"Medien und Technik",6:"Essenseinladung",7:"Tiere und Beratung",
+  8:"Reise und Verkehr",9:"Gesundheit",10:"Regeln und Vorschriften",
+  11:"Neue Heimat",12:"Ausbildung",13:"Sprache und Missverständnisse",
+  14:"Weiterbildung",15:"Bewerbung",16:"Erinnerungen und Beziehungen",
+  17:"Biografien",18:"Politik und Gesellschaft",19:"Erfahrungen und Ratschläge",
+  20:"Regeln und Umgangsformen",21:"Reisen und Tourismus",22:"Geschichte",
+  23:"Ereignisse und Nachrichten",24:"Probleme lösen"
+};
+const TAB_ORDER = ["grammatik","wortschatz","lesen","schreiben"];
+const TAB_LABELS = {grammatik:"Grammatik",wortschatz:"Wortschatz",lesen:"Lesen",schreiben:"Schreiben"};
+const TAB_ICONS = {grammatik:"📐",wortschatz:"📚",lesen:"📖",schreiben:"✍️"};
+
+// ─── Helpers ───
+function isCorrect(given, expected) {
+  if (!given || !expected) return false;
+  const norm = s => s.trim().toLowerCase().replace(/[.,!?;:]+$/g,"").replace(/\s+/g," ");
+  if (typeof expected === "string") {
+    return expected.split("|").map(norm).includes(norm(given));
+  }
+  return norm(String(given)) === norm(String(expected));
+}
+function isAutoGradable(type) { return !["open_question","free_writing","guided_writing"].includes(type); }
+
+// ─── Exercise Components ───
+function FillBlank({ex,answer,onChange,showSolution}) {
+  const parts = ex.sentence.split("___");
+  return (<div className="ex-fill">
+    {ex.context && <div className="ex-context"><span className="ctx">{ex.context}</span></div>}
+    <div className="fill-sentence">{parts.map((p,i)=><span key={i}>{p}{i<parts.length-1 && <input type="text" className={`fill-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="..." disabled={showSolution}/>}</span>)}</div>
+    {showSolution && <div className={`solution ${isCorrect(answer,ex.answer)?"sol-correct":"sol-wrong"}`}>{isCorrect(answer,ex.answer)?"✓":`✗ ${ex.answer}`}{ex.explanation && <span className="explanation"> — {ex.explanation}</span>}</div>}
+  </div>);
+}
+
+function Transform({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-transform">
+    <div className="transform-source">{ex.source}</div><div className="transform-arrow">→</div>
+    <textarea className={`transform-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Cevabınızı yazın..." disabled={showSolution} rows={2}/>
+    {showSolution && <div className={`solution ${isCorrect(answer,ex.answer)?"sol-correct":"sol-wrong"}`}>{isCorrect(answer,ex.answer)?"✓":`✗ ${ex.answer}`}{ex.explanation&&<span className="explanation"> — {ex.explanation}</span>}</div>}
+  </div>);
+}
+
+function TrueFalse({ex,answer,onChange,showSolution}) {
+  const opts = ex.options || (ex.type==="true_false_notintext"?["R","F","N"]:["R","F"]);
+  const labels = {R:"Richtig",F:"Falsch",N:"Nicht im Text"};
+  return (<div className="ex-tf">
+    <div className="tf-statement">{ex.statement}</div>
+    <div className="tf-options">{opts.map(o=><button key={o} className={`tf-btn ${answer===o?"selected":""} ${showSolution?(o===ex.answer?"correct-opt":answer===o&&o!==ex.answer?"wrong-opt":""):""}`} onClick={()=>!showSolution&&onChange(o)} disabled={showSolution}>{labels[o]||o}</button>)}</div>
+    {showSolution && ex.correction && <div className="solution sol-info">💡 {ex.correction}</div>}
+  </div>);
+}
+
+function Matching({ex,answer,onChange,showSolution}) {
+  const ans = answer || {};
+  return (<div className="ex-matching"><div className="match-grid">{ex.left.map((item,i)=><div key={i} className="match-row">
+    <span className="match-left">{item}</span>
+    <select className={`match-select ${showSolution?(ans[i]===ex.answers[i]?"correct":"wrong"):""}`} value={ans[i]||""} onChange={e=>onChange({...ans,[i]:e.target.value})} disabled={showSolution}>
+      <option value="">—</option>{ex.right.map((r,j)=><option key={j} value={r}>{r}</option>)}
+    </select>
+    {showSolution && ans[i]!==ex.answers[i] && <span className="match-correct">→ {ex.answers[i]}</span>}
+  </div>)}</div></div>);
+}
+
+function Ordering({ex,answer,onChange,showSolution}) {
+  const ans = answer || {};
+  return (<div className="ex-ordering">{ex.items.map((item,i)=><div key={i} className="order-row">
+    <input type="number" min="1" max={ex.items.length} className={`order-input ${showSolution?(String(ans[i])===String(ex.answers[i])?"correct":"wrong"):""}`} value={ans[i]||""} onChange={e=>onChange({...ans,[i]:e.target.value})} disabled={showSolution}/>
+    <span className="order-text">{item}</span>
+    {showSolution && String(ans[i])!==String(ex.answers[i]) && <span className="order-correct">→ {ex.answers[i]}</span>}
+  </div>)}</div>);
+}
+
+function MultipleChoice({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-mc">
+    <div className="mc-question">{ex.question}</div>
+    <div className="mc-options">{ex.options.map((o,i)=><button key={i} className={`mc-btn ${answer===o?"selected":""} ${showSolution?(o===ex.answer?"correct-opt":answer===o&&o!==ex.answer?"wrong-opt":""):""}`} onClick={()=>!showSolution&&onChange(o)} disabled={showSolution}>{o}</button>)}</div>
+    {showSolution && ex.explanation && <div className="solution sol-info">💡 {ex.explanation}</div>}
+  </div>);
+}
+
+function OpenQuestion({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-open">
+    <div className="open-prompt">{ex.question}</div>
+    <textarea className="open-input" value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Cevabınızı Almanca yazın..." rows={3}/>
+    {showSolution && ex.sample_answer && <div className="solution sol-info"><strong>Örnek:</strong> {ex.sample_answer}</div>}
+  </div>);
+}
+
+function FreeWriting({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-free">
+    {ex.scenario && <div className="free-scenario">{ex.scenario}</div>}
+    {ex.instructions && <div className="free-instructions">{ex.instructions}</div>}
+    {ex.hints && <details className="free-hints"><summary>💡 Hilfreiche Redemittel</summary><ul>{ex.hints.map((h,i)=><li key={i}>{h}</li>)}</ul></details>}
+    <textarea className="free-input" value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Metninizi buraya yazın..." rows={8}/>
+    {showSolution && ex.sample_answer && <div className="solution sol-info"><strong>Örnek:</strong><br/>{ex.sample_answer}</div>}
+  </div>);
+}
+
+function OddOneOut({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-odd"><div className="odd-words">{ex.words.map((w,i)=><button key={i} className={`odd-btn ${answer===w?"selected":""} ${showSolution?(w===ex.answer?"correct-opt":answer===w&&w!==ex.answer?"wrong-opt":""):""}`} onClick={()=>!showSolution&&onChange(w)} disabled={showSolution}>{w}</button>)}</div>
+    {showSolution && ex.explanation && <div className="solution sol-info">💡 {ex.explanation}</div>}
+  </div>);
+}
+
+function WordScramble({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-scramble">
+    <div className="scramble-letters">{ex.scrambled}</div>
+    {ex.hint && <div className="scramble-hint">({ex.hint})</div>}
+    <input type="text" className={`scramble-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Kelimeyi yazın..." disabled={showSolution}/>
+    {showSolution && !isCorrect(answer,ex.answer) && <div className="solution sol-wrong">✗ {ex.answer}</div>}
+  </div>);
+}
+
+function SentenceBuilding({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-build">
+    <div className="build-parts">{ex.parts.join(" / ")}</div>
+    <textarea className={`build-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Cümleyi kurun..." rows={2} disabled={showSolution}/>
+    {showSolution && <div className={`solution ${isCorrect(answer,ex.answer)?"sol-correct":"sol-wrong"}`}>{isCorrect(answer,ex.answer)?"✓":`✗ ${ex.answer}`}</div>}
+  </div>);
+}
+
+function ErrorCorrection({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-error">
+    <div className="error-sentence">❌ {ex.sentence}</div>
+    <input type="text" className={`error-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Doğru formu yazın..." disabled={showSolution}/>
+    {showSolution && <div className={`solution ${isCorrect(answer,ex.answer)?"sol-correct":"sol-wrong"}`}>{isCorrect(answer,ex.answer)?"✓":`✗ ${ex.answer}`}{ex.explanation&&<span className="explanation"> — {ex.explanation}</span>}</div>}
+  </div>);
+}
+
+function FindInText({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-find">
+    <div className="find-prompt">{ex.prompt}</div>
+    <input type="text" className={`find-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Metinde bulun..." disabled={showSolution}/>
+    {showSolution && !isCorrect(answer,ex.answer) && <div className="solution sol-wrong">✗ {ex.answer}</div>}
+  </div>);
+}
+
+function Translation({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-translate">
+    <div className="translate-source">🇹🇷 {ex.source}</div>
+    <textarea className={`translate-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Almanca çeviriyi yazın..." rows={2} disabled={showSolution}/>
+    {showSolution && <div className={`solution ${isCorrect(answer,ex.answer)?"sol-correct":"sol-wrong"}`}>{isCorrect(answer,ex.answer)?"✓":`✗ ${ex.answer}`}</div>}
+  </div>);
+}
+
+function Definition({ex,answer,onChange,showSolution}) {
+  return (<div className="ex-def">
+    <div className="def-text">{ex.definition}</div>
+    <input type="text" className={`def-input ${showSolution?(isCorrect(answer,ex.answer)?"correct":"wrong"):""}`} value={answer||""} onChange={e=>onChange(e.target.value)} placeholder="Kelimeyi yazın..." disabled={showSolution}/>
+    {showSolution && !isCorrect(answer,ex.answer) && <div className="solution sol-wrong">✗ {ex.answer}</div>}
+  </div>);
+}
+
+function getExComponent(type) {
+  return {fill_blank:FillBlank,transform:Transform,true_false:TrueFalse,true_false_notintext:TrueFalse,true_false_grammar:TrueFalse,matching:Matching,ordering:Ordering,multiple_choice:MultipleChoice,open_question:OpenQuestion,free_writing:FreeWriting,guided_writing:FreeWriting,odd_one_out:OddOneOut,word_scramble:WordScramble,sentence_building:SentenceBuilding,error_correction:ErrorCorrection,find_in_text:FindInText,translation:Translation,definition:Definition}[type] || OpenQuestion;
+}
+
+// ─── Reference blocks ───
+function ReadingText({text}) {
+  const [open, setOpen] = useState(true);
+  return (<div className="reading-block">
+    <button className="reading-toggle" onClick={()=>setOpen(!open)}>{open?"▼":"▶"} {text.title}</button>
+    {open && <><div>{text.pre_question && <div className="pre-q">💬 {text.pre_question}</div>}</div><div className="reading-body">{text.content}</div>
+    {text.vocabulary && <details className="vocab-box"><summary>📝 Vokabelhilfe</summary><ul>{text.vocabulary.map((v,i)=><li key={i}><strong>{v.de}</strong> = {v.tr}</li>)}</ul></details>}</>}
+  </div>);
+}
+
+function GrammarRule({rule}) {
+  const [open, setOpen] = useState(false);
+  return (<div className="grammar-rule">
+    <button className="rule-toggle" onClick={()=>setOpen(!open)}>{open?"▼":"▶"} 📐 {rule.title}</button>
+    {open && <div className="rule-body">
+      {rule.explanation && <div className="rule-text">{rule.explanation}</div>}
+      {rule.table && <div className="rule-table-wrap"><table className="rule-table"><thead><tr>{rule.table.headers.map((h,i)=><th key={i}>{h}</th>)}</tr></thead><tbody>{rule.table.rows.map((row,i)=><tr key={i}>{row.map((c,j)=><td key={j}>{c}</td>)}</tr>)}</tbody></table></div>}
+      {rule.examples && <div className="rule-examples">{rule.examples.map((ex,i)=><div key={i} className="rule-ex"><span className="de">{ex.de}</span>{ex.tr && <span className="tr">{ex.tr}</span>}</div>)}</div>}
+    </div>}
+  </div>);
+}
+
+function VocabList({list}) {
+  const [open, setOpen] = useState(false);
+  return (<div className="vocab-list">
+    <button className="vocab-toggle" onClick={()=>setOpen(!open)}>{open?"▼":"▶"} 📚 {list.title}</button>
+    {open && <div className="vocab-table-wrap"><table className="vocab-table"><thead><tr><th>Almanca</th><th>Türkçe</th><th>Örnek</th></tr></thead><tbody>{list.items.map((item,i)=><tr key={i}><td className="vt-de">{item.de}</td><td className="vt-tr">{item.tr}</td><td className="vt-ex">{item.example||""}</td></tr>)}</tbody></table></div>}
+  </div>);
+}
+
+function PhraseList({list}) {
+  const [open, setOpen] = useState(false);
+  return (<div className="phrase-list">
+    <button className="phrase-toggle" onClick={()=>setOpen(!open)}>{open?"▼":"▶"} 💬 {list.title}</button>
+    {open && <div className="phrase-table-wrap"><table className="vocab-table"><thead><tr><th>Almanca</th><th>Türkçe</th></tr></thead><tbody>{list.items.map((item,i)=><tr key={i}><td className="vt-de">{item.de}</td><td className="vt-tr">{item.tr}</td></tr>)}</tbody></table></div>}
+  </div>);
+}
+
+// ─── Section ───
+function Section({section, sectionKey, progress, onProgressChange}) {
+  const [showSolutions, setShowSolutions] = useState(false);
+  const answers = progress[sectionKey] || {};
+  const setAnswer = (idx, val) => { onProgressChange(sectionKey, {...answers, [idx]: val}); };
+  const gradable = section.exercises.filter(e=>isAutoGradable(e.type));
+  const correct = gradable.filter((e,i)=>{
+    const a = answers[i];
+    if (e.type==="matching") return e.answers&&e.answers.every((ans,j)=>(a||{})[j]===ans);
+    if (e.type==="ordering") return e.answers&&e.answers.every((ans,j)=>String((a||{})[j])===String(ans));
+    if (["true_false","true_false_notintext","true_false_grammar","multiple_choice","odd_one_out"].includes(e.type)) return a===e.answer;
+    return isCorrect(a, e.answer);
+  });
+
+  return (<div className="section-block">
+    <div className="section-header"><h3>{section.title}</h3>{section.instruction && <p className="section-instr">{section.instruction}</p>}</div>
+    {section.exercises.map((ex,i)=>{const Comp=getExComponent(ex.type);return(<div key={i} className="exercise-item"><div className="ex-number">{i+1}</div><div className="ex-body">{ex.label&&<div className="ex-label">{ex.label}</div>}<Comp ex={ex} answer={answers[i]} onChange={val=>setAnswer(i,val)} showSolution={showSolutions}/></div></div>);})}
+    <div className="section-footer">
+      <button className="btn-check" onClick={()=>setShowSolutions(!showSolutions)}>{showSolutions?"Cevapları Gizle":"Kontrol Et"}</button>
+      {showSolutions && gradable.length>0 && <div className="score-badge">{correct.length}/{gradable.length} doğru</div>}
+      <button className="btn-reset" onClick={()=>{onProgressChange(sectionKey,{});setShowSolutions(false);}}>Sıfırla</button>
+    </div>
+  </div>);
+}
+
+// ─── PIN ───
+function PinScreen({onUnlock}) {
+  const [pin,setPin]=useState(""); const [error,setError]=useState(false);
+  const check=()=>{if(pin==="2612"){sessionStorage.setItem("almanca_unlocked","1");onUnlock();}else{setError(true);setTimeout(()=>setError(false),1500);setPin("");}};
+  return (<div className="pin-overlay"><div className="pin-box">
+    <div className="pin-icon">🇩🇪</div><h2>Menschen B1</h2><p>Çalışma Kitapçığı</p>
+    <input type="password" maxLength={4} value={pin} onChange={e=>setPin(e.target.value.replace(/\D/g,""))} onKeyDown={e=>e.key==="Enter"&&check()} placeholder="PIN" className={error?"pin-error":""} autoFocus/>
+    <button onClick={check}>Giriş</button>
+  </div></div>);
+}
+
+// ─── App ───
+function App() {
+  const [unlocked,setUnlocked]=useState(sessionStorage.getItem("almanca_unlocked")==="1");
+  const [chapters,setChapters]=useState({});
+  const [loading,setLoading]=useState(true);
+  const [activeChapter,setActiveChapter]=useState(null);
+  const [activeTab,setActiveTab]=useState("grammatik");
+  const [progress,setProgress]=useState(loadProgress);
+  const [sidebarOpen,setSidebarOpen]=useState(false);
+  const contentRef=useRef(null);
+
+  useEffect(()=>{
+    if(!unlocked)return;
+    (async()=>{
+      const loaded={};
+      for(const ch of CHAPTER_MANIFEST){try{const r=await fetch(ch.file);if(r.ok)loaded[ch.id]=await r.json();}catch{}}
+      setChapters(loaded);
+      const keys=Object.keys(loaded).sort();
+      if(keys.length>0&&!activeChapter)setActiveChapter(keys[0]);
+      setLoading(false);
+    })();
+  },[unlocked]);
+
+  useEffect(()=>{saveProgress(progress);},[progress]);
+  const updateProgress=useCallback((key,val)=>{setProgress(prev=>({...prev,[key]:val}));},[]);
+  const handleChapterClick=(id)=>{setActiveChapter(id);setActiveTab("grammatik");setSidebarOpen(false);contentRef.current?.scrollTo(0,0);};
+
+  if(!unlocked) return <PinScreen onUnlock={()=>setUnlocked(true)}/>;
+  if(loading) return <div className="loading-screen"><div className="spinner"/><p>Yükleniyor...</p></div>;
+
+  const chapterData=activeChapter?chapters[activeChapter]:null;
+  const tabData=chapterData?.[activeTab];
+  const availableChapters=Object.keys(chapters).sort();
+  const chapterNum=activeChapter?parseInt(activeChapter.replace("L","")):0;
+
+  return (<div className="app-container">
+    <header className="mobile-header">
+      <button className="hamburger" onClick={()=>setSidebarOpen(!sidebarOpen)}>{sidebarOpen?"✕":"☰"}</button>
+      <span className="header-title">{activeChapter?`L${chapterNum} · ${LEKTION_TITLES[chapterNum]||""}`:"Menschen B1"}</span>
+    </header>
+
+    <nav className={`sidebar ${sidebarOpen?"open":""}`}>
+      <div className="sidebar-header"><span className="logo">🇩🇪</span><h1>Menschen B1</h1></div>
+      <div className="chapter-list">
+        {CHAPTER_MANIFEST.map(ch=>{const av=!!chapters[ch.id];return(<button key={ch.id} className={`chapter-btn ${activeChapter===ch.id?"active":""} ${!av?"locked":""}`} onClick={()=>av&&handleChapterClick(ch.id)} disabled={!av}>
+          <span className="ch-num">L{ch.num}</span><span className="ch-title">{LEKTION_TITLES[ch.num]}</span>{!av&&<span className="ch-lock">🔒</span>}
+        </button>);})}
+      </div>
+      <div className="sidebar-footer">
+        <button className="btn-export" onClick={()=>{const b=new Blob([JSON.stringify(progress,null,2)],{type:"application/json"});const u=URL.createObjectURL(b);const a=document.createElement("a");a.href=u;a.download="almanca_progress.json";a.click();}}>📤 İlerlemeyi İndir</button>
+        <label className="btn-import">📥 İlerleme Yükle<input type="file" accept=".json" style={{display:"none"}} onChange={e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=ev=>{try{setProgress(prev=>({...prev,...JSON.parse(ev.target.result)}));}catch{}};r.readAsText(f);}}/></label>
+      </div>
+    </nav>
+
+    {sidebarOpen && <div className="sidebar-overlay" onClick={()=>setSidebarOpen(false)}/>}
+
+    <main className="content" ref={contentRef}>
+      {!chapterData ? (
+        <div className="empty-state"><div className="empty-icon">📚</div><h2>Hoş Geldiniz!</h2><p>Sol menüden bir Lektion seçin.</p><p className="empty-hint">Mevcut: {availableChapters.length} / 24 Lektion</p></div>
+      ) : (<>
+        <div className="tab-bar">{TAB_ORDER.map(tab=><button key={tab} className={`tab-btn ${activeTab===tab?"active":""}`} onClick={()=>{setActiveTab(tab);contentRef.current?.scrollTo(0,0);}} disabled={!chapterData[tab]}><span className="tab-icon">{TAB_ICONS[tab]}</span><span className="tab-label">{TAB_LABELS[tab]}</span></button>)}</div>
+        {tabData ? (<div className="tab-content">
+          {tabData.rules && tabData.rules.map((r,i)=><GrammarRule key={i} rule={r}/>)}
+          {tabData.vocab_lists && tabData.vocab_lists.map((l,i)=><VocabList key={i} list={l}/>)}
+          {tabData.phrase_lists && tabData.phrase_lists.map((l,i)=><PhraseList key={i} list={l}/>)}
+          {tabData.texts && tabData.texts.map((t,i)=><ReadingText key={i} text={t}/>)}
+          {tabData.sections && tabData.sections.map((s,si)=><Section key={s.id||si} section={s} sectionKey={`${activeChapter}_${activeTab}_${s.id||si}`} progress={progress} onProgressChange={updateProgress}/>)}
+        </div>) : (<div className="empty-state"><p>Bu sekme henüz mevcut değil.</p></div>)}
+      </>)}
+    </main>
+  </div>);
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>
