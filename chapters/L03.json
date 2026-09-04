@@ -1,0 +1,1868 @@
+{
+  "id": "L03",
+  "title": "Wohnen",
+  "grammatik": {
+    "rules": [
+      {
+        "title": "Relativsätze – Grundlagen",
+        "explanation": "Relativsätze (ilgi cümleleri), bir ismi daha yakından tanımlayan yan cümlelerdir. Türkçedeki \"-dığı, -en, -an\" yapılarına karşılık gelir. Almancada ilgi cümlesi bir Relativpronomen (ilgi zamiri) ile başlar ve fiil sonda gelir (Nebensatz). Hatırlatma: Nominativ ve Akkusativ'deki Relativpronomen'leri zaten biliyorsunuz. Lektion 3'te Dativ ve Präpositionen ile kullanımı öğreniyoruz.",
+        "table": {
+          "headers": [
+            "Kasus",
+            "Maskulin",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "Akkusativ",
+              "den",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "Dativ",
+              "dem",
+              "der",
+              "dem",
+              "denen"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "⚠ Dikkat: Dativ Plural'de denen kullanılır (die değil!). Bu en sık yapılan hatadır.",
+            "tr": ""
+          }
+        ]
+      },
+      {
+        "title": "Relativsätze im Dativ",
+        "explanation": "Ana cümledeki isim, ilgi cümlesinde Dativ gerektiren bir fiil veya yapı ile kullanıldığında Relativpronomen Dativ'de olur. Dativ gerektiren bazı fiiller: helfen, gefallen, gehören, danken, gratulieren, empfehlen, passen, schmecken, fehlen.",
+        "table": {
+          "headers": [
+            "Hauptsatz",
+            "Relativsatz",
+            "Neden Dativ?"
+          ],
+          "rows": [
+            [
+              "Das ist der Nachbar,",
+              "dem ich beim Umzug geholfen habe.",
+              "helfen + Dativ, maskulin → dem"
+            ],
+            [
+              "Die Frau,",
+              "der die Wohnung gehört, wohnt im Erdgeschoss.",
+              "gehören + Dativ, feminin → der"
+            ],
+            [
+              "Das Kind,",
+              "dem ich das Spielzeug gegeben habe, wohnt nebenan.",
+              "geben + Dativ, neutrum → dem"
+            ],
+            [
+              "Die Nachbarn,",
+              "denen ich gedankt habe, waren sehr freundlich.",
+              "danken + Dativ, Plural → denen"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Das ist der Nachbar, dem ich beim Umzug geholfen habe.",
+            "tr": "Bu, taşınmada yardım ettiğim komşu."
+          },
+          {
+            "de": "Die Frau, der die Wohnung gehört, wohnt im Erdgeschoss.",
+            "tr": "Dairenin ait olduğu kadın zemin katta oturuyor."
+          },
+          {
+            "de": "Das Kind, dem ich das Spielzeug gegeben habe, wohnt nebenan.",
+            "tr": "Oyuncağı verdiğim çocuk yan tarafta oturuyor."
+          },
+          {
+            "de": "Die Nachbarn, denen ich gedankt habe, waren sehr freundlich.",
+            "tr": "Teşekkür ettiğim komşular çok nazikti."
+          }
+        ]
+      },
+      {
+        "title": "Relativsätze mit Präpositionen",
+        "explanation": "İlgi cümlesindeki fiil bir edat (Präposition) gerektiriyorsa, edat Relativpronomen'in önüne gelir. Relativpronomen'in hali (Kasus) edatın gerektirdiği hale göre belirlenir. Yapı: Präposition + Relativpronomen. Dikkat: Präposition her zaman Relativpronomen'in hemen önünde gelir, asla ayrılmaz!",
+        "table": {
+          "headers": [
+            "Präposition",
+            "Kasus",
+            "Beispiel-Verb",
+            "Relativpronomen (mask.)"
+          ],
+          "rows": [
+            [
+              "mit",
+              "Dativ",
+              "arbeiten mit",
+              "mit dem"
+            ],
+            [
+              "von",
+              "Dativ",
+              "erzählen von",
+              "von dem"
+            ],
+            [
+              "bei",
+              "Dativ",
+              "wohnen bei",
+              "bei dem"
+            ],
+            [
+              "aus",
+              "Dativ",
+              "kommen aus",
+              "aus dem"
+            ],
+            [
+              "nach",
+              "Dativ",
+              "fragen nach",
+              "nach dem"
+            ],
+            [
+              "zu",
+              "Dativ",
+              "gehen zu",
+              "zu dem"
+            ],
+            [
+              "in (wo?)",
+              "Dativ",
+              "wohnen in",
+              "in dem"
+            ],
+            [
+              "auf (wo?)",
+              "Dativ",
+              "stehen auf",
+              "auf dem"
+            ],
+            [
+              "für",
+              "Akkusativ",
+              "arbeiten für",
+              "für den"
+            ],
+            [
+              "über",
+              "Akkusativ",
+              "sprechen über",
+              "über den"
+            ],
+            [
+              "um",
+              "Akkusativ",
+              "sich bewerben um",
+              "um den"
+            ],
+            [
+              "an (wo?)",
+              "Dativ",
+              "hängen an",
+              "an dem"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "de": "Das ist die Wohnung, in der ich früher gewohnt habe.",
+            "tr": "Bu, eskiden içinde oturduğum daire. (wohnen in + Dat.)"
+          },
+          {
+            "de": "Der Tisch, auf dem die Lampe steht, ist neu.",
+            "tr": "Üzerinde lambanın durduğu masa yeni. (stehen auf + Dat.)"
+          },
+          {
+            "de": "Die Firma, für die ich arbeite, ist in Stuttgart.",
+            "tr": "İçin çalıştığım firma Stuttgart'ta. (arbeiten für + Akk.)"
+          },
+          {
+            "de": "Der Kollege, mit dem ich zusammenarbeite, kommt aus München.",
+            "tr": "Birlikte çalıştığım meslektaş Münih'ten geliyor. (zusammenarbeiten mit + Dat.)"
+          },
+          {
+            "de": "Die Nachbarn, von denen ich das Werkzeug geliehen habe, sind nett.",
+            "tr": "Aletleri ödünç aldığım komşular nazik. (leihen von + Dat.)"
+          },
+          {
+            "de": "Das Haus, neben dem ein Park liegt, gefällt mir.",
+            "tr": "Yanında park olan ev hoşuma gidiyor. (neben + Dat.)"
+          }
+        ]
+      },
+      {
+        "title": "Örnek Cümleler (Wohnen Konusu)",
+        "explanation": "Relativsätze yapısının Wohnen konusunda kullanımı.",
+        "table": null,
+        "examples": [
+          {
+            "de": "Die Wohnung, in der wir wohnen, hat drei Zimmer.",
+            "tr": "İçinde oturduğumuz dairenin üç odası var."
+          },
+          {
+            "de": "Der Vermieter, dem ich die Miete überweise, ist sehr nett.",
+            "tr": "Kirayı havale ettiğim ev sahibi çok nazik."
+          },
+          {
+            "de": "Das Zimmer, in dem ich arbeite, ist sehr hell.",
+            "tr": "İçinde çalıştığım oda çok aydınlık."
+          },
+          {
+            "de": "Die Nachbarin, mit der ich mich gut verstehe, kommt aus Spanien.",
+            "tr": "İyi anlaştığım komşu kadın İspanya'dan geliyor."
+          },
+          {
+            "de": "Der Makler, von dem wir die Wohnung bekommen haben, war zuverlässig.",
+            "tr": "Daireyi aldığımız emlakçı güvenilirdi."
+          },
+          {
+            "de": "Die Straße, in der ich wohne, ist sehr ruhig.",
+            "tr": "İçinde oturduğum sokak çok sakin."
+          },
+          {
+            "de": "Das Haus, neben dem eine Schule steht, ist zu laut.",
+            "tr": "Yanında okul olan ev çok gürültülü."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Übung 1: Relativpronomen im Dativ einsetzen",
+        "instructions": "Boşluğa doğru Dativ Relativpronomen'i yazın (dem, der, dem, denen).",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Das ist der Mann, _______ ich beim Einzug geholfen habe.",
+            "answer": "dem"
+          },
+          {
+            "question": "Die Nachbarin, _______ die Katze gehört, ist verreist.",
+            "answer": "der"
+          },
+          {
+            "question": "Das Kind, _______ ich die Tür aufgehalten habe, sagte Danke.",
+            "answer": "dem"
+          },
+          {
+            "question": "Die Mieter, _______ der Vermieter gekündigt hat, ziehen nächsten Monat aus.",
+            "answer": "denen"
+          },
+          {
+            "question": "Der Handwerker, _______ ich das Werkzeug gegeben habe, repariert das Schloss.",
+            "answer": "dem"
+          },
+          {
+            "question": "Die Frau, _______ ich den Weg erklärt habe, wohnt im Nachbarhaus.",
+            "answer": "der"
+          },
+          {
+            "question": "Das Mädchen, _______ ich das Päckchen gebracht habe, war nicht zu Hause.",
+            "answer": "dem"
+          },
+          {
+            "question": "Die Leute, _______ das Haus gefällt, wollen es kaufen.",
+            "answer": "denen"
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: Relativsätze mit Präpositionen",
+        "instructions": "Boşluğa doğru Präposition + Relativpronomen kombinasyonunu yazın.",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Der Stuhl, _______ die Katze sitzt, ist meiner. (auf + Dat.)",
+            "answer": "auf dem"
+          },
+          {
+            "question": "Die Firma, _______ er arbeitet, stellt Autoteile her. (für + Akk.)",
+            "answer": "für die"
+          },
+          {
+            "question": "Das Büro, _______ ich jeden Tag arbeite, ist im dritten Stock. (in + Dat.)",
+            "answer": "in dem"
+          },
+          {
+            "question": "Der Freund, _______ ich gestern telefoniert habe, sucht eine Wohnung. (mit + Dat.)",
+            "answer": "mit dem"
+          },
+          {
+            "question": "Die Stadt, _______ wir gerade umgezogen sind, heißt Gerlingen. (in + Akk.)",
+            "answer": "in die"
+          },
+          {
+            "question": "Der Balkon, _______ man die Berge sehen kann, ist sehr groß. (von + Dat.)",
+            "answer": "von dem"
+          },
+          {
+            "question": "Die Kollegin, _______ ich mich gut verstehe, wohnt in Sindelfingen. (mit + Dat.)",
+            "answer": "mit der"
+          },
+          {
+            "question": "Das Thema, _______ wir in der Besprechung gesprochen haben, war wichtig. (über + Akk.)",
+            "answer": "über das"
+          }
+        ]
+      },
+      {
+        "title": "Übung 3: Zwei Sätze verbinden",
+        "instructions": "İki cümleyi Relativsatz kullanarak birleştirin.",
+        "type": "transform",
+        "exercises": [
+          {
+            "question": "Die Wohnung ist schön. Ich wohne in der Wohnung.",
+            "answer": "Die Wohnung, in der ich wohne, ist schön."
+          },
+          {
+            "question": "Der Mann ist mein Vermieter. Ich überweise dem Mann die Miete.",
+            "answer": "Der Mann, dem ich die Miete überweise, ist mein Vermieter."
+          },
+          {
+            "question": "Die Kinder sind laut. Ich wohne neben den Kindern.",
+            "answer": "Die Kinder, neben denen ich wohne, sind laut."
+          },
+          {
+            "question": "Das ist das Haus. Meine Eltern wohnen in dem Haus.",
+            "answer": "Das ist das Haus, in dem meine Eltern wohnen."
+          },
+          {
+            "question": "Die Freundin ist Architektin. Ich habe mit der Freundin über den Umbau gesprochen.",
+            "answer": "Die Freundin, mit der ich über den Umbau gesprochen habe, ist Architektin."
+          },
+          {
+            "question": "Der Schrank ist alt. In dem Schrank sind meine Bücher.",
+            "answer": "Der Schrank, in dem meine Bücher sind, ist alt."
+          },
+          {
+            "question": "Die Nachbarn sind neu. Ich habe den Nachbarn Kuchen gebracht.",
+            "answer": "Die Nachbarn, denen ich Kuchen gebracht habe, sind neu."
+          },
+          {
+            "question": "Das Sofa ist bequem. Ich sitze jeden Abend auf dem Sofa.",
+            "answer": "Das Sofa, auf dem ich jeden Abend sitze, ist bequem."
+          }
+        ]
+      },
+      {
+        "title": "Übung 4: Perfekt → Präteritum im Relativsatz",
+        "instructions": "Relativsatz'daki Perfekt'i Präteritum'a çevirin. (Lektion 2 tekrarı!)",
+        "type": "transform",
+        "exercises": [
+          {
+            "question": "Die Wohnung, in der ich gewohnt habe, war sehr klein. → Die Wohnung, in der ich _______, war sehr klein.",
+            "answer": "wohnte"
+          },
+          {
+            "question": "Der Nachbar, dem ich geholfen habe, war dankbar. → Der Nachbar, dem ich _______, war dankbar.",
+            "answer": "half"
+          },
+          {
+            "question": "Die Möbel, die wir gekauft haben, sind aus Schweden. → Die Möbel, die wir _______, sind aus Schweden.",
+            "answer": "kauften"
+          },
+          {
+            "question": "Das Zimmer, in dem ich gearbeitet habe, war dunkel. → Das Zimmer, in dem ich _______, war dunkel.",
+            "answer": "arbeitete"
+          },
+          {
+            "question": "Die Nachbarin, mit der ich gesprochen habe, kommt aus Griechenland. → Die Nachbarin, mit der ich _______, kommt aus Griechenland.",
+            "answer": "sprach"
+          },
+          {
+            "question": "Der Vermieter, von dem wir die Schlüssel bekommen haben, war freundlich. → Der Vermieter, von dem wir die Schlüssel _______, war freundlich.",
+            "answer": "bekamen"
+          }
+        ]
+      },
+      {
+        "title": "Übung 5: Çeviri (Türkçe → Almanca)",
+        "instructions": "Cümleleri Relativsatz kullanarak Almancaya çevirin.",
+        "type": "translation",
+        "exercises": [
+          {
+            "question": "İçinde oturduğum daire çok güzel.",
+            "answer": "Die Wohnung, in der ich wohne, ist sehr schön."
+          },
+          {
+            "question": "Kirayı ödediğim ev sahibi çok anlayışlı.",
+            "answer": "Der Vermieter, dem ich die Miete zahle|überweise, ist sehr verständnisvoll."
+          },
+          {
+            "question": "Yanında park olan ev benim favorim.",
+            "answer": "Das Haus, neben dem ein Park liegt, ist mein Favorit."
+          },
+          {
+            "question": "İyi anlaştığım komşular üst katta oturuyor.",
+            "answer": "Die Nachbarn, mit denen ich mich gut verstehe, wohnen im oberen Stock."
+          },
+          {
+            "question": "Taşınmada bana yardım eden arkadaş Stuttgart'tan geliyor.",
+            "answer": "Der Freund, der mir beim Umzug geholfen hat, kommt aus Stuttgart."
+          },
+          {
+            "question": "Üzerinde çiçekler olan balkon çok güzel.",
+            "answer": "Der Balkon, auf dem Blumen stehen, ist sehr schön."
+          }
+        ]
+      },
+      {
+        "title": "Übung 6: Fehlerkorrektur (Hata Bulma)",
+        "instructions": "Her cümlede bir Relativsatz hatası var. Hatayı bulun ve doğrusunu yazın.",
+        "type": "error_correction",
+        "exercises": [
+          {
+            "question": "Die Wohnung, in die ich wohne, ist groß.",
+            "answer": "in der (wohnen + in + Dativ, nicht Akkusativ)"
+          },
+          {
+            "question": "Der Nachbar, dem ich mit spreche, ist nett.",
+            "answer": "mit dem (Präposition vor dem Relativpronomen!)"
+          },
+          {
+            "question": "Das Haus, in das wir leben, hat einen Garten.",
+            "answer": "in dem (leben + in + Dativ)"
+          },
+          {
+            "question": "Die Kinder, die ich geholfen habe, spielen draußen.",
+            "answer": "denen (helfen + Dativ, nicht Akkusativ)"
+          },
+          {
+            "question": "Der Tisch, auf der die Vase steht, ist aus Holz.",
+            "answer": "auf dem (Tisch = maskulin, nicht feminin)"
+          },
+          {
+            "question": "Die Freunde, mit die ich umgezogen bin, kommen morgen.",
+            "answer": "mit denen (Plural Dativ = denen)"
+          },
+          {
+            "question": "Das Sofa, auf dem ich jeden Abend sitze, ist bequem.",
+            "answer": "Richtig"
+          },
+          {
+            "question": "Die Nachbarn, denen der Hund gehört, sind im Urlaub.",
+            "answer": "Richtig"
+          }
+        ]
+      },
+      {
+        "title": "Übung 7: Lückentext – Unsere neue Wohnung",
+        "instructions": "Boşlukları doğru Relativpronomen veya Präposition + Relativpronomen ile doldurun.",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Wir sind letzte Woche in unsere neue Wohnung eingezogen. Die Wohnung, _______ (1) drei Zimmer hat, liegt im zweiten Stock.",
+            "answer": "die"
+          },
+          {
+            "question": "Der Vermieter, _______ (2) wir die Schlüssel bekommen haben, war sehr freundlich.",
+            "answer": "von dem"
+          },
+          {
+            "question": "Die Küche, _______ (3) wir jeden Morgen frühstücken, ist groß und hell.",
+            "answer": "in der"
+          },
+          {
+            "question": "Das Schlafzimmer, _______ (4) unser Bett steht, hat einen schönen Blick auf den Garten.",
+            "answer": "in dem"
+          },
+          {
+            "question": "Die Nachbarin, _______ (5) ich mich schon vorgestellt habe, brachte uns Kuchen.",
+            "answer": "der"
+          },
+          {
+            "question": "Die Straße, _______ (6) wir wohnen, ist ruhig.",
+            "answer": "in der"
+          },
+          {
+            "question": "Der Balkon, _______ (7) man den Sonnenuntergang sehen kann, ist mein Lieblingsplatz.",
+            "answer": "von dem"
+          },
+          {
+            "question": "Die Freunde, _______ (8) uns beim Umzug geholfen haben, haben wir zum Essen eingeladen.",
+            "answer": "die"
+          }
+        ]
+      },
+      {
+        "title": "Übung 8: Richtig oder Falsch? (Gramer Kontrolü)",
+        "instructions": "Cümle gramer açısından doğruysa R, yanlışsa F yazın ve düzeltin.",
+        "type": "true_false_grammar",
+        "exercises": [
+          {
+            "question": "Die Wohnung, in der wir wohnen, ist gemütlich.",
+            "answer": "R"
+          },
+          {
+            "question": "Der Nachbar, dem ich kenne, ist Ingenieur.",
+            "answer": "F → den (kennen + Akkusativ, nicht Dativ)"
+          },
+          {
+            "question": "Das Haus, in dem meine Eltern leben, ist alt.",
+            "answer": "R"
+          },
+          {
+            "question": "Die Kinder, mit denen ich spiele, sind lustig.",
+            "answer": "R"
+          },
+          {
+            "question": "Der Stuhl, auf dem ich sitze, ist kaputt.",
+            "answer": "R"
+          },
+          {
+            "question": "Die Frau, der die Wohnung gehört, ist Ärztin.",
+            "answer": "R"
+          },
+          {
+            "question": "Das Zimmer, in dem ich schlafe, hat kein Fenster.",
+            "answer": "R"
+          },
+          {
+            "question": "Der Makler, für der ich die Provision bezahlt habe, war unfreundlich.",
+            "answer": "F → für den (für + Akkusativ)"
+          }
+        ]
+      },
+      {
+        "title": "Übung 9: Gemischte Übung (Karışık)",
+        "instructions": "Boşluğa uygun Relativpronomen'i yazın. Nominativ, Akkusativ veya Dativ olabilir – dikkatli seçin!",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Der Nachbar, _______ nebenan wohnt, ist Lehrer. (Nom.)",
+            "answer": "der"
+          },
+          {
+            "question": "Die Wohnung, _______ wir besichtigt haben, war zu teuer. (Akk.)",
+            "answer": "die"
+          },
+          {
+            "question": "Das Kind, _______ ich das Buch gegeben habe, war froh. (Dat.)",
+            "answer": "dem"
+          },
+          {
+            "question": "Die Möbel, _______ wir bestellt haben, kommen morgen. (Akk.)",
+            "answer": "die"
+          },
+          {
+            "question": "Der Vermieter, _______ wir die Miete zahlen, wohnt in Berlin. (Dat.)",
+            "answer": "dem"
+          },
+          {
+            "question": "Die Frau, _______ jeden Morgen die Treppe putzt, heißt Frau Schneider. (Nom.)",
+            "answer": "die"
+          },
+          {
+            "question": "Das Haus, in _______ wir einziehen wollen, hat einen Garten. (Dat.)",
+            "answer": "das"
+          },
+          {
+            "question": "Die Leute, _______ ich beim Umzug geholfen habe, bedankten sich. (Dat.)",
+            "answer": "denen"
+          },
+          {
+            "question": "Der Schlüssel, _______ ich verloren habe, war der Haustürschlüssel. (Akk.)",
+            "answer": "den"
+          },
+          {
+            "question": "Die Nachbarin, von _______ ich das Rezept bekommen habe, kocht sehr gut. (Dat.)",
+            "answer": "der"
+          }
+        ]
+      }
+    ]
+  },
+  "wortschatz": {
+    "vocab_lists": [
+      {
+        "title": "Wohnung und Haus (Daire ve Ev)",
+        "items": [
+          {
+            "de": "die Wohnung, -en",
+            "tr": "daire",
+            "example": "Unsere Wohnung hat drei Zimmer."
+          },
+          {
+            "de": "das Haus, -̈er",
+            "tr": "ev",
+            "example": "Das Haus hat einen großen Garten."
+          },
+          {
+            "de": "die Miete, -n",
+            "tr": "kira",
+            "example": "Die Miete beträgt 850 Euro pro Monat."
+          },
+          {
+            "de": "der Vermieter / die Vermieterin",
+            "tr": "ev sahibi",
+            "example": "Der Vermieter ist sehr freundlich."
+          },
+          {
+            "de": "der Mieter / die Mieterin",
+            "tr": "kiracı",
+            "example": "Die Mieter wohnen seit zwei Jahren hier."
+          },
+          {
+            "de": "der Nachbar / die Nachbarin",
+            "tr": "komşu",
+            "example": "Unsere Nachbarn sind sehr nett."
+          },
+          {
+            "de": "der Makler / die Maklerin",
+            "tr": "emlakçı",
+            "example": "Der Makler zeigte uns drei Wohnungen."
+          },
+          {
+            "de": "die Nebenkosten (Pl.)",
+            "tr": "ek masraflar",
+            "example": "Die Nebenkosten sind im Mietpreis enthalten."
+          },
+          {
+            "de": "die Kaution, -en",
+            "tr": "depozito",
+            "example": "Die Kaution beträgt drei Monatsmieten."
+          },
+          {
+            "de": "der Mietvertrag, -̈e",
+            "tr": "kira sözleşmesi",
+            "example": "Wir unterschrieben den Mietvertrag."
+          },
+          {
+            "de": "die Kündigung, -en",
+            "tr": "fesih, iptal",
+            "example": "Die Kündigung muss schriftlich sein."
+          },
+          {
+            "de": "der Umzug, -̈e",
+            "tr": "taşınma",
+            "example": "Der Umzug war sehr anstrengend."
+          },
+          {
+            "de": "die Wohnungssuche",
+            "tr": "ev arama",
+            "example": "Die Wohnungssuche dauerte drei Monate."
+          }
+        ]
+      },
+      {
+        "title": "Räume und Bereiche (Odalar ve Alanlar)",
+        "items": [
+          {
+            "de": "das Zimmer, -",
+            "tr": "oda",
+            "example": "Wir haben ein freies Zimmer."
+          },
+          {
+            "de": "das Wohnzimmer",
+            "tr": "oturma odası",
+            "example": "Im Wohnzimmer steht ein großes Sofa."
+          },
+          {
+            "de": "das Schlafzimmer",
+            "tr": "yatak odası",
+            "example": "Das Schlafzimmer ist ruhig."
+          },
+          {
+            "de": "die Küche, -n",
+            "tr": "mutfak",
+            "example": "Die Küche ist modern eingerichtet."
+          },
+          {
+            "de": "das Badezimmer / das Bad",
+            "tr": "banyo",
+            "example": "Das Bad hat eine Badewanne."
+          },
+          {
+            "de": "der Flur, -e",
+            "tr": "koridor",
+            "example": "Im Flur hängt ein großer Spiegel."
+          },
+          {
+            "de": "der Balkon, -e / -s",
+            "tr": "balkon",
+            "example": "Auf dem Balkon stehen Blumen."
+          },
+          {
+            "de": "der Keller, -",
+            "tr": "bodrum",
+            "example": "Im Keller lagern wir alte Möbel."
+          },
+          {
+            "de": "der Dachboden, -̈",
+            "tr": "çatı arası",
+            "example": "Auf dem Dachboden gibt es viel Platz."
+          },
+          {
+            "de": "die Garage, -n",
+            "tr": "garaj",
+            "example": "Das Auto steht in der Garage."
+          },
+          {
+            "de": "die Terrasse, -n",
+            "tr": "teras",
+            "example": "Im Sommer sitzen wir auf der Terrasse."
+          },
+          {
+            "de": "der Garten, -̈",
+            "tr": "bahçe",
+            "example": "Die Kinder spielen im Garten."
+          },
+          {
+            "de": "das Treppenhaus",
+            "tr": "merdiven boşluğu",
+            "example": "Im Treppenhaus riecht es nach Farbe."
+          },
+          {
+            "de": "das Erdgeschoss",
+            "tr": "zemin kat",
+            "example": "Die Praxis ist im Erdgeschoss."
+          },
+          {
+            "de": "der Stock / das Stockwerk",
+            "tr": "kat",
+            "example": "Wir wohnen im dritten Stock."
+          }
+        ]
+      },
+      {
+        "title": "Möbel und Einrichtung (Mobilya ve Eşyalar)",
+        "items": [
+          {
+            "de": "der Tisch, -e",
+            "tr": "masa",
+            "example": "Der Tisch steht in der Mitte."
+          },
+          {
+            "de": "der Stuhl, -̈e",
+            "tr": "sandalye",
+            "example": "Auf dem Stuhl liegt eine Decke."
+          },
+          {
+            "de": "der Schrank, -̈e",
+            "tr": "dolap",
+            "example": "Im Schrank hängen meine Kleider."
+          },
+          {
+            "de": "das Regal, -e",
+            "tr": "raf",
+            "example": "Auf dem Regal stehen viele Bücher."
+          },
+          {
+            "de": "das Sofa, -s",
+            "tr": "kanepe",
+            "example": "Das Sofa ist sehr bequem."
+          },
+          {
+            "de": "das Bett, -en",
+            "tr": "yatak",
+            "example": "Das Bett ist 1,80 m breit."
+          },
+          {
+            "de": "die Lampe, -n",
+            "tr": "lamba",
+            "example": "Die Lampe im Wohnzimmer ist kaputt."
+          },
+          {
+            "de": "der Teppich, -e",
+            "tr": "halı",
+            "example": "Der Teppich ist weich und warm."
+          },
+          {
+            "de": "der Vorhang, -̈e",
+            "tr": "perde",
+            "example": "Die Vorhänge sind dunkelblau."
+          },
+          {
+            "de": "der Spiegel, -",
+            "tr": "ayna",
+            "example": "Im Bad hängt ein großer Spiegel."
+          },
+          {
+            "de": "die Waschmaschine, -n",
+            "tr": "çamaşır makinesi",
+            "example": "Die Waschmaschine steht im Keller."
+          },
+          {
+            "de": "der Kühlschrank, -̈e",
+            "tr": "buzdolabı",
+            "example": "Der Kühlschrank ist fast leer."
+          },
+          {
+            "de": "der Herd, -e",
+            "tr": "ocak",
+            "example": "Der Herd funktioniert nicht richtig."
+          },
+          {
+            "de": "die Spülmaschine, -n",
+            "tr": "bulaşık makinesi",
+            "example": "Die Spülmaschine ist neu."
+          }
+        ]
+      }
+    ],
+    "phrase_lists": [
+      {
+        "title": "Verben rund ums Wohnen (Ev ve Yaşam Fiilleri)",
+        "items": [
+          {
+            "de": "wohnen / wohnte – oturmak, ikamet etmek",
+            "tr": "Ich wohnte früher in Istanbul."
+          },
+          {
+            "de": "umziehen / zog um – taşınmak",
+            "tr": "Wir zogen nach Gerlingen um."
+          },
+          {
+            "de": "einziehen / zog ein – taşınıyor olmak (yeni eve)",
+            "tr": "Wir zogen letzte Woche ein."
+          },
+          {
+            "de": "ausziehen / zog aus – taşınmak (evden)",
+            "tr": "Die alten Mieter zogen im Mai aus."
+          },
+          {
+            "de": "mieten / mietete – kiralamak",
+            "tr": "Wir mieteten eine 3-Zimmer-Wohnung."
+          },
+          {
+            "de": "vermieten / vermietete – kiraya vermek",
+            "tr": "Er vermietete die Wohnung sofort."
+          },
+          {
+            "de": "kündigen / kündigte – feshetmek",
+            "tr": "Der Mieter kündigte den Vertrag."
+          },
+          {
+            "de": "renovieren / renovierte – tadilat yapmak",
+            "tr": "Wir renovierten die Küche."
+          },
+          {
+            "de": "einrichten / richtete ein – döşemek",
+            "tr": "Sie richtete das Zimmer modern ein."
+          },
+          {
+            "de": "streichen / strich – boyamak",
+            "tr": "Ich strich die Wände weiß."
+          },
+          {
+            "de": "reparieren / reparierte – tamir etmek",
+            "tr": "Der Handwerker reparierte den Herd."
+          },
+          {
+            "de": "putzen / putzte – temizlemek",
+            "tr": "Ich putzte die ganze Wohnung."
+          },
+          {
+            "de": "aufräumen / räumte auf – toplamak, düzenlemek",
+            "tr": "Er räumte das Zimmer auf."
+          },
+          {
+            "de": "sich wohlfühlen / fühlte sich wohl – kendini iyi hissetmek",
+            "tr": "Ich fühlte mich dort wohl."
+          }
+        ]
+      },
+      {
+        "title": "Redemittel (İfade Kalıpları)",
+        "items": [
+          {
+            "de": "Ich suche eine Wohnung mit ... Zimmern.",
+            "tr": "... odalı bir daire arıyorum."
+          },
+          {
+            "de": "Die Wohnung liegt im ... Stock.",
+            "tr": "Daire ... katta."
+          },
+          {
+            "de": "Die Miete beträgt ... Euro (warm/kalt).",
+            "tr": "Kira ... Euro (dahil/hariç)."
+          },
+          {
+            "de": "Die Wohnung ist ... qm groß.",
+            "tr": "Daire ... metrekare."
+          },
+          {
+            "de": "Die Wohnung ist hell/dunkel/ruhig/laut.",
+            "tr": "Daire aydınlık/karanlık/sessiz/gürültülü."
+          },
+          {
+            "de": "Mir gefällt die Wohnung, weil ...",
+            "tr": "Daire hoşuma gidiyor, çünkü ..."
+          },
+          {
+            "de": "Was mich stört, ist ...",
+            "tr": "Beni rahatsız eden şey ..."
+          },
+          {
+            "de": "Wir sind vor ... Monaten umgezogen.",
+            "tr": "... ay önce taşındık."
+          },
+          {
+            "de": "In meiner Traumwohnung gäbe es ...",
+            "tr": "Hayalimdeki dairede ... olurdu."
+          },
+          {
+            "de": "Die Nachbarn, mit denen ich mich gut verstehe, ...",
+            "tr": "İyi anlaştığım komşular, ..."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Übung 1: Zuordnung (Eşleştirme)",
+        "instructions": "Almanca kelimeleri Türkçe karşılıklarıyla eşleştirin.",
+        "type": "matching",
+        "exercises": [
+          {
+            "question": "1. die Miete\n2. der Umzug\n3. der Vermieter\n4. die Kaution\n5. die Nebenkosten\n6. das Badezimmer\n7. der Keller\n8. das Treppenhaus\n9. der Mietvertrag\n10. die Kündigung",
+            "answer": "1-b, 2-a, 3-d, 4-c, 5-f, 6-e, 7-g, 8-i, 9-h, 10-j",
+            "options": "a) taşınma | b) kira | c) depozito | d) ev sahibi | e) banyo | f) ek masraflar | g) bodrum | h) kira sözleşmesi | i) merdiven boşluğu | j) fesih"
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: Lückentext (Boşluk Doldurma)",
+        "instructions": "Doğru kelimeyi yazın. Kelimeler: Wohnung, Miete, Umzug, Vermieter, Kaution, Nebenkosten, Mietvertrag, renoviert, eingerichtet, Nachbarn",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Unsere neue _______ hat drei Zimmer und einen Balkon.",
+            "answer": "Wohnung"
+          },
+          {
+            "question": "Die _______ beträgt 900 Euro pro Monat.",
+            "answer": "Miete"
+          },
+          {
+            "question": "Der _______ wohnt nicht im gleichen Haus.",
+            "answer": "Vermieter"
+          },
+          {
+            "question": "Wir mussten drei Monatsmieten als _______ bezahlen.",
+            "answer": "Kaution"
+          },
+          {
+            "question": "Die _______ (Strom, Wasser, Heizung) kommen extra.",
+            "answer": "Nebenkosten"
+          },
+          {
+            "question": "Der _______ war sehr anstrengend, weil wir so viele Möbel hatten.",
+            "answer": "Umzug"
+          },
+          {
+            "question": "Bevor wir den _______ unterschrieben, lasen wir alles genau durch.",
+            "answer": "Mietvertrag"
+          },
+          {
+            "question": "Die Küche wurde letztes Jahr komplett _______.",
+            "answer": "renoviert"
+          },
+          {
+            "question": "Wir haben das Wohnzimmer modern _______.",
+            "answer": "eingerichtet"
+          },
+          {
+            "question": "Die _______ im dritten Stock sind sehr laut.",
+            "answer": "Nachbarn"
+          }
+        ]
+      },
+      {
+        "title": "Übung 3: Was passt nicht? (Hangisi Uymuyor?)",
+        "instructions": "Her grupta uymayan kelimeyi bulun.",
+        "type": "odd_one_out",
+        "exercises": [
+          {
+            "question": "Wohnzimmer – Schlafzimmer – Küche – Vermieter",
+            "answer": "Vermieter (oda değil, kişi)"
+          },
+          {
+            "question": "Miete – Kaution – Nebenkosten – Balkon",
+            "answer": "Balkon (parasal değil)"
+          },
+          {
+            "question": "umziehen – einziehen – ausziehen – streichen",
+            "answer": "streichen (taşınma ile ilgili değil)"
+          },
+          {
+            "question": "Tisch – Stuhl – Schrank – Keller",
+            "answer": "Keller (mobilya değil, mekân)"
+          },
+          {
+            "question": "Makler – Vermieter – Mieter – Teppich",
+            "answer": "Teppich (kişi değil, eşya)"
+          }
+        ]
+      },
+      {
+        "title": "Übung 4: Definitionen (Tanımlar)",
+        "instructions": "Tanımı okuyun ve doğru kelimeyi yazın.",
+        "type": "definition",
+        "exercises": [
+          {
+            "question": "Das Geld, das man jeden Monat für die Wohnung bezahlt.",
+            "answer": "Miete"
+          },
+          {
+            "question": "Die Person, der die Wohnung gehört.",
+            "answer": "Vermieter|Vermieterin"
+          },
+          {
+            "question": "Der Raum, in dem man kocht.",
+            "answer": "Küche"
+          },
+          {
+            "question": "Wenn man von einer Wohnung in eine andere zieht.",
+            "answer": "Umzug"
+          },
+          {
+            "question": "Das Geld, das man am Anfang als Sicherheit bezahlt.",
+            "answer": "Kaution"
+          },
+          {
+            "question": "Der Raum unter dem Haus, in dem man Sachen lagert.",
+            "answer": "Keller"
+          },
+          {
+            "question": "Die Person, die eine Wohnung sucht oder besichtigt.",
+            "answer": "Bewerber|Bewerberin|Wohnungssuchende"
+          },
+          {
+            "question": "Wenn man die Wände neu anstreicht oder die Küche neu macht.",
+            "answer": "renovieren"
+          },
+          {
+            "question": "Der Bereich vor der Haustür mit der Treppe.",
+            "answer": "Treppenhaus"
+          },
+          {
+            "question": "Der kleine Bereich draußen an der Wohnung, wo man sitzen kann.",
+            "answer": "Balkon|Terrasse"
+          }
+        ]
+      },
+      {
+        "title": "Übung 5: Çeviri (Türkçe → Almanca)",
+        "instructions": "Cümleleri Präteritum kullanarak Almancaya çevirin.",
+        "type": "translation",
+        "exercises": [
+          {
+            "question": "Geçen ay yeni bir daireye taşındık.",
+            "answer": "Letzten Monat zogen wir in eine neue Wohnung um."
+          },
+          {
+            "question": "Dairenin kirası ayda 950 Euro.",
+            "answer": "Die Miete der Wohnung beträgt 950 Euro pro Monat."
+          },
+          {
+            "question": "Ev sahibi bize anahtarları verdi.",
+            "answer": "Der Vermieter gab uns die Schlüssel."
+          },
+          {
+            "question": "Mutfağı boyadık ve banyoyu yeniledik.",
+            "answer": "Wir strichen die Küche und renovierten das Bad."
+          },
+          {
+            "question": "Komşularımız bize hoşgeldin hediyesi getirdi.",
+            "answer": "Unsere Nachbarn brachten uns ein Willkommensgeschenk."
+          },
+          {
+            "question": "Oturma odasını yeni mobilyalarla döşedik.",
+            "answer": "Wir richteten das Wohnzimmer mit neuen Möbeln ein."
+          }
+        ]
+      },
+      {
+        "title": "Übung 6: Verben mit Präpositionen",
+        "instructions": "Doğru edatı yazın: in, aus, nach, um, bei, mit, auf, von",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Wir zogen _______ eine neue Wohnung ein.",
+            "answer": "in"
+          },
+          {
+            "question": "Die alten Mieter zogen _______ der Wohnung aus.",
+            "answer": "aus"
+          },
+          {
+            "question": "Ich kümmere mich _______ die Reparatur.",
+            "answer": "um"
+          },
+          {
+            "question": "Er wohnt _______ seinen Eltern.",
+            "answer": "bei"
+          },
+          {
+            "question": "Wir suchten _______ einer günstigen Wohnung.",
+            "answer": "nach"
+          },
+          {
+            "question": "Sie zogen _______ Gerlingen um.",
+            "answer": "nach"
+          },
+          {
+            "question": "Das Haus befindet sich _______ der Nähe der Schule.",
+            "answer": "in"
+          },
+          {
+            "question": "Die Wohnung besteht _______ drei Zimmern.",
+            "answer": "aus"
+          }
+        ]
+      },
+      {
+        "title": "Übung 7: Buchstabensalat (Harf Karışıklığı)",
+        "instructions": "Harfleri doğru sıraya koyun.",
+        "type": "word_scramble",
+        "exercises": [
+          {
+            "question": "TEIME",
+            "answer": "Miete (kira)"
+          },
+          {
+            "question": "GUZMU",
+            "answer": "Umzug (taşınma)"
+          },
+          {
+            "question": "LLKERE",
+            "answer": "Keller (bodrum)"
+          },
+          {
+            "question": "LONKAB",
+            "answer": "Balkon (balkon)"
+          },
+          {
+            "question": "KUEHCE",
+            "answer": "Küche (mutfak)"
+          },
+          {
+            "question": "LGEIPES",
+            "answer": "Spiegel (ayna)"
+          },
+          {
+            "question": "PPETHIC",
+            "answer": "Teppich (halı)"
+          },
+          {
+            "question": "RETERVIME",
+            "answer": "Vermieter (ev sahibi)"
+          }
+        ]
+      },
+      {
+        "title": "Übung 8: Lückentext – Unsere Wohnungssuche",
+        "instructions": "Boşlukları kelime listesinden doldurun. Kelimeler: suchten, Wohnungen, Makler, Miete, Zimmer, Balkon, besichtigten, unterschrieben, Umzug, einzogen",
+        "type": "fill_blank",
+        "exercises": [
+          {
+            "question": "Letztes Jahr _______ (1) wir eine neue Wohnung.",
+            "answer": "suchten"
+          },
+          {
+            "question": "Der _______ (2) zeigte uns fünf ...",
+            "answer": "Makler"
+          },
+          {
+            "question": "... _______ (3).",
+            "answer": "Wohnungen"
+          },
+          {
+            "question": "Wir _______ (4) alle und entschieden uns für eine Wohnung mit drei ...",
+            "answer": "besichtigten"
+          },
+          {
+            "question": "... _______ (5) und einem ...",
+            "answer": "Zimmern"
+          },
+          {
+            "question": "... _______ (6).",
+            "answer": "Balkon"
+          },
+          {
+            "question": "Die _______ (7) war nicht zu hoch.",
+            "answer": "Miete"
+          },
+          {
+            "question": "Wir _______ (8) den Mietvertrag und planten den ...",
+            "answer": "unterschrieben"
+          },
+          {
+            "question": "... _______ (9).",
+            "answer": "Umzug"
+          },
+          {
+            "question": "Einen Monat später _______ (10) wir endlich in unser neues Zuhause _______.",
+            "answer": "zogen...ein"
+          }
+        ]
+      },
+      {
+        "title": "Übung 9: Welches Wort passt?",
+        "instructions": "Doğru cevabı seçin.",
+        "type": "multiple_choice",
+        "exercises": [
+          {
+            "question": "Wir _______ letzte Woche in die neue Wohnung _______.",
+            "answer": "a) zogen...ein",
+            "options": "a) zogen...ein | b) zogen...aus | c) zogen...um"
+          },
+          {
+            "question": "Die _______ beträgt 750 Euro kalt.",
+            "answer": "b) Miete",
+            "options": "a) Kaution | b) Miete | c) Kündigung"
+          },
+          {
+            "question": "Im _______ lagern wir Weinflaschen.",
+            "answer": "b) Keller",
+            "options": "a) Balkon | b) Keller | c) Flur"
+          },
+          {
+            "question": "Der _______ reparierte den tropfenden Wasserhahn.",
+            "answer": "c) Handwerker",
+            "options": "a) Vermieter | b) Makler | c) Handwerker"
+          },
+          {
+            "question": "Die Wohnung hat 80 _______.",
+            "answer": "b) Quadratmeter",
+            "options": "a) Etagen | b) Quadratmeter | c) Stockwerke"
+          },
+          {
+            "question": "Wir _______ die Wände hellblau _______.",
+            "answer": "a) strichen...an",
+            "options": "a) strichen...an | b) stellten...ein | c) richteten...ein"
+          },
+          {
+            "question": "Die _______ im Treppenhaus sind sehr steil.",
+            "answer": "a) Treppen",
+            "options": "a) Treppen | b) Wände | c) Türen"
+          },
+          {
+            "question": "Er kündigte den _______ fristgerecht.",
+            "answer": "b) Mietvertrag",
+            "options": "a) Umzug | b) Mietvertrag | c) Nachbar"
+          }
+        ]
+      },
+      {
+        "title": "Übung 10: Schreibaufgabe – Meine Wohnung",
+        "instructions": "Lektion 3 kelimelerini kullanarak dairenizi/evinizi anlatan 5-6 cümle yazın. İpuçları: Kaç odası var? Hangi katta? Nesi hoşunuza gidiyor? Ne eksik?",
+        "type": "free_writing",
+        "exercises": [
+          {
+            "question": "Lektion 3 kelimelerini kullanarak dairenizi/evinizi anlatan 5-6 cümle yazın.",
+            "sample_answer": "(Serbest cevap – Claude ile birlikte kontrol edin.)"
+          }
+        ]
+      }
+    ]
+  },
+  "lesen": {
+    "texts": [
+      {
+        "title": "Text 1: Wohnungssuche (Ev Arama Hikayesi – Biografischer Text)",
+        "pre_question": "Almanya'da ev bulmak sizce kolay mı? Hangi zorluklar olabilir?",
+        "content": "Endlich ein Zuhause – Saras Wohnungssuche in Stuttgart\n\nSara Aksoy, 32 Jahre alt, wohnt seit zwei Jahren in einer kleinen, aber gemütlichen Wohnung in Stuttgart-Vaihingen. Doch die Wohnungssuche war alles andere als einfach.\n\nAls Sara 2022 nach Stuttgart kam, wohnte sie zuerst bei einer Freundin. Sie suchte eine Wohnung mit zwei Zimmern, in der sie auch ein kleines Homeoffice einrichten konnte. Die Miete sollte nicht mehr als 800 Euro warm kosten. Aber die Realität sah anders aus: Die meisten Wohnungen, die sie im Internet fand, waren viel teurer. Auf manche Anzeigen antworteten über 100 Bewerber.\n\nSara besichtigte in drei Monaten 15 Wohnungen. Einige gefielen ihr, aber der Vermieter entschied sich für andere Bewerber. Bei einer Wohnung, in der sie sich sofort wohlfühlte, war die Kaution zu hoch: drei Monatsmieten. Das konnte sie sich nicht leisten.\n\nSchließlich half ihr eine Kollegin, mit der sie gut befreundet war. Die Kollegin kannte einen Vermieter, dem eine kleine Wohnung in Vaihingen gehörte. Sara besichtigte die Wohnung und war sofort begeistert: zwei Zimmer, ein Balkon, von dem man den Wald sehen konnte, und nette Nachbarn, mit denen sie sich schnell verstand. Die Miete lag bei 780 Euro warm – genau in ihrem Budget.\n\nSara unterschrieb den Mietvertrag und zog im Oktober 2022 ein. Den Umzug organisierten Freunde, denen sie später ein großes Dankeschön-Essen kochte. Heute sagt sie: \"Die Wohnungssuche in Stuttgart war die stressigste Zeit meines Lebens. Aber ich bin froh, dass ich nicht aufgegeben habe. In meiner Wohnung fühle ich mich endlich zu Hause.\"",
+        "vocabulary": [
+          {
+            "de": "gemütlich",
+            "tr": "rahat, sıcak"
+          },
+          {
+            "de": "alles andere als",
+            "tr": "hiç de ... değil"
+          },
+          {
+            "de": "die Anzeige, -n",
+            "tr": "ilan"
+          },
+          {
+            "de": "besichtigen",
+            "tr": "gezmek (ev)"
+          },
+          {
+            "de": "sich leisten",
+            "tr": "karşılayabilmek"
+          },
+          {
+            "de": "begeistert",
+            "tr": "hayran, çok beğenmiş"
+          },
+          {
+            "de": "aufgeben",
+            "tr": "pes etmek"
+          }
+        ]
+      },
+      {
+        "title": "Text 2: Zeitungsartikel (Gazete Makalesi – Almanya'da Ev Krizi)",
+        "pre_question": "Almanya'da kiralar ne kadar yüksek? Sizce nedenler neler?",
+        "content": "Wohnen in Deutschland: Immer teurer, immer knapper\n\nDie Mieten in deutschen Großstädten stiegen in den letzten zehn Jahren um durchschnittlich 40 Prozent. Besonders betroffen sind Städte wie München, Stuttgart, Frankfurt und Hamburg. Eine aktuelle Studie des Deutschen Mieterbundes zeigt alarmierende Zahlen:\n\nIn München zahlt man für eine 60-Quadratmeter-Wohnung durchschnittlich 1.200 Euro kalt. In Stuttgart sind es rund 950 Euro. Selbst in kleineren Städten wie Heilbronn oder Reutlingen stiegen die Mieten deutlich.\n\nDie Gründe für die hohen Mieten sind vielfältig: Es werden zu wenige neue Wohnungen gebaut. Die Baumaterialien, die man für den Hausbau braucht, wurden teurer. Gleichzeitig ziehen immer mehr Menschen in die Städte, weil sie dort Arbeit finden. In ländlichen Gebieten stehen dagegen viele Häuser leer.\n\nBesonders schwer haben es junge Familien und Alleinstehende, deren Einkommen nicht so schnell steigt wie die Mieten. Viele müssen mehr als ein Drittel ihres Einkommens für die Miete ausgeben.\n\nDie Bundesregierung plant verschiedene Maßnahmen: mehr Sozialwohnungen bauen, eine Mietpreisbremse in angespannten Wohnungsmärkten und Förderungen für den Neubau. Ob diese Maßnahmen ausreichen, bleibt abzuwarten.",
+        "vocabulary": [
+          {
+            "de": "knapp",
+            "tr": "yetersiz, kıt"
+          },
+          {
+            "de": "steigen/stieg",
+            "tr": "artmak"
+          },
+          {
+            "de": "betroffen",
+            "tr": "etkilenen"
+          },
+          {
+            "de": "durchschnittlich",
+            "tr": "ortalama"
+          },
+          {
+            "de": "vielfältig",
+            "tr": "çeşitli"
+          },
+          {
+            "de": "ländlich",
+            "tr": "kırsal"
+          },
+          {
+            "de": "die Mietpreisbremse",
+            "tr": "kira artış sınırı"
+          },
+          {
+            "de": "die Förderung, -en",
+            "tr": "destek, teşvik"
+          },
+          {
+            "de": "ausreichen",
+            "tr": "yeterli olmak"
+          },
+          {
+            "de": "angespannt",
+            "tr": "gergin, sıkışık"
+          }
+        ]
+      },
+      {
+        "title": "Text 3: E-Mail-Austausch (E-posta Yazışması – Taşınma)",
+        "pre_question": "Yeni bir eve taşındığınızda arkadaşlarınıza ne anlatırsınız?",
+        "content": "Von: mehmet.yilmaz@mail.de An: isa.engiz@mail.de Betreff: Wir sind umgezogen!\n\nHallo Isa,\n\nich wollte dir erzählen, dass wir endlich umgezogen sind! Wir wohnen jetzt in Gerlingen, in einer Wohnung, die viel größer ist als unsere alte. Die neue Wohnung hat vier Zimmer und einen Balkon, von dem man die Weinberge sehen kann.\n\nDer Umzug war ziemlich stressig. Die Möbel, die wir aus der alten Wohnung mitgenommen haben, passten nicht alle in den Transporter. Also mussten wir zweimal fahren. Die Nachbarn, denen wir uns am ersten Tag vorgestellt haben, waren sehr nett. Eine Nachbarin, mit der meine Frau sich sofort gut verstand, brachte uns sogar Kuchen!\n\nDie Küche, in der wir jetzt kochen, ist viel größer als die alte. Mein Arbeitszimmer, in dem ich jetzt Homeoffice mache, hat ein großes Fenster. Das Schlafzimmer, in dem unser Sohn schläft, liegt zur ruhigen Seite. Nur der Keller, in dem wir unsere Sachen lagern wollten, ist etwas feucht. Der Vermieter, dem ich das Problem gemeldet habe, will sich darum kümmern.\n\nNächsten Samstag machen wir eine Einweihungsparty. Kommst du? Ich würde mich sehr freuen!\n\nViele Grüße\nMehmet",
+        "vocabulary": [
+          {
+            "de": "die Weinberge",
+            "tr": "üzüm bağları"
+          },
+          {
+            "de": "der Transporter",
+            "tr": "nakliye aracı"
+          },
+          {
+            "de": "sich vorstellen",
+            "tr": "kendini tanıtmak"
+          },
+          {
+            "de": "feucht",
+            "tr": "nemli"
+          },
+          {
+            "de": "sich kümmern um",
+            "tr": "ilgilenmek"
+          },
+          {
+            "de": "die Einweihungsparty",
+            "tr": "ev açılış partisi"
+          }
+        ]
+      },
+      {
+        "title": "Text 4: Wohnungsanzeigen (Ev İlanları – Bilgi Çıkartma)",
+        "pre_question": "Ev ilanlarında hangi bilgiler önemli?",
+        "content": "Anzeige A\n3-Zimmer-Wohnung in Stuttgart-Vaihingen\n78 qm, 2. OG, Balkon, Einbauküche, Keller. Nähe S-Bahn (5 Min. zu Fuß). Ruhige Lage.\nMiete: 980 Euro kalt + 200 Euro Nebenkosten. Kaution: 2 Monatsmieten.\nFrei ab 01.11. Haustiere nicht erlaubt.\nKontakt: mueller-immo@mail.de\n\nAnzeige B\nModernes Reihenhaus in Gerlingen\n120 qm, 4 Zimmer, 2 Bäder, Terrasse, Garten, Garage. Kindergarten und Grundschule in der Nähe.\nMiete: 1.650 Euro warm. Kaution: 3 Monatsmieten.\nFrei ab sofort. Haustiere nach Absprache.\nKontakt: hausundheim@web.de",
+        "vocabulary": [
+          {
+            "de": "qm = Quadratmeter",
+            "tr": "metrekare"
+          },
+          {
+            "de": "OG = Obergeschoss",
+            "tr": "üst kat"
+          },
+          {
+            "de": "die Einbauküche",
+            "tr": "ankastre mutfak"
+          },
+          {
+            "de": "das Reihenhaus",
+            "tr": "sıra ev"
+          },
+          {
+            "de": "nach Absprache",
+            "tr": "anlaşmayla"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Text 1 – A) Richtig oder Falsch?",
+        "type": "true_false",
+        "exercises": [
+          {
+            "question": "Sara kam 2022 nach Stuttgart.",
+            "answer": "R"
+          },
+          {
+            "question": "Sie suchte eine Wohnung mit drei Zimmern.",
+            "answer": "F – Sie suchte zwei Zimmer."
+          },
+          {
+            "question": "Die meisten Wohnungen waren günstiger als erwartet.",
+            "answer": "F – Die meisten waren teurer."
+          },
+          {
+            "question": "Sara besichtigte 15 Wohnungen in drei Monaten.",
+            "answer": "R"
+          },
+          {
+            "question": "Eine Kollegin half ihr bei der Wohnungssuche.",
+            "answer": "R"
+          },
+          {
+            "question": "Die Wohnung in Vaihingen hat keinen Balkon.",
+            "answer": "F – Die Wohnung hat einen Balkon."
+          }
+        ]
+      },
+      {
+        "title": "Text 1 – B) Relativsätze finden",
+        "type": "find_in_text",
+        "exercises": [
+          {
+            "question": "...in der... içeren cümleyi bulun.",
+            "answer": "...eine Wohnung mit zwei Zimmern, in der sie auch ein Homeoffice einrichten konnte."
+          },
+          {
+            "question": "...mit der... içeren cümleyi bulun.",
+            "answer": "...eine Kollegin, mit der sie gut befreundet war."
+          },
+          {
+            "question": "...dem... içeren cümleyi bulun.",
+            "answer": "...einen Vermieter, dem eine kleine Wohnung gehörte."
+          },
+          {
+            "question": "...von dem... içeren cümleyi bulun.",
+            "answer": "...ein Balkon, von dem man den Wald sehen konnte."
+          },
+          {
+            "question": "...mit denen... içeren cümleyi bulun.",
+            "answer": "...Nachbarn, mit denen sie sich schnell verstand."
+          },
+          {
+            "question": "...denen... içeren cümleyi bulun.",
+            "answer": "...Freunde, denen sie später ein Essen kochte."
+          }
+        ]
+      },
+      {
+        "title": "Text 1 – C) Fragen zum Text",
+        "type": "open_question",
+        "exercises": [
+          {
+            "question": "Wo wohnte Sara zuerst in Stuttgart?",
+            "sample_answer": "Sie wohnte zuerst bei einer Freundin."
+          },
+          {
+            "question": "Was für eine Wohnung suchte sie?",
+            "sample_answer": "Eine 2-Zimmer-Wohnung mit Homeoffice-Möglichkeit, max. 800 Euro warm."
+          },
+          {
+            "question": "Warum war die Wohnungssuche schwierig?",
+            "sample_answer": "Zu teuer, zu viele Bewerber, hohe Kautionen."
+          },
+          {
+            "question": "Wer half Sara bei der Suche?",
+            "sample_answer": "Eine Kollegin, die einen Vermieter kannte."
+          },
+          {
+            "question": "Was gefiel Sara an der Wohnung in Vaihingen?",
+            "sample_answer": "Zwei Zimmer, Balkon mit Waldblick, nette Nachbarn, guter Preis."
+          }
+        ]
+      },
+      {
+        "title": "Text 2 – A) R / F / Steht nicht im Text (N)",
+        "type": "true_false_notintext",
+        "exercises": [
+          {
+            "question": "Die Mieten stiegen in zehn Jahren um 40 Prozent.",
+            "answer": "R"
+          },
+          {
+            "question": "In München zahlt man ca. 1.200 Euro kalt für 60 qm.",
+            "answer": "R"
+          },
+          {
+            "question": "In Stuttgart sind die Mieten höher als in München.",
+            "answer": "F – Stuttgart ist günstiger als München."
+          },
+          {
+            "question": "Es werden genug neue Wohnungen gebaut.",
+            "answer": "F – Es werden zu wenige gebaut."
+          },
+          {
+            "question": "Baumaterialien sind billiger geworden.",
+            "answer": "F – Sie wurden teurer."
+          },
+          {
+            "question": "In ländlichen Gebieten stehen viele Häuser leer.",
+            "answer": "R"
+          }
+        ]
+      },
+      {
+        "title": "Text 2 – B) Zahlen und Fakten",
+        "type": "matching",
+        "exercises": [
+          {
+            "question": "1. 40%\n2. 1.200 Euro\n3. 950 Euro\n4. ein Drittel",
+            "answer": "1-b, 2-a, 3-c, 4-d",
+            "options": "a) München'deki ortalama soğuk kira (60 qm) | b) Kiraların son 10 yıldaki artış oranı | c) Stuttgart'daki ortalama soğuk kira | d) Birçok kişinin kiraya ayırdığı gelir payı"
+          }
+        ]
+      },
+      {
+        "title": "Text 2 – C) Fragen zum Text",
+        "type": "open_question",
+        "exercises": [
+          {
+            "question": "Welche Städte sind besonders von hohen Mieten betroffen?",
+            "sample_answer": "München, Stuttgart, Frankfurt und Hamburg."
+          },
+          {
+            "question": "Warum steigen die Mieten? (Nennen Sie drei Gründe.)",
+            "sample_answer": "Zu wenig Neubau, teure Baumaterialien, Zuzug in die Städte."
+          },
+          {
+            "question": "Wer hat es bei der Wohnungssuche besonders schwer?",
+            "sample_answer": "Junge Familien und Alleinstehende."
+          },
+          {
+            "question": "Was plant die Bundesregierung?",
+            "sample_answer": "Sozialwohnungen, Mietpreisbremse, Förderungen für Neubau."
+          }
+        ]
+      },
+      {
+        "title": "Text 3 – A) Richtig oder Falsch?",
+        "type": "true_false",
+        "exercises": [
+          {
+            "question": "Mehmets neue Wohnung ist kleiner als die alte.",
+            "answer": "F – Sie ist größer."
+          },
+          {
+            "question": "Vom Balkon kann man die Weinberge sehen.",
+            "answer": "R"
+          },
+          {
+            "question": "Alle Möbel passten in einen Transporter.",
+            "answer": "F – Sie mussten zweimal fahren."
+          },
+          {
+            "question": "Die Nachbarn waren unfreundlich.",
+            "answer": "F – Sie waren nett."
+          },
+          {
+            "question": "Der Keller ist etwas feucht.",
+            "answer": "R"
+          },
+          {
+            "question": "Mehmet plant eine Einweihungsparty.",
+            "answer": "R"
+          }
+        ]
+      },
+      {
+        "title": "Text 3 – B) Relativsätze analysieren",
+        "type": "find_in_text",
+        "exercises": [
+          {
+            "question": "...die viel größer ist... → Kasus und Grund?",
+            "answer": "Nominativ – 'die' ist Subjekt des Nebensatzes."
+          },
+          {
+            "question": "...von dem man die Weinberge sehen kann... → Kasus und Grund?",
+            "answer": "Dativ – 'von' + Dativ (von dem Balkon)."
+          },
+          {
+            "question": "...die wir aus der alten Wohnung mitgenommen haben... → Kasus und Grund?",
+            "answer": "Akkusativ – 'die' ist Objekt (wir haben die Möbel mitgenommen)."
+          },
+          {
+            "question": "...denen wir uns vorgestellt haben... → Kasus und Grund?",
+            "answer": "Dativ – 'sich vorstellen' + Dativ (wir stellten uns den Nachbarn vor)."
+          },
+          {
+            "question": "...mit der meine Frau sich verstand... → Kasus und Grund?",
+            "answer": "Dativ – 'mit' + Dativ (mit der Nachbarin)."
+          },
+          {
+            "question": "...in der wir jetzt kochen... → Kasus und Grund?",
+            "answer": "Dativ – 'in' + Dativ (Ort: in der Küche)."
+          },
+          {
+            "question": "...dem ich das Problem gemeldet habe... → Kasus und Grund?",
+            "answer": "Dativ – 'melden' + Dativ (ich meldete dem Vermieter)."
+          }
+        ]
+      },
+      {
+        "title": "Text 3 – C) Antwort-E-Mail schreiben",
+        "type": "guided_writing",
+        "exercises": [
+          {
+            "question": "Mehmet'in e-postasına 5-6 cümleyle cevap yazın: Tebrik edin, yeni daire hakkında soru sorun, partiye gelip gelemeyeceğinizi belirtin.",
+            "sample_answer": "Hallo Mehmet, herzlichen Glückwunsch zum Umzug! Gerlingen klingt toll. Wie weit ist die Wohnung von deiner Arbeit? Ich komme sehr gern zur Einweihungsparty am Samstag! Soll ich etwas mitbringen? Ich freue mich, die neue Wohnung zu sehen! Viele Grüße Isa"
+          }
+        ]
+      },
+      {
+        "title": "Text 4 – A) Welche Anzeige passt? A, B oder beide?",
+        "type": "matching",
+        "exercises": [
+          {
+            "question": "Die Wohnung/das Haus hat einen Garten.",
+            "answer": "B"
+          },
+          {
+            "question": "Man kann Haustiere halten.",
+            "answer": "B (nach Absprache)"
+          },
+          {
+            "question": "Es gibt einen Keller.",
+            "answer": "A"
+          },
+          {
+            "question": "In der Nähe gibt es eine Schule.",
+            "answer": "B"
+          },
+          {
+            "question": "Man kann sofort einziehen.",
+            "answer": "B"
+          },
+          {
+            "question": "Die Miete ist unter 1.000 Euro kalt.",
+            "answer": "A"
+          },
+          {
+            "question": "Es gibt eine Küche.",
+            "answer": "A (Einbauküche)"
+          },
+          {
+            "question": "Man braucht kein Auto (gute Verkehrsanbindung).",
+            "answer": "A (S-Bahn)"
+          }
+        ]
+      },
+      {
+        "title": "Text 4 – B) Wörter aus den Anzeigen",
+        "type": "translation",
+        "exercises": [
+          {
+            "question": "die Einbauküche",
+            "answer": "ankastre mutfak"
+          },
+          {
+            "question": "die Nebenkosten",
+            "answer": "ek masraflar (su, ısıtma, çöp vb.)"
+          },
+          {
+            "question": "die Kaution",
+            "answer": "depozito"
+          },
+          {
+            "question": "das Reihenhaus",
+            "answer": "sıra ev"
+          },
+          {
+            "question": "die Lage",
+            "answer": "konum, yer"
+          },
+          {
+            "question": "Haustiere erlaubt",
+            "answer": "evcil hayvan izinli"
+          }
+        ]
+      }
+    ]
+  },
+  "schreiben": {
+    "sections": [
+      {
+        "title": "Übung 1: Zwei Sätze → Relativsatz",
+        "instructions": "İki cümleyi bir Relativsatz ile birleştirin.",
+        "type": "transform",
+        "exercises": [
+          {
+            "question": "Ich habe einen Nachbarn. Dem Nachbarn helfe ich oft.",
+            "answer": "Ich habe einen Nachbarn, dem ich oft helfe."
+          },
+          {
+            "question": "Das ist die Küche. In der Küche koche ich jeden Abend.",
+            "answer": "Das ist die Küche, in der ich jeden Abend koche."
+          },
+          {
+            "question": "Wir haben Nachbarn. Mit den Nachbarn verstehen wir uns gut.",
+            "answer": "Wir haben Nachbarn, mit denen wir uns gut verstehen."
+          },
+          {
+            "question": "Der Vermieter ist nett. Dem Vermieter zahle ich die Miete.",
+            "answer": "Der Vermieter, dem ich die Miete zahle, ist nett."
+          },
+          {
+            "question": "Das Zimmer ist hell. In dem Zimmer arbeite ich.",
+            "answer": "Das Zimmer, in dem ich arbeite, ist hell."
+          },
+          {
+            "question": "Ich habe eine Freundin. Von der Freundin habe ich die Wohnung erfahren.",
+            "answer": "Ich habe eine Freundin, von der ich die Wohnung erfahren habe."
+          },
+          {
+            "question": "Die Möbel sind schwer. Ich habe die Möbel aus der alten Wohnung mitgenommen.",
+            "answer": "Die Möbel, die ich aus der alten Wohnung mitgenommen habe, sind schwer."
+          },
+          {
+            "question": "Der Balkon ist groß. Auf dem Balkon stehen viele Blumen.",
+            "answer": "Der Balkon, auf dem viele Blumen stehen, ist groß."
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: Satzbausteine ordnen",
+        "instructions": "Verilen kelimelerden anlamlı cümle kurun. Relativsatz yapısı kullanın.",
+        "type": "sentence_building",
+        "exercises": [
+          {
+            "question": "die Wohnung / in der / ich / wohne / ist / gemütlich",
+            "answer": "Die Wohnung, in der ich wohne, ist gemütlich."
+          },
+          {
+            "question": "der Nachbar / dem / ich / geholfen habe / ist / Arzt",
+            "answer": "Der Nachbar, dem ich geholfen habe, ist Arzt."
+          },
+          {
+            "question": "das Haus / neben dem / eine Schule / steht / ist / zu laut",
+            "answer": "Das Haus, neben dem eine Schule steht, ist zu laut."
+          },
+          {
+            "question": "die Kollegin / mit der / ich / arbeite / wohnt / in Sindelfingen",
+            "answer": "Die Kollegin, mit der ich arbeite, wohnt in Sindelfingen."
+          },
+          {
+            "question": "die Kinder / denen / ich / Süßigkeiten / gegeben habe / wohnen / nebenan",
+            "answer": "Die Kinder, denen ich Süßigkeiten gegeben habe, wohnen nebenan."
+          },
+          {
+            "question": "der Stuhl / auf dem / du / sitzt / ist / kaputt",
+            "answer": "Der Stuhl, auf dem du sitzt, ist kaputt."
+          }
+        ]
+      },
+      {
+        "title": "Übung 3: Wohnungssuche beschreiben (Yönlendirilmiş Yazma)",
+        "instructions": "Aşağıdaki bilgilere göre Kemal'ın ev arama hikayesini yazın (8-10 cümle). Mümkün olduğunda Relativsätze kullanın.",
+        "type": "guided_writing",
+        "exercises": [
+          {
+            "question": "Zeitraum | Ereignis\n2024 Januar | Umzug von Ankara nach Stuttgart (neue Stelle bei Bosch)\nErste Wochen | Wohnte bei einem Freund in Feuerbach\nFebruar-April | Wohnungssuche: 12 Besichtigungen, 8 Absagen\nProblem 1 | Wohnungen zu teuer (über 1.000 Euro für 2 Zimmer)\nProblem 2 | Vermieter wollten Schufa-Auskunft + 3 Gehaltsabrechnungen\nMai | Kollegin kannte Vermieter in Gerlingen\nDie Wohnung | 3 Zimmer, Balkon, 850 Euro warm, nette Nachbarn\nHeute | Zufrieden, fühlt sich zu Hause\n\nHilfreiche Redemittel:\n• Als Kemal nach Stuttgart kam, ...\n• Zuerst wohnte er bei ..., der/die ...\n• Er suchte eine Wohnung, in der / die ...\n• Die meisten Wohnungen, die er fand, waren ...\n• Schließlich half ihm eine Kollegin, mit der ...\n• Die Wohnung, in die er einzog, ...\n• Heute fühlt er sich ..., weil ...",
+            "sample_answer": "Als Kemal im Januar 2024 nach Stuttgart kam, wohnte er zuerst bei einem Freund, der in Feuerbach lebte. Er suchte eine Wohnung, in der er auch ein Homeoffice einrichten konnte. In drei Monaten besichtigte er zwölf Wohnungen, aber die meisten, die er fand, waren zu teuer. Die Vermieter, bei denen er sich bewarb, verlangten viele Dokumente. Schließlich half ihm eine Kollegin, mit der er gut befreundet war. Sie kannte einen Vermieter, dem eine Wohnung in Gerlingen gehörte. Die Wohnung, in die Kemal einzog, hatte drei Zimmer und einen Balkon. Die Miete, die 850 Euro warm betrug, passte perfekt in sein Budget. Heute fühlt sich Kemal in seiner Wohnung zu Hause."
+          }
+        ]
+      },
+      {
+        "title": "Übung 4: E-Mail – Neue Wohnung",
+        "instructions": "Arkadaşınız Elif size yeni evinizi sormuş. E-postayı okuyun ve cevaplayın (8-10 cümle).",
+        "type": "guided_writing",
+        "exercises": [
+          {
+            "question": "Von: elif.kaya@mail.de An: isa@mail.de Betreff: Und, wie ist die neue Wohnung?\n\nHallo Isa,\ndu hast mir erzählt, dass ihr letzten Monat umgezogen seid! Wie ist die neue Wohnung? Wie viele Zimmer hat sie? Wie sind die Nachbarn? Gefällt euch die Gegend? Erzähl mir alles!\nLiebe Grüße Elif\n\nSchreiben Sie über:\n• Wie die Wohnung ist (Zimmer, Größe, Lage)\n• Was Ihnen besonders gefällt (Relativsätze nutzen!)\n• Wie die Nachbarn sind\n• Wie der Umzug war\n• Was Sie noch renovieren / einrichten wollen",
+            "sample_answer": "Hallo Elif, danke für deine E-Mail! Ich erzähle dir gern von unserer neuen Wohnung. Wir wohnen jetzt in einer Wohnung, die drei Zimmer und einen großen Balkon hat. Die Küche, in der wir jeden Abend kochen, ist viel größer als die alte. Am besten gefällt mir das Wohnzimmer, in dem wir ein gemütliches Sofa aufgestellt haben. Die Nachbarn, mit denen wir uns schon angefreundet haben, sind sehr nett. Der Umzug war anstrengend, weil die Möbel so schwer waren. Nächste Woche wollen wir noch das Schlafzimmer streichen. Komm uns bald besuchen! Viele Grüße Isa"
+          }
+        ]
+      },
+      {
+        "title": "Übung 5: Forumsbeitrag – Stadt oder Land?",
+        "instructions": "Forum konusuna bir yorum yazın (8-10 cümle).",
+        "type": "free_writing",
+        "exercises": [
+          {
+            "question": "Forum: Wohnen und Leben\nThema: Stadt oder Land – Wo lebt man besser?\n\nUserTommy92: Wir überlegen, ob wir aufs Land ziehen sollen. In der Stadt ist alles so teuer und laut. Aber auf dem Land gibt es weniger Jobs und die Kinder müssen weit zur Schule fahren. Was denkt ihr?\n\nSchreiben Sie über:\n• Ob Sie in der Stadt oder auf dem Land wohnen\n• Vorteile und Nachteile (mindestens je 2)\n• Ihre persönliche Meinung\n• Was Sie Tommy empfehlen würden",
+            "sample_answer": "(Serbest cevap – Claude ile birlikte kontrol edin!)"
+          }
+        ]
+      },
+      {
+        "title": "Übung 6: E-Mail an den Vermieter (Resmi E-posta)",
+        "instructions": "Dairenizde birkaç problem var. Vermieterinize yazarak bu sorunları bildirin ve tamir talep edin (8-10 cümle).",
+        "type": "guided_writing",
+        "exercises": [
+          {
+            "question": "Durum: Banyodaki musluk damlatıyor (der Wasserhahn tropft), mutfaktaki buzdolabı garip sesler çıkarıyor (macht komische Geräusche) ve salon penceresi iyi kapanmıyor (schließt nicht richtig).\n\nE-Mail-Struktur:\n• Betreff: Reparaturen in meiner Wohnung\n• Anrede: Sehr geehrter Herr / Sehr geehrte Frau ...,\n• Einleitung: Wer sind Sie, wo wohnen Sie\n• Hauptteil: Welche Probleme gibt es? (Relativsätze nutzen!)\n• Schluss: Was erwarten Sie? Wann passt ein Termin?\n• Grußformel: Mit freundlichen Grüßen",
+            "sample_answer": "Sehr geehrter Herr Müller,\n\nich bin Ihr Mieter in der Wohnung im 2. Stock, Schillerstraße 15. Ich schreibe Ihnen, weil es in meiner Wohnung einige Probleme gibt, die repariert werden müssen.\n\nDer Wasserhahn, der im Badezimmer ist, tropft seit einer Woche. Der Kühlschrank, in dem ich meine Lebensmittel lagere, macht seit einigen Tagen komische Geräusche. Außerdem schließt das Fenster, das im Wohnzimmer ist, nicht richtig – es zieht kalt herein.\n\nIch würde Sie bitten, einen Handwerker zu schicken. Wäre es möglich, dass er nächste Woche kommt? Ich bin montags bis freitags ab 17 Uhr zu Hause erreichbar.\n\nMit freundlichen Grüßen\nIsa Engiz"
+          }
+        ]
+      },
+      {
+        "title": "Übung 7: Tagebucheintrag – Unser Umzug",
+        "instructions": "Hayal edin: bugün yeni dairenize taşındınız. Günlüğünüze bu günü anlatan bir giriş yazın (6-8 cümle).",
+        "type": "free_writing",
+        "exercises": [
+          {
+            "question": "Mögliche Themen:\n• Wie der Tag begann (nervös, aufgeregt?)\n• Wer beim Umzug half (Relativsätze!)\n• Wie die Wohnung ist (beschreiben mit Relativsätzen)\n• Was gut und was schlecht lief\n• Wie Sie sich jetzt fühlen",
+            "sample_answer": "(Serbest cevap – Claude ile birlikte kontrol edin!)"
+          }
+        ]
+      },
+      {
+        "title": "Teil D: Textbausteine (Kalıp Cümle Referansı – Wohnen und Relativsätze)",
+        "instructions": "Aşağıdaki kalıp cümleler yazılı anlatımda ev ve yaşam konularını anlatmak için kullanabileceğiniz yapılardır.",
+        "type": "reference",
+        "exercises": [
+          {
+            "question": "Wohnung beschreiben",
+            "answer": "Die Wohnung, in der ich wohne, hat ... Zimmer. | Das Zimmer, in dem ich arbeite, ist hell. | Der Balkon, von dem man ... sehen kann, ... | Die Küche, in der wir kochen, ist groß. | Mir gefällt die Wohnung, weil ..."
+          },
+          {
+            "question": "Nachbarn und Umfeld",
+            "answer": "Die Nachbarn, mit denen ich mich gut verstehe, ... | Der Vermieter, dem ich die Miete überweise, ... | Die Straße, in der wir wohnen, ist ruhig. | Das Haus, neben dem ein Park liegt, ..."
+          },
+          {
+            "question": "Umzug und Wohnungssuche",
+            "answer": "Wir zogen in eine Wohnung, die ... hat. | Ich suchte eine Wohnung, in der ... | Der Umzug war stressig/anstrengend. | Die Freunde, die uns halfen, ... | Wir unterschrieben den Mietvertrag."
+          },
+          {
+            "question": "Probleme melden (Resmi)",
+            "answer": "Ich schreibe Ihnen wegen ... | Der/Die/Das ..., der/die/das ..., ist kaputt. | Ich würde Sie bitten, ... zu reparieren. | Wäre es möglich, dass ...? | Ich bin erreichbar unter ..."
+          }
+        ]
+      }
+    ]
+  }
+}
